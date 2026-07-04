@@ -1,0 +1,4307 @@
+[
+ {
+  "lang": "en",
+  "text": "Hello Hana! I'm your teacher today, and this is Number Kingdom. We're going to learn about big numbers, negative numbers, rounding, and even Roman numerals. Ready? Let's go!",
+  "key": "2f808b69"
+ },
+ {
+  "lang": "en",
+  "text": "Look at this big number on the board: three million, two hundred and fifteen thousand and sixty-seven. Every digit sits in its own seat — and the seat tells us what that digit is really worth.",
+  "key": "4047583a"
+ },
+ {
+  "lang": "en",
+  "text": "Now watch the 5. It is sitting in the THOUSANDS seat. So it is not worth five — it is worth five THOUSAND! The seat gives the digit its power.",
+  "key": "baee9c33"
+ },
+ {
+  "lang": "en",
+  "text": "Your turn! In 3,215,067 — what is the 2 worth?",
+  "key": "684198a0"
+ },
+ {
+  "lang": "en",
+  "text": "Hmm, not quite.",
+  "key": "5ce8d77f"
+ },
+ {
+  "lang": "en",
+  "text": "Find the 2 in the table. Which seat is it sitting in? Count the seats from the right: ones, tens, hundreds, thousands, ten-thousands, hundred-thousands...",
+  "key": "db02adfa"
+ },
+ {
+  "lang": "en",
+  "text": "The 2 sits in the hundred-thousands seat, so it is worth 200,000!",
+  "key": "d04d5b37"
+ },
+ {
+  "lang": "en",
+  "text": "Brilliant. Now — negative numbers! They live BELOW zero, on the left side of the number line. Here is the secret: the further LEFT you go, the SMALLER the number gets. So minus 36 is actually smaller than minus 14. Sneaky, right?",
+  "key": "7a074a55"
+ },
+ {
+  "lang": "en",
+  "text": "Which number is smaller: minus 8 or minus 3?",
+  "key": "d64550eb"
+ },
+ {
+  "lang": "en",
+  "text": "Picture the number line. Which one sits further to the LEFT?",
+  "key": "69a3a688"
+ },
+ {
+  "lang": "en",
+  "text": "-8 is further left than -3, so it is smaller. Brrr — colder!",
+  "key": "084168de"
+ },
+ {
+  "lang": "en",
+  "text": "Time for rounding! Let's round 34,568 to the nearest thousand. It sits between 34,000 and 35,000. We peek at the digit one seat after the thousands — the HUNDREDS digit. It is a 5. And the rule says: five or more, round UP! So 34,568 becomes 35,000.",
+  "key": "a5621e59"
+ },
+ {
+  "lang": "en",
+  "text": "Your turn — round 72,381 to the nearest thousand.",
+  "key": "d59cbbbd"
+ },
+ {
+  "lang": "en",
+  "text": "Peek at the hundreds digit of 72,381 — it is a 3. Is 3 five-or-more, or less than five?",
+  "key": "c376a013"
+ },
+ {
+  "lang": "en",
+  "text": "The hundreds digit is 3, which is less than 5 — so we round DOWN to 72,000.",
+  "key": "3a3ddd1a"
+ },
+ {
+  "lang": "en",
+  "text": "Last topic — Roman numerals! The Romans wrote numbers with letters. Here they all are: I is 1, V is 5, X is 10, L is 50, C is 100, D is 500, and M is 1,000.",
+  "key": "c443395b"
+ },
+ {
+  "lang": "en",
+  "text": "And here is the one trick you need. A small letter BEFORE a big one means SUBTRACT: I X is 10 take away 1 — that's 9. A small letter AFTER means ADD: X I is 10 plus 1 — that's 11. Before takes away, after adds on!",
+  "key": "f666f180"
+ },
+ {
+  "lang": "en",
+  "text": "So... what is XC?",
+  "key": "dc57cc36"
+ },
+ {
+  "lang": "en",
+  "text": "X is 10 and C is 100. The small one comes BEFORE the big one — so do we add, or subtract?",
+  "key": "0c036b6d"
+ },
+ {
+  "lang": "en",
+  "text": "X before C means 100 take away 10 — that's 90!",
+  "key": "a5e94226"
+ },
+ {
+  "lang": "en",
+  "text": "Wonderful work, Hana! You have learned place value, negative numbers, rounding, AND Roman numerals. Now the games are unlocked — go show them who's boss!",
+  "key": "0d4f4ae4"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Calculation Canyon! Today I'm going to show you how to add and subtract HUGE numbers without breaking a sweat. Watch the board carefully.",
+  "key": "1cc41433"
+ },
+ {
+  "lang": "en",
+  "text": "The golden rule: line the digits up by their seats — ones under ones, tens under tens, hundreds under hundreds. Then we work one column at a time, always starting from the RIGHT.",
+  "key": "133d3c4c"
+ },
+ {
+  "lang": "en",
+  "text": "Watch me do it. Three plus five is eight. Seven plus one is eight. Now five plus eight is thirteen — too big for one seat! So we write the 3 and CARRY the 1 to the next column. Finally, four plus two, plus our carried one, makes seven. The answer: 7,388!",
+  "key": "d534e6f2"
+ },
+ {
+  "lang": "en",
+  "text": "Your turn! What is 356 + 227?",
+  "key": "1512be38"
+ },
+ {
+  "lang": "en",
+  "text": "Start from the right: 6 plus 7 is 13 — write the 3, carry the 1!",
+  "key": "dd00efcd"
+ },
+ {
+  "lang": "en",
+  "text": "6+7=13, write 3 carry 1. Then 5+2+1=8. Then 3+2=5. That's 583!",
+  "key": "b8e9f2a6"
+ },
+ {
+  "lang": "en",
+  "text": "Now subtraction. 745 take away 268. Five take away eight — we can't! So we EXCHANGE: we borrow a ten. Now fifteen take away eight is seven. The four tens became three tens — three take away six, can't again! Borrow from the hundreds: thirteen take away six is seven. And six take away two is four. Answer: 477!",
+  "key": "5ef453e7"
+ },
+ {
+  "lang": "en",
+  "text": "What is 500 − 237?",
+  "key": "e89cd1da"
+ },
+ {
+  "lang": "en",
+  "text": "With all those zeros, try counting UP instead: from 237, how far to 500?",
+  "key": "782422b2"
+ },
+ {
+  "lang": "en",
+  "text": "237 plus 263 lands exactly on 500. Counting up is a brilliant trick when there are zeros!",
+  "key": "621daf8c"
+ },
+ {
+  "lang": "en",
+  "text": "Here is my favourite checking trick: the INVERSE. Addition and subtraction are opposites — they undo each other. If 745 take away 268 gives 477, then 477 PLUS 268 must take us straight back to 745. If it does, our answer is right!",
+  "key": "561563a0"
+ },
+ {
+  "lang": "en",
+  "text": "You worked out 923 − 486 = 437. How do you CHECK it?",
+  "key": "5aa3ceb2"
+ },
+ {
+  "lang": "en",
+  "text": "Use the inverse — do the OPPOSITE operation with your answer.",
+  "key": "a21f3b1b"
+ },
+ {
+  "lang": "en",
+  "text": "Add your answer back: 437 + 486 = 923. It checks out perfectly!",
+  "key": "5584e92a"
+ },
+ {
+  "lang": "en",
+  "text": "One last pro tip: ESTIMATE first. Round the numbers and do a rough sum in your head. 4,987 plus 2,013? That's about 5,000 plus 2,000 — so around 7,000. If your real answer is miles away from 7,000, something's fishy and you check again!",
+  "key": "6af8098f"
+ },
+ {
+  "lang": "en",
+  "text": "Estimate: about how much is 6,120 − 2,890?",
+  "key": "7c0296a5"
+ },
+ {
+  "lang": "en",
+  "text": "Round them: 6,120 is about 6,000, and 2,890 is about 3,000.",
+  "key": "6b4f6090"
+ },
+ {
+  "lang": "en",
+  "text": "6,000 take away 3,000 is about 3,000. Estimating catches silly mistakes!",
+  "key": "449301f9"
+ },
+ {
+  "lang": "en",
+  "text": "Fantastic! Lining up, carrying, exchanging, checking with the inverse, and estimating — you now have ALL the tools. Off to the games!",
+  "key": "725c29f7"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Multiplication Mountains! Today: times tables power, factors, primes, and the mysterious squares and cubes. Let's climb!",
+  "key": "8979ca35"
+ },
+ {
+  "lang": "en",
+  "text": "First — what IS multiplication? It's just fast adding! Three times four means three rows of four. Count the dots: twelve! And here's the magic: four rows of three is ALSO twelve. You can multiply in any order you like.",
+  "key": "7914f433"
+ },
+ {
+  "lang": "en",
+  "text": "Now, FACTORS. A factor is a number that fits into another number perfectly, with nothing left over. The factors of 12 come in pairs — look: 1 times 12, 2 times 6, and 3 times 4. So 12's factors are 1, 2, 3, 4, 6 and 12.",
+  "key": "480495e4"
+ },
+ {
+  "lang": "en",
+  "text": "Which of these is NOT a factor of 20?",
+  "key": "8eae5af8"
+ },
+ {
+  "lang": "en",
+  "text": "Try each one: does it fit into 20 exactly, with nothing left over?",
+  "key": "a194c818"
+ },
+ {
+  "lang": "en",
+  "text": "20 divided by 6 leaves a remainder — so 6 is not a factor. The factors of 20 are 1, 2, 4, 5, 10 and 20.",
+  "key": "81aa8a69"
+ },
+ {
+  "lang": "en",
+  "text": "Some numbers are stubborn — the ONLY numbers that fit into them are 1 and themselves. We call those PRIME numbers. Here are the primes up to 19 — they're the building blocks of all other numbers!",
+  "key": "f48561e1"
+ },
+ {
+  "lang": "en",
+  "text": "Which of these is a prime number?",
+  "key": "0a2f59c3"
+ },
+ {
+  "lang": "en",
+  "text": "Can you divide it by anything except 1 and itself? 15 is 3 times 5... 9 is 3 times 3...",
+  "key": "470c1172"
+ },
+ {
+  "lang": "en",
+  "text": "13 only divides by 1 and 13 — a true prime!",
+  "key": "96e7729e"
+ },
+ {
+  "lang": "en",
+  "text": "Now for SQUARE numbers. A square number is a number multiplied by itself. Five squared means five times five — twenty-five. Look at the dots: they make a perfect square shape! That's exactly why it's called squaring.",
+  "key": "69b25e90"
+ },
+ {
+  "lang": "en",
+  "text": "A CUBE number goes one step further — a number times itself, times itself AGAIN. Three cubed is three times three times three. Imagine building with blocks: a layer of 3 by 3 is 9 blocks... stack 3 layers... 27 blocks! That's a cube.",
+  "key": "a5583ee3"
+ },
+ {
+  "lang": "en",
+  "text": "What is 4 squared?",
+  "key": "6e9e7e2e"
+ },
+ {
+  "lang": "en",
+  "text": "4 squared means 4 times 4 — not 4 plus 4!",
+  "key": "96f9ee39"
+ },
+ {
+  "lang": "en",
+  "text": "4 × 4 = 16. Squaring means times ITSELF!",
+  "key": "b3243c53"
+ },
+ {
+  "lang": "en",
+  "text": "And what is 2 cubed?",
+  "key": "57368405"
+ },
+ {
+  "lang": "en",
+  "text": "2 times 2 times 2 — do it in two steps: first 2 times 2, then times 2 again.",
+  "key": "63de7821"
+ },
+ {
+  "lang": "en",
+  "text": "2×2=4, then 4×2=8. Two cubed is 8!",
+  "key": "02a14339"
+ },
+ {
+  "lang": "en",
+  "text": "And division? Here's the secret — it's just multiplication in REVERSE! 56 divided by 8? Ask yourself: 8 times WHAT makes 56? Seven! Your times tables answer division questions too. Two skills for the price of one!",
+  "key": "28e5abdf"
+ },
+ {
+  "lang": "en",
+  "text": "Superb climbing, Hana! Factors, primes, squares, cubes and the division trick — all learned. The games are open — go get those stars!",
+  "key": "061320b2"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Fraction Forest! Today you'll discover that fractions, decimals and percentages are just three costumes worn by the SAME number. Let's unmask them!",
+  "key": "dc022f68"
+ },
+ {
+  "lang": "en",
+  "text": "A fraction is a piece of something. The BOTTOM number tells us how many equal pieces we cut into. The TOP number tells us how many pieces we take. One half: cut into 2 pieces, take 1!",
+  "key": "23720d37"
+ },
+ {
+  "lang": "en",
+  "text": "Now watch closely. Half a bar... two quarters... five tenths. They look different, but they cover EXACTLY the same amount! Fractions that match like this are called EQUIVALENT fractions.",
+  "key": "590592be"
+ },
+ {
+  "lang": "en",
+  "text": "Which fraction is equivalent to one half?",
+  "key": "eae80676"
+ },
+ {
+  "lang": "en",
+  "text": "Look at the bars above — which one covered exactly the same amount as one half?",
+  "key": "cefc50b0"
+ },
+ {
+  "lang": "en",
+  "text": "2 out of 4 covers exactly half the bar. Equivalent!",
+  "key": "279dedbf"
+ },
+ {
+  "lang": "en",
+  "text": "Now — PERCENT. Percent simply means 'out of one hundred'. Look at this grid of 100 squares. I've coloured 25 of them. That's 25 percent. And look — it's exactly a quarter of the grid! So 25 percent equals one quarter.",
+  "key": "48cc8a9a"
+ },
+ {
+  "lang": "en",
+  "text": "And decimals are the third costume! One half is 0.5. One quarter is 0.25. One tenth is 0.1. Same value — three different outfits.",
+  "key": "6676d8e7"
+ },
+ {
+  "lang": "en",
+  "text": "0.25 and 25% are two costumes. Which FRACTION completes the trio?",
+  "key": "b5fb55e0"
+ },
+ {
+  "lang": "en",
+  "text": "25 out of 100... which simple fraction is that? Think of the grid!",
+  "key": "3ad0adad"
+ },
+ {
+  "lang": "en",
+  "text": "25 out of 100 simplifies to one quarter — 1/4!",
+  "key": "3983e686"
+ },
+ {
+  "lang": "en",
+  "text": "Now let's USE percentages — this is the really handy bit. Want 10 percent of something? Just divide by 10. So 10 percent of 240 is 24. Want 25 percent? That's a quarter — divide by 4. So 25 percent of 240 is 60. Easy!",
+  "key": "98b8e5e9"
+ },
+ {
+  "lang": "en",
+  "text": "Find 10% of 350.",
+  "key": "230dc638"
+ },
+ {
+  "lang": "en",
+  "text": "10 percent means divide by 10. What is 350 divided by 10?",
+  "key": "4c3005bd"
+ },
+ {
+  "lang": "en",
+  "text": "350 ÷ 10 = 35. Ten percent is always one tenth!",
+  "key": "c0490a3c"
+ },
+ {
+  "lang": "en",
+  "text": "Now find 25% of 80.",
+  "key": "02920650"
+ },
+ {
+  "lang": "en",
+  "text": "25 percent is a QUARTER — so divide 80 by 4.",
+  "key": "b206c067"
+ },
+ {
+  "lang": "en",
+  "text": "80 ÷ 4 = 20. A quarter of 80 is 20!",
+  "key": "762e9b61"
+ },
+ {
+  "lang": "en",
+  "text": "One more skill: adding fractions with the SAME bottom number. It's easy — just add the tops! Three eighths plus two eighths is five eighths. The bottom stays the same, because we're still counting eighths.",
+  "key": "2f96f8ab"
+ },
+ {
+  "lang": "en",
+  "text": "What is 1/8 + 5/8?",
+  "key": "0d71519a"
+ },
+ {
+  "lang": "en",
+  "text": "Add the top numbers only — the bottom number stays as 8.",
+  "key": "da78979c"
+ },
+ {
+  "lang": "en",
+  "text": "1+5=6, so it's 6/8 — which is the same as three quarters!",
+  "key": "556e0694"
+ },
+ {
+  "lang": "en",
+  "text": "Magnificent! You can now spot equivalent fractions, swap between fractions, decimals and percentages, AND calculate them. The forest games await!",
+  "key": "50a05509"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Measurement Mansion! Today we measure everything — length, area, volume, and even time. First, the three magic words.",
+  "key": "687fabb5"
+ },
+ {
+  "lang": "en",
+  "text": "KILO means a thousand — a kilometre is 1,000 metres, a kilogram is 1,000 grams. CENTI means a hundredth — 100 centimetres make a metre. And MILLI means a thousandth — 1,000 millilitres in a litre. Learn these three and you can convert anything!",
+  "key": "b19157f7"
+ },
+ {
+  "lang": "en",
+  "text": "How many metres in 2.5 kilometres?",
+  "key": "26098c3d"
+ },
+ {
+  "lang": "en",
+  "text": "KILO means a thousand — so multiply 2.5 by 1,000.",
+  "key": "254e96dd"
+ },
+ {
+  "lang": "en",
+  "text": "2.5 × 1,000 = 2,500 metres!",
+  "key": "8769a416"
+ },
+ {
+  "lang": "en",
+  "text": "Now, PERIMETER. The perimeter is the walk all the way around the OUTSIDE of a shape. This rectangle is 12 by 5. Walk it: 12, plus 5, plus 12, plus 5 — that's 34 centimetres of walking!",
+  "key": "7f748634"
+ },
+ {
+  "lang": "en",
+  "text": "AREA is different — it's the space INSIDE the shape. Count the little squares... or be clever: length TIMES width. 12 times 5 is 60. So the area is 60 SQUARE centimetres. Notice area always gets those little squared units!",
+  "key": "e855be78"
+ },
+ {
+  "lang": "en",
+  "text": "A rectangle is 4 cm long and 9 cm wide. What is its AREA?",
+  "key": "78f80505"
+ },
+ {
+  "lang": "en",
+  "text": "Area is length TIMES width — 4 times 9.",
+  "key": "bf4f9aaa"
+ },
+ {
+  "lang": "en",
+  "text": "4 × 9 = 36 square centimetres!",
+  "key": "c3dad855"
+ },
+ {
+  "lang": "en",
+  "text": "Same rectangle — 4 cm by 9 cm. What is its PERIMETER?",
+  "key": "f14e927b"
+ },
+ {
+  "lang": "en",
+  "text": "Walk around ALL four sides: 4 + 9 + 4 + 9.",
+  "key": "9bc12902"
+ },
+ {
+  "lang": "en",
+  "text": "4+9+4+9 = 26 cm. Perimeter adds, area multiplies!",
+  "key": "d7a47f53"
+ },
+ {
+  "lang": "en",
+  "text": "VOLUME is space in 3D — length times width times height. A box 3 wide, 2 deep and 4 tall? One layer is 3 times 2 — six blocks. Stack 4 layers — 24 blocks! Volume: 24 CUBIC centimetres.",
+  "key": "cb85f59c"
+ },
+ {
+  "lang": "en",
+  "text": "And finally — TIME. Careful, time is NOT like normal decimals! One hour is 60 minutes. So 3.5 hours is 3 hours and THIRTY minutes — because half of 60 is 30. Never 3 hours 50!",
+  "key": "4d0c2f95"
+ },
+ {
+  "lang": "en",
+  "text": "So 2.5 hours is the same as...",
+  "key": "08fe7cd1"
+ },
+ {
+  "lang": "en",
+  "text": "Point-5 means HALF an hour. How many minutes is half of 60?",
+  "key": "49ffae75"
+ },
+ {
+  "lang": "en",
+  "text": "Half an hour is 30 minutes — so 2.5 hours is 2 hours 30 minutes!",
+  "key": "09faaf60"
+ },
+ {
+  "lang": "en",
+  "text": "Marvellous measuring, Hana! Kilo, centi and milli, perimeter, area, volume, and time — all mastered. The mansion games are unlocked!",
+  "key": "59a8196f"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Shape Castle! Today we learn the language of ANGLES and the secrets hidden inside shapes. To the drawbridge!",
+  "key": "7121287f"
+ },
+ {
+  "lang": "en",
+  "text": "An angle measures TURN, in degrees. A right angle is 90 degrees — like the corner of a book. ACUTE angles are smaller than 90 — small and cute! OBTUSE angles are between 90 and 180 — wide and lazy. And REFLEX angles bend right around, past 180!",
+  "key": "f086a63a"
+ },
+ {
+  "lang": "en",
+  "text": "An angle of 120 degrees is...",
+  "key": "7d836269"
+ },
+ {
+  "lang": "en",
+  "text": "Is 120 between 90 and 180? Then it's the wide, lazy one...",
+  "key": "2d0f62fb"
+ },
+ {
+  "lang": "en",
+  "text": "120 sits between 90 and 180 — obtuse!",
+  "key": "db9009d2"
+ },
+ {
+  "lang": "en",
+  "text": "Here is castle secret number one: angles on a straight line ALWAYS add up to 180 degrees. Look — if one angle is 120, the other simply must be 60. Because 120 plus 60 is 180!",
+  "key": "8e87fead"
+ },
+ {
+  "lang": "en",
+  "text": "On a straight line, one angle is 45 degrees. What is the other?",
+  "key": "b1036d27"
+ },
+ {
+  "lang": "en",
+  "text": "They must add to 180 — so work out 180 take away 45.",
+  "key": "31faadbc"
+ },
+ {
+  "lang": "en",
+  "text": "180 − 45 = 135. Straight-line partners always total 180!",
+  "key": "9c21e239"
+ },
+ {
+  "lang": "en",
+  "text": "Castle secret number two: the three angles inside a triangle ALWAYS add up to 180 degrees. Every triangle, every time, no exceptions. Look: 60 plus 70 plus 50... 180!",
+  "key": "c569007c"
+ },
+ {
+  "lang": "en",
+  "text": "A triangle has angles of 90 and 30 degrees. What is the third angle?",
+  "key": "977d7366"
+ },
+ {
+  "lang": "en",
+  "text": "All three must total 180. So 180, take away 90, take away 30...",
+  "key": "1706a4b4"
+ },
+ {
+  "lang": "en",
+  "text": "180 − 90 − 30 = 60 degrees!",
+  "key": "9682b800"
+ },
+ {
+  "lang": "en",
+  "text": "Now shapes themselves. A REGULAR polygon has ALL sides equal and ALL angles equal — like a perfect square or a honeycomb hexagon. If anything is uneven — even one side — it's IRREGULAR.",
+  "key": "3ed2ac5b"
+ },
+ {
+  "lang": "en",
+  "text": "Last secret: moving shapes! REFLECTION flips a shape like a mirror. TRANSLATION just SLIDES it across — no flipping, no turning. And here's the key: either way, the shape stays exactly the same size. Only its position changes!",
+  "key": "fd968338"
+ },
+ {
+  "lang": "en",
+  "text": "Sliding a shape across the page without turning it is called...",
+  "key": "4c29a5d4"
+ },
+ {
+  "lang": "en",
+  "text": "Think of 'translating' a word — moving it across. Which one is the SLIDE?",
+  "key": "40f04f51"
+ },
+ {
+  "lang": "en",
+  "text": "Translation means sliding — no flip, no turn, no size change!",
+  "key": "fb599cde"
+ },
+ {
+  "lang": "en",
+  "text": "The castle is conquered! Angles, straight-line partners, triangle secrets and shape moves — all yours. Now go win those games!",
+  "key": "d0cfe2bd"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Data Docks! Today you become a data detective — reading graphs, cracking timetables, and mastering the 24-hour clock.",
+  "key": "0ed2c17f"
+ },
+ {
+  "lang": "en",
+  "text": "This is a LINE GRAPH. It shows how something changes — here, the temperature through one day. When the line climbs, it's getting warmer. When it falls, it's cooling down. The story is in the shape of the line!",
+  "key": "148ed6ea"
+ },
+ {
+  "lang": "en",
+  "text": "Detective rule number one: before you read ANY graph, check the SCALE. What is each step on the axis worth? Here, each gridline is 5 degrees. Get the scale wrong and every answer goes wrong — so always peek first!",
+  "key": "6aab95eb"
+ },
+ {
+  "lang": "en",
+  "text": "Look at the graph. At noon it was 30 degrees; by 4pm it was 22. How far did the temperature FALL?",
+  "key": "c18e41ce"
+ },
+ {
+  "lang": "en",
+  "text": "Find the difference: 30 take away 22.",
+  "key": "00f26bcd"
+ },
+ {
+  "lang": "en",
+  "text": "30 − 22 = 8 degrees cooler. Nicely read, detective!",
+  "key": "95c06453"
+ },
+ {
+  "lang": "en",
+  "text": "Next tool: the 24-HOUR clock, which timetables love. The trick: after midday, just ADD 12. So 4pm becomes 16:00. Going backwards, 19:00? Take away 12 — that's 7pm!",
+  "key": "5a220451"
+ },
+ {
+  "lang": "en",
+  "text": "What is 9pm in 24-hour time?",
+  "key": "9f004746"
+ },
+ {
+  "lang": "en",
+  "text": "After midday, add 12. So 9 plus 12 is...",
+  "key": "a6159ac8"
+ },
+ {
+  "lang": "en",
+  "text": "9 + 12 = 21, so 9pm is 21:00!",
+  "key": "22997217"
+ },
+ {
+  "lang": "en",
+  "text": "Last skill: journey times. A train leaves at 09:15 and arrives at 11:40 — how long is that? Count in friendly jumps: 09:15 to 11:15 is exactly 2 hours. Then 11:15 to 11:40 is 25 more minutes. Total: 2 hours 25 minutes. Jumps make it easy!",
+  "key": "c3a50116"
+ },
+ {
+  "lang": "en",
+  "text": "A train leaves at 10:20 and arrives at 12:50. How long is the journey?",
+  "key": "8a960721"
+ },
+ {
+  "lang": "en",
+  "text": "Jump: 10:20 to 12:20 is 2 hours. Then how many minutes from 12:20 to 12:50?",
+  "key": "a2d54efa"
+ },
+ {
+  "lang": "en",
+  "text": "2 hours to 12:20, then 30 more minutes — 2 hours 30 minutes!",
+  "key": "f291c4db"
+ },
+ {
+  "lang": "en",
+  "text": "Case closed, detective Hana! Graphs, scales, the 24-hour clock and journey times — all solved. Time to play!",
+  "key": "12d8404a"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Spelling and Word Wizardry! Today I'll teach you how words are BUILT — with prefixes and suffixes — and how to outsmart the trickiest words in English.",
+  "key": "13931ef7"
+ },
+ {
+  "lang": "en",
+  "text": "A PREFIX clips onto the FRONT of a word and changes its meaning. RE means again — so re plus play makes replay, to play again! MIS means wrongly — misbehave. And DIS flips a word to its opposite — appear... disappear!",
+  "key": "6d59b7c7"
+ },
+ {
+  "lang": "en",
+  "text": "Which prefix turns 'appear' into its OPPOSITE?",
+  "key": "98bc28a4"
+ },
+ {
+  "lang": "en",
+  "text": "Which prefix makes things vanish? Appear... and then it's gone!",
+  "key": "410a7d7f"
+ },
+ {
+  "lang": "en",
+  "text": "Dis- flips the meaning: appear → disappear!",
+  "key": "84442604"
+ },
+ {
+  "lang": "en",
+  "text": "A SUFFIX clips onto the END of a word — and it can even change the word's JOB. Take 'advert' — that's a thing, a noun. Add I S E... advertise! Now it's an action, a verb. Suffixes like ISE, ATE and IFY turn things into doings!",
+  "key": "5c04c862"
+ },
+ {
+  "lang": "en",
+  "text": "Turn 'apology' into an ACTION word.",
+  "key": "3625b1cb"
+ },
+ {
+  "lang": "en",
+  "text": "Which suffix turns a thing into a doing? Think of advert becoming advertise...",
+  "key": "1ff1ecba"
+ },
+ {
+  "lang": "en",
+  "text": "Apology + ise = apologise — now it's something you DO!",
+  "key": "c6467a11"
+ },
+ {
+  "lang": "en",
+  "text": "Now the famous troublemakers: HOMOPHONES — words that SOUND identical but mean different things. THEIR means belonging to them. THERE is a place. And THEY'RE is short for THEY ARE. Here's my wizard test: say the full 'they are' out loud — if the sentence still works, it's T H E Y apostrophe R E!",
+  "key": "2bcd1a25"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: '___ going to the park.'",
+  "key": "1c97a479"
+ },
+ {
+  "lang": "en",
+  "text": "Try the wizard test — say 'They ARE going to the park.' Does it work?",
+  "key": "86763a48"
+ },
+ {
+  "lang": "en",
+  "text": "'They are going to the park' works perfectly — so it's they're!",
+  "key": "31937072"
+ },
+ {
+  "lang": "en",
+  "text": "One last spell: SILENT letters. Some words hide letters you cannot hear — the K in knight, the B in lamb, the W in write. You can't sound them out; you just have to KNOW them. Collect them like treasure!",
+  "key": "631a8a20"
+ },
+ {
+  "lang": "en",
+  "text": "Which word is hiding a silent letter?",
+  "key": "eba8d5ab"
+ },
+ {
+  "lang": "en",
+  "text": "Say each word slowly — in one of them, the last letter makes no sound at all...",
+  "key": "3885f202"
+ },
+ {
+  "lang": "en",
+  "text": "Lamb has a silent B — you say 'lam'!",
+  "key": "21a8c12d"
+ },
+ {
+  "lang": "en",
+  "text": "Word wizardry complete! Prefixes, suffixes, homophones and silent letters — your spellbook is full. To the games!",
+  "key": "8ec6c7db"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Grammar Grove! Today I'll show you four tools that real writers use to build brilliant sentences. Grab your toolbox!",
+  "key": "d5c84b19"
+ },
+ {
+  "lang": "en",
+  "text": "Tool one: the RELATIVE CLAUSE. It's extra information tucked into the middle of a sentence, starting with who, which, where, when or whose. Watch: 'The dog, WHICH WAS COVERED IN MUD, ran inside.' Lift that middle part out — the sentence still works!",
+  "key": "33101534"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: 'The castle, ___ stood on a hill, was ancient.'",
+  "key": "7cbe6467"
+ },
+ {
+  "lang": "en",
+  "text": "Relative clauses start with who, which, where, when or whose. Which fits a castle?",
+  "key": "dd9f0342"
+ },
+ {
+  "lang": "en",
+  "text": "'Which stood on a hill' — a perfect relative clause!",
+  "key": "d6c1f00b"
+ },
+ {
+  "lang": "en",
+  "text": "Tool two: MODAL VERBS. These little words tell us how LIKELY something is. 'It MIGHT rain' — only maybe. 'It WILL rain' — certain! 'You MUST bring a coat' — no choice at all! Might, could, should, will, must — each one changes the strength of the sentence.",
+  "key": "bbfa06cc"
+ },
+ {
+  "lang": "en",
+  "text": "Which modal verb shows something is only POSSIBLE, not certain?",
+  "key": "fecae1a2"
+ },
+ {
+  "lang": "en",
+  "text": "Which word would you use if you're not sure it will happen?",
+  "key": "0bcf9a9c"
+ },
+ {
+  "lang": "en",
+  "text": "'Might' means maybe — just possible, not certain!",
+  "key": "b0e3fc3a"
+ },
+ {
+  "lang": "en",
+  "text": "Tool three: the FRONTED ADVERBIAL. Start your sentence by saying WHEN, WHERE or HOW something happened — then pop a comma straight after. 'Later that evening, the phone rang.' See the comma doing its job?",
+  "key": "14a3aabe"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence is punctuated correctly?",
+  "key": "8a23ed0b"
+ },
+ {
+  "lang": "en",
+  "text": "The comma goes right after the WHOLE fronted adverbial — 'Later that day'.",
+  "key": "027a23ad"
+ },
+ {
+  "lang": "en",
+  "text": "The fronted adverbial 'Later that day' gets its comma straight after!",
+  "key": "d6cbe9a9"
+ },
+ {
+  "lang": "en",
+  "text": "Tool four: the EXPANDED NOUN PHRASE. 'The teacher' — boring, I can't picture her. But 'the STRICT MATHS teacher WITH CURLY HAIR' — now I can SEE her! Add detail before AND after the noun, and your reader's imagination lights up.",
+  "key": "f87f0663"
+ },
+ {
+  "lang": "en",
+  "text": "Which is an expanded noun phrase?",
+  "key": "afe52905"
+ },
+ {
+  "lang": "en",
+  "text": "Look for the noun wearing lots of detail — before and after!",
+  "key": "ebfa5a7b"
+ },
+ {
+  "lang": "en",
+  "text": "'The ancient oak tree with twisted branches' — detail before AND after the noun!",
+  "key": "f626db57"
+ },
+ {
+  "lang": "en",
+  "text": "Toolbox complete! Relative clauses, modal verbs, fronted adverbials and expanded noun phrases. Now go play — and use these tools in your own writing!",
+  "key": "dc9c609e"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Punctuation Palace! Punctuation marks are tiny — but they completely change what a sentence means. Today: five royal rules.",
+  "key": "edf029b4"
+ },
+ {
+  "lang": "en",
+  "text": "Rule one: after a fronted adverbial, place a comma. 'Suddenly, the door creaked open.' That little comma tells your reader — take a tiny pause here!",
+  "key": "f6c469bf"
+ },
+ {
+  "lang": "en",
+  "text": "Rule two: PARENTHESIS. Want to whisper extra information into the middle of a sentence? Wrap it in brackets, dashes, or commas. 'My sister — who is ten — loves painting.' Remove the whisper, and the sentence still stands!",
+  "key": "0d058fc9"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses brackets correctly?",
+  "key": "9187f4dd"
+ },
+ {
+  "lang": "en",
+  "text": "The brackets should wrap ONLY the extra information — take it out and the sentence should still work.",
+  "key": "12914e79"
+ },
+ {
+  "lang": "en",
+  "text": "'My sister loves painting' still works without the brackets — perfect parenthesis!",
+  "key": "7f855173"
+ },
+ {
+  "lang": "en",
+  "text": "Rule three — my favourite — the mighty HYPHEN! 'A man eating shark' is a man having shark for dinner. But 'a MAN-EATING shark' is a shark that eats PEOPLE! One tiny dash — very different swim!",
+  "key": "0a31390b"
+ },
+ {
+  "lang": "en",
+  "text": "Which one should you swim away from?",
+  "key": "72bdc1ee"
+ },
+ {
+  "lang": "en",
+  "text": "The hyphen glues 'man' and 'eating' into one describing word for the shark...",
+  "key": "3bb855dd"
+ },
+ {
+  "lang": "en",
+  "text": "The hyphen makes 'man-eating' describe the shark. That one eats people!",
+  "key": "1b9290b4"
+ },
+ {
+  "lang": "en",
+  "text": "Rule four: the COLON announces a list. First make a complete statement, then the colon, then the list. 'I packed three things: a hat, a map, and snacks.'",
+  "key": "d0d8b2c0"
+ },
+ {
+  "lang": "en",
+  "text": "Rule five: the SEMICOLON glues two related sentences together. 'It's raining; I'm fed up.' Both halves could stand alone — but they belong together, so the semicolon joins them.",
+  "key": "dfb27fc7"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses a semicolon correctly?",
+  "key": "f81588d8"
+ },
+ {
+  "lang": "en",
+  "text": "BOTH sides of a semicolon must be complete little sentences on their own.",
+  "key": "95972eb8"
+ },
+ {
+  "lang": "en",
+  "text": "'It's raining' and 'I'm fed up' are both complete — the semicolon joins them perfectly!",
+  "key": "bb6ab06b"
+ },
+ {
+  "lang": "en",
+  "text": "The palace is yours! Commas, parenthesis, hyphens, colons and semicolons — five royal rules mastered. Now to the games!",
+  "key": "ed271afd"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Story Studio! Today I'm going to teach you three secrets that REAL authors use to make readers fall in love with their stories. Lean in close...",
+  "key": "9edbee7e"
+ },
+ {
+  "lang": "en",
+  "text": "Secret one: SHOW, don't TELL. Telling is flat: 'He was sad.' Showing paints a picture: 'Tears welled in his eyes as his shoulders sagged.' Don't NAME the feeling — let your reader SEE it happening!",
+  "key": "14a9ef6a"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence SHOWS instead of tells?",
+  "key": "17e92f4e"
+ },
+ {
+  "lang": "en",
+  "text": "Which one lets you SEE the anger, without ever using the word 'angry'?",
+  "key": "e06fdb58"
+ },
+ {
+  "lang": "en",
+  "text": "Clenched fists and a burning face — we SEE the anger without being told!",
+  "key": "0d91ec99"
+ },
+ {
+  "lang": "en",
+  "text": "Secret two: DIALOGUE brings characters to life. Two rules: every NEW SPEAKER starts a NEW LINE. And the punctuation lives INSIDE the speech marks. Watch: quote, Sit down! close quote, shouted the conductor.",
+  "key": "66b0608d"
+ },
+ {
+  "lang": "en",
+  "text": "A new person starts speaking in your story. What do you do?",
+  "key": "bfd30096"
+ },
+ {
+  "lang": "en",
+  "text": "New speaker, new...?",
+  "key": "7f5d10da"
+ },
+ {
+  "lang": "en",
+  "text": "New speaker, new line — it keeps the conversation crystal clear!",
+  "key": "e782a630"
+ },
+ {
+  "lang": "en",
+  "text": "Secret three: vary your OPENERS. If every sentence starts with 'Then' — then he ran, then he hid, then he waited — your reader falls asleep! Start with an action: 'Racing through the forest, he gasped for breath.' Or a place: 'Beyond the hills, a light flickered.'",
+  "key": "68002d4a"
+ },
+ {
+  "lang": "en",
+  "text": "Which is the strongest sentence opener?",
+  "key": "24518600"
+ },
+ {
+  "lang": "en",
+  "text": "Which one does NOT begin with 'Then'?",
+  "key": "b6a6fc30"
+ },
+ {
+  "lang": "en",
+  "text": "Starting with the action drops your reader right into the chase!",
+  "key": "121d4c49"
+ },
+ {
+  "lang": "en",
+  "text": "Bonus tips from your teacher: PLAN before you write — a beginning that hooks, a problem in the middle, and a clever fix at the end. Three boxes, that's your whole story. And when you finish — read it OUT LOUD. Your ears catch mistakes your eyes skip past!",
+  "key": "bb9ccb1d"
+ },
+ {
+  "lang": "en",
+  "text": "Now you know the secrets: show don't tell, living dialogue, and varied openers. Open the Story Starter and write me something WONDERFUL!",
+  "key": "86d602ef"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Times Tower! Today you master the FORMAL written methods — the ones real mathematicians use for big multiplications and divisions. Floor by floor, to the top!",
+  "key": "e801c1c1"
+ },
+ {
+  "lang": "en",
+  "text": "Floor one: multiplying by 10, 100 and 1,000. Here is the truth: the DIGITS slide to the LEFT — one place for ×10, two for ×100, three for ×1,000. 23 times 100? The digits slide two places: 2,300. And dividing slides them right!",
+  "key": "ae1c765e"
+ },
+ {
+  "lang": "en",
+  "text": "What is 4.5 × 100?",
+  "key": "7183b050"
+ },
+ {
+  "lang": "en",
+  "text": "Slide the digits LEFT two places — the zero fills the empty seat.",
+  "key": "328d219b"
+ },
+ {
+  "lang": "en",
+  "text": "4.5 becomes 45, then 450. Two slides for ×100!",
+  "key": "35cbfd14"
+ },
+ {
+  "lang": "en",
+  "text": "Floor two: SHORT multiplication. 1,234 × 6, one column at a time from the right. 4×6 is 24 — write 4, carry 2. 3×6 is 18, plus 2 is 20 — write 0, carry 2. 2×6 is 12, plus 2 is 14 — write 4, carry 1. 1×6 is 6, plus 1 is 7. Answer: 7,404!",
+  "key": "74bc9231"
+ },
+ {
+  "lang": "en",
+  "text": "Your turn: 213 × 4 = ?",
+  "key": "9ed07077"
+ },
+ {
+  "lang": "en",
+  "text": "3×4=12 — write 2, carry 1. Then 1×4 plus the carry...",
+  "key": "bbb37da0"
+ },
+ {
+  "lang": "en",
+  "text": "3×4=12 write 2 carry 1; 1×4+1=5; 2×4=8 → 852!",
+  "key": "c3fe5d77"
+ },
+ {
+  "lang": "en",
+  "text": "Floor three — the big one: LONG multiplication! 24 × 16. The trick: split 16 into 6 and 10. First row: 24 × 6 = 144. Second row: 24 × 10 = 240. Now ADD the rows: 144 + 240 = 384. Two easy multiplications instead of one hard one!",
+  "key": "efe3c8c4"
+ },
+ {
+  "lang": "en",
+  "text": "32 × 21 — using the same split, what is the answer?",
+  "key": "de4a07d8"
+ },
+ {
+  "lang": "en",
+  "text": "Row one: 32 × 1 = 32. Row two: 32 × 20 = 640. Now add!",
+  "key": "77fb1940"
+ },
+ {
+  "lang": "en",
+  "text": "32 + 640 = 672!",
+  "key": "c76faa33"
+ },
+ {
+  "lang": "en",
+  "text": "Floor four: SHORT division — the bus stop! 738 ÷ 6. How many 6s in 7? One, remainder 1 — carry it to make 13. How many 6s in 13? Two, remainder 1 — carry to make 18. How many 6s in 18? Three exactly. Answer: 123!",
+  "key": "6cf17f3f"
+ },
+ {
+  "lang": "en",
+  "text": "91 ÷ 7 = ?",
+  "key": "0d7a5ea6"
+ },
+ {
+  "lang": "en",
+  "text": "7 into 9 goes once, remainder 2 — that makes 21 for the next column...",
+  "key": "b24544e4"
+ },
+ {
+  "lang": "en",
+  "text": "7 into 9 = 1 r2; 7 into 21 = 3. Answer 13!",
+  "key": "c20ba4e6"
+ },
+ {
+  "lang": "en",
+  "text": "Floor five: REMAINDERS. 85 ÷ 4 = 21 remainder 1. But that remainder wears three outfits: 21 r 1... or 21 and a quarter... or 21.25. All the same amount!",
+  "key": "95098381"
+ },
+ {
+  "lang": "en",
+  "text": "And the TOP floor — the remainder DECISION. 160 eggs, boxes of 6. That is 26 remainder 4. 'How many boxes can you FILL?' — 26, round DOWN. 'How many boxes do you NEED to carry all the eggs?' — 27, round UP! The exact same sum — the QUESTION decides the answer.",
+  "key": "e741e6fd"
+ },
+ {
+  "lang": "en",
+  "text": "A lift holds 6 people. 75 people are waiting. How many trips does the lift NEED to make?",
+  "key": "a4ab025d"
+ },
+ {
+  "lang": "en",
+  "text": "75 ÷ 6 = 12 remainder 3 — do those last 3 people get left behind?",
+  "key": "93a5c76b"
+ },
+ {
+  "lang": "en",
+  "text": "12 full trips carry 72 people — one more trip for the last 3. Round UP: 13!",
+  "key": "6b65ff6e"
+ },
+ {
+  "lang": "en",
+  "text": "Tower conquered! Sliding digits, short and long multiplication, bus-stop division, and remainder decisions. These formal methods will carry you through Year 5 and far beyond. To the games!",
+  "key": "183367c4"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Decimal Den! You know tenths and hundredths — today we go one seat deeper: THOUSANDTHS. And you will learn to compare, round and calculate with any decimal.",
+  "key": "753b2408"
+ },
+ {
+  "lang": "en",
+  "text": "Every digit after the decimal point has a seat too: TENTHS, HUNDREDTHS, THOUSANDTHS. In 3.407: 3 ones, 4 tenths, 0 hundredths — the zero is holding the seat! — and 7 thousandths.",
+  "key": "6700083e"
+ },
+ {
+  "lang": "en",
+  "text": "In 2.352 — what is the 5 worth?",
+  "key": "4a4aa952"
+ },
+ {
+  "lang": "en",
+  "text": "Count the seats after the point: tenths, then...",
+  "key": "0fcd5e18"
+ },
+ {
+  "lang": "en",
+  "text": "Second seat after the point — 5 hundredths!",
+  "key": "d720f637"
+ },
+ {
+  "lang": "en",
+  "text": "Comparing decimals — the number of digits does NOT decide! 0.578 looks longer than 0.6, but compare from the LEFT: 5 tenths versus 6 tenths. 0.6 wins! And remember 0.5, 0.50 and 0.500 are all exactly the same.",
+  "key": "fd471f2f"
+ },
+ {
+  "lang": "en",
+  "text": "Which is SMALLEST: 0.61, 0.599, or 0.6?",
+  "key": "33bc6e84"
+ },
+ {
+  "lang": "en",
+  "text": "Line up the tenths digits first: 6, 5, 6...",
+  "key": "3cb01e15"
+ },
+ {
+  "lang": "en",
+  "text": "0.599 has only 5 tenths — the other two have 6. Smallest!",
+  "key": "eeb80447"
+ },
+ {
+  "lang": "en",
+  "text": "Rounding decimals — same rule of 5 you already know! 4.76 to one decimal place: look at the hundredths digit, 6 — five or more, round up — 4.8. To the nearest whole number: look at the tenths, 7 — round up — 5!",
+  "key": "522e0a1e"
+ },
+ {
+  "lang": "en",
+  "text": "Round 3.45 to ONE decimal place.",
+  "key": "831227e5"
+ },
+ {
+  "lang": "en",
+  "text": "Peek at the hundredths digit — it is a 5. What does the rule of 5 say?",
+  "key": "1ca8f6c2"
+ },
+ {
+  "lang": "en",
+  "text": "The 5 rounds the tenths up: 3.5!",
+  "key": "b082615c"
+ },
+ {
+  "lang": "en",
+  "text": "Sliding digits works for decimals too! 0.6 × 100 — slide left twice — 60. And 23 ÷ 100 — slide right twice — 0.23. Watch for the zero placeholder: 0.06 × 100 = 6.",
+  "key": "a0f3ef01"
+ },
+ {
+  "lang": "en",
+  "text": "What is 2.5 ÷ 10?",
+  "key": "05fe905c"
+ },
+ {
+  "lang": "en",
+  "text": "Divide slides the digits RIGHT one place.",
+  "key": "09233513"
+ },
+ {
+  "lang": "en",
+  "text": "2.5 slides right one place: 0.25!",
+  "key": "a9b477b4"
+ },
+ {
+  "lang": "en",
+  "text": "Last trick: decimal PAIRS TO ONE. 0.35 + 0.65 = 1, because 35 hundredths + 65 hundredths = 100 hundredths! Spot these pairs and mental maths becomes lightning fast.",
+  "key": "3ea10491"
+ },
+ {
+  "lang": "en",
+  "text": "What pairs with 0.28 to make exactly 1?",
+  "key": "803abd60"
+ },
+ {
+  "lang": "en",
+  "text": "28 plus what makes 100?",
+  "key": "091d604f"
+ },
+ {
+  "lang": "en",
+  "text": "28 + 72 = 100 hundredths = one whole!",
+  "key": "b97705da"
+ },
+ {
+  "lang": "en",
+  "text": "Den mastered! Thousandths, comparing, rounding, sliding and pairs to one. Decimals hold no secrets from you now — go play!",
+  "key": "09722c1e"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome to Fraction Falls — the advanced fraction river! Today: mixed numbers, top-heavy improper fractions, and the big one — adding fractions with DIFFERENT bottoms.",
+  "key": "fa359a0e"
+ },
+ {
+  "lang": "en",
+  "text": "A MIXED number like 2⅓ is wholes plus a piece. An IMPROPER fraction is top-heavy, like 7/3. They are the same amount in different clothes! To convert: multiply the whole by the bottom, then add the top: 2 × 3 + 1 = 7. So 2⅓ = 7/3.",
+  "key": "6c7df2c0"
+ },
+ {
+  "lang": "en",
+  "text": "Write 1¾ as an improper fraction.",
+  "key": "5d44a19d"
+ },
+ {
+  "lang": "en",
+  "text": "Multiply the whole by the bottom: 1×4. Then add the top: +3.",
+  "key": "36291afd"
+ },
+ {
+  "lang": "en",
+  "text": "(1×4)+3 = 7 quarters — 7/4!",
+  "key": "1bf9db7b"
+ },
+ {
+  "lang": "en",
+  "text": "Going BACK the other way: 11/4 — how many whole 4s in 11? Two, remainder 3. So 11/4 = 2¾. Division with a remainder — you just learned that in Times Tower!",
+  "key": "c4ca402c"
+ },
+ {
+  "lang": "en",
+  "text": "Write 9/2 as a mixed number.",
+  "key": "be54b914"
+ },
+ {
+  "lang": "en",
+  "text": "How many whole 2s fit in 9? And what is left over?",
+  "key": "9861241c"
+ },
+ {
+  "lang": "en",
+  "text": "9 ÷ 2 = 4 remainder 1 → 4½!",
+  "key": "a88f5f09"
+ },
+ {
+  "lang": "en",
+  "text": "Now — comparing fractions with different bottoms. Which is bigger, 3/4 or 5/8? Make the bottoms MATCH: 3/4 is the same as 6/8. Now it is easy: 6/8 beats 5/8!",
+  "key": "fdaa7abd"
+ },
+ {
+  "lang": "en",
+  "text": "Which is bigger: 2/3 or 5/9?",
+  "key": "90daafe0"
+ },
+ {
+  "lang": "en",
+  "text": "Turn 2/3 into ninths: multiply top and bottom by 3.",
+  "key": "82a01d26"
+ },
+ {
+  "lang": "en",
+  "text": "2/3 = 6/9, and 6/9 beats 5/9!",
+  "key": "a84deb4f"
+ },
+ {
+  "lang": "en",
+  "text": "The same trick unlocks ADDING unlike fractions. 1/4 + 3/8: the bottoms don't match — yet. Turn 1/4 into 2/8. Now: 2/8 + 3/8 = 5/8. Match the bottoms, add the tops!",
+  "key": "2fd8ae36"
+ },
+ {
+  "lang": "en",
+  "text": "1/2 + 3/10 = ?",
+  "key": "867b15ba"
+ },
+ {
+  "lang": "en",
+  "text": "Turn 1/2 into tenths first: how many tenths is one half?",
+  "key": "0724829e"
+ },
+ {
+  "lang": "en",
+  "text": "1/2 = 5/10, so 5/10 + 3/10 = 8/10 — which simplifies to 4/5!",
+  "key": "5f71ed72"
+ },
+ {
+  "lang": "en",
+  "text": "Subtraction — exactly the same. 5/6 minus 1/3: turn 1/3 into 2/6. Then 5/6 − 2/6 = 3/6... which is a half in disguise!",
+  "key": "61e9d108"
+ },
+ {
+  "lang": "en",
+  "text": "Last waterfall: multiplying a fraction by a whole number. 4 × 2/5 — multiply the TOP only: 8/5. Top-heavy! Convert: one whole and 3 fifths — 1⅗.",
+  "key": "96dffe66"
+ },
+ {
+  "lang": "en",
+  "text": "3 × 2/3 = ?",
+  "key": "ea3dfd08"
+ },
+ {
+  "lang": "en",
+  "text": "Multiply the top: 3×2 = 6. Six thirds is how many wholes?",
+  "key": "2da8c421"
+ },
+ {
+  "lang": "en",
+  "text": "6/3 = 2 whole ones — clean!",
+  "key": "53d4fb77"
+ },
+ {
+  "lang": "en",
+  "text": "You have sailed Fraction Falls! Mixed and improper, matching bottoms, adding, subtracting and multiplying. That is the complete Year 5 fraction toolkit. Games ahead!",
+  "key": "a702ab51"
+ },
+ {
+  "lang": "ar",
+  "text": "أَهلاً يا هَنا!",
+  "key": "b0b21c70"
+ },
+ {
+  "lang": "en",
+  "text": "Since you have already studied Arabic at school, today we go deeper — the reading secrets that make you sound like a native speaker. Ready?",
+  "key": "ee444ea9"
+ },
+ {
+  "lang": "ar",
+  "text": "يَلّا!",
+  "key": "91b18c51"
+ },
+ {
+  "lang": "en",
+  "text": "Quick recap — you know the three short vowels:",
+  "key": "bf43d101"
+ },
+ {
+  "lang": "ar",
+  "text": "بَ. بِ. بُ",
+  "key": "1840d48d"
+ },
+ {
+  "lang": "en",
+  "text": "But what about the little circle? That is the",
+  "key": "7c1f1064"
+ },
+ {
+  "lang": "ar",
+  "text": "سُكون",
+  "key": "0a0c7453"
+ },
+ {
+  "lang": "en",
+  "text": "— it means NO vowel. The letter simply stops. Listen:",
+  "key": "552ac49e"
+ },
+ {
+  "lang": "ar",
+  "text": "بْ. مَكْتَب",
+  "key": "eb4174ec"
+ },
+ {
+  "lang": "en",
+  "text": "Did you hear how the K stopped in the middle? That is the",
+  "key": "60e8db81"
+ },
+ {
+  "lang": "en",
+  "text": "at work!",
+  "key": "94136543"
+ },
+ {
+  "lang": "en",
+  "text": "Now stretch! Three letters can stretch a vowel long. Listen to short, then long:",
+  "key": "57854483"
+ },
+ {
+  "lang": "ar",
+  "text": "بَ... با. بُ... بو. بِ... بي",
+  "key": "530248b8"
+ },
+ {
+  "lang": "ar",
+  "text": "أَلِف",
+  "key": "42a614ae"
+ },
+ {
+  "lang": "en",
+  "text": "stretches the A,",
+  "key": "00cda439"
+ },
+ {
+  "lang": "ar",
+  "text": "واو",
+  "key": "a05ea239"
+ },
+ {
+  "lang": "en",
+  "text": "stretches the OO, and",
+  "key": "831c3f5f"
+ },
+ {
+  "lang": "ar",
+  "text": "ياء",
+  "key": "bd376c74"
+ },
+ {
+  "lang": "en",
+  "text": "stretches the EE!",
+  "key": "1bf4cb89"
+ },
+ {
+  "lang": "en",
+  "text": "Which one makes the LONG 'oo' sound?",
+  "key": "760f489b"
+ },
+ {
+  "lang": "en",
+  "text": "Look for the",
+  "key": "4a928f61"
+ },
+ {
+  "lang": "en",
+  "text": "— the little round letter with the tail — sitting after the",
+  "key": "86e630f3"
+ },
+ {
+  "lang": "ar",
+  "text": "باء",
+  "key": "19a072be"
+ },
+ {
+  "lang": "en",
+  "text": "after a letter stretches it long!",
+  "key": "c70c4bf4"
+ },
+ {
+  "lang": "en",
+  "text": "stretches it long:",
+  "key": "e874fc7c"
+ },
+ {
+  "lang": "ar",
+  "text": "بو",
+  "key": "c1688992"
+ },
+ {
+  "lang": "en",
+  "text": "Meet the",
+  "key": "5a1dd9de"
+ },
+ {
+  "lang": "ar",
+  "text": "شَدّة",
+  "key": "81df7d9b"
+ },
+ {
+  "lang": "en",
+  "text": "— the tiny w that sits on top of a letter. It doubles the letter, so you press on it. Listen to the word for teacher:",
+  "key": "b997f898"
+ },
+ {
+  "lang": "ar",
+  "text": "مُعَلِّم",
+  "key": "dde0c093"
+ },
+ {
+  "lang": "en",
+  "text": "Hear the strong doubled L in the middle? That is the",
+  "key": "7b80c22f"
+ },
+ {
+  "lang": "en",
+  "text": "working!",
+  "key": "f4ae9f10"
+ },
+ {
+  "lang": "en",
+  "text": "What does the",
+  "key": "650389b2"
+ },
+ {
+  "lang": "en",
+  "text": "do to a letter?",
+  "key": "3cfd2456"
+ },
+ {
+  "lang": "en",
+  "text": "It looks like a tiny w... and it makes the letter twice as strong.",
+  "key": "0e8178fb"
+ },
+ {
+  "lang": "en",
+  "text": "doubles the letter — you press on it!",
+  "key": "905ed036"
+ },
+ {
+  "lang": "en",
+  "text": "At the end of words you will often spot double marks — that is",
+  "key": "8804dfec"
+ },
+ {
+  "lang": "ar",
+  "text": "تَنوين",
+  "key": "247e504c"
+ },
+ {
+  "lang": "en",
+  "text": "! It adds an N sound. Listen to the three flavours:",
+  "key": "6d237935"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتابٌ. كِتاباً. كِتابٍ",
+  "key": "cfa38033"
+ },
+ {
+  "lang": "en",
+  "text": "Can you hear the hidden N at the end of each one?",
+  "key": "bcb0171e"
+ },
+ {
+  "lang": "en",
+  "text": "at the end of a word adds which hidden sound?",
+  "key": "cdb884fc"
+ },
+ {
+  "lang": "en",
+  "text": "Listen again:",
+  "key": "ee398abd"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتابٌ",
+  "key": "6120128e"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتاباً",
+  "key": "a1757d98"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتابٍ",
+  "key": "62201421"
+ },
+ {
+  "lang": "en",
+  "text": "always hides an 'n' at the end!",
+  "key": "491642f9"
+ },
+ {
+  "lang": "en",
+  "text": "Now my favourite secret: AL, the Arabic word for THE. With moon letters you hear the L clearly. Listen — the moon:",
+  "key": "a61b2028"
+ },
+ {
+  "lang": "ar",
+  "text": "القَمَر",
+  "key": "ae8391c1"
+ },
+ {
+  "lang": "en",
+  "text": "You heard the L! But sun letters are greedy — they swallow the L and double themselves. Listen — the sun:",
+  "key": "f99b24ff"
+ },
+ {
+  "lang": "ar",
+  "text": "الشَّمس",
+  "key": "fe2f308e"
+ },
+ {
+  "lang": "en",
+  "text": "No L at all! That is why they are called sun and moon letters.",
+  "key": "0defe77d"
+ },
+ {
+  "lang": "en",
+  "text": "We say ash-shams, NOT al-shams. Why?",
+  "key": "a566db4a"
+ },
+ {
+  "lang": "en",
+  "text": "Sun letters are the greedy ones that swallow the L and double themselves...",
+  "key": "a2cbde5e"
+ },
+ {
+  "lang": "ar",
+  "text": "شين",
+  "key": "f9a3736a"
+ },
+ {
+  "lang": "en",
+  "text": "is a sun letter — it swallows the L!",
+  "key": "94bc4ab4"
+ },
+ {
+  "lang": "en",
+  "text": "is a sun letter, so it swallows the L:",
+  "key": "3a08d1c3"
+ },
+ {
+  "lang": "en",
+  "text": "Time to read real words like a pro. Repeat each one out loud. School:",
+  "key": "96671c2e"
+ },
+ {
+  "lang": "ar",
+  "text": "مَدْرَسة",
+  "key": "4ad4a6a7"
+ },
+ {
+  "lang": "en",
+  "text": "Book:",
+  "key": "03b6a8c7"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتاب",
+  "key": "07e0f5b6"
+ },
+ {
+  "lang": "en",
+  "text": "Pen:",
+  "key": "fcb2428d"
+ },
+ {
+  "lang": "ar",
+  "text": "قَلَم",
+  "key": "8e52117b"
+ },
+ {
+  "lang": "en",
+  "text": "House:",
+  "key": "0eb55c18"
+ },
+ {
+  "lang": "ar",
+  "text": "بَيْت",
+  "key": "38e12aca"
+ },
+ {
+  "lang": "en",
+  "text": "Which word means SCHOOL?",
+  "key": "f6a315d6"
+ },
+ {
+  "lang": "en",
+  "text": "It starts with",
+  "key": "570b929c"
+ },
+ {
+  "lang": "ar",
+  "text": "ميم",
+  "key": "4d463bd8"
+ },
+ {
+  "lang": "en",
+  "text": "and it is where you spend your day!",
+  "key": "d116bca4"
+ },
+ {
+  "lang": "en",
+  "text": "School!",
+  "key": "1984b8e5"
+ },
+ {
+  "lang": "en",
+  "text": "School is",
+  "key": "2f36c8d6"
+ },
+ {
+  "lang": "en",
+  "text": "And now, read a whole sentence with me:",
+  "key": "6414c614"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا أُحِبُّ المَدْرَسة",
+  "key": "ec68d6a1"
+ },
+ {
+  "lang": "en",
+  "text": "I love school! Did you notice the",
+  "key": "9bf6ca11"
+ },
+ {
+  "lang": "en",
+  "text": "pressing on the B? Listen again:",
+  "key": "c71b35a1"
+ },
+ {
+  "lang": "ar",
+  "text": "أُحِبُّ",
+  "key": "03696507"
+ },
+ {
+  "lang": "en",
+  "text": "You are reading like a pro, Hana!",
+  "key": "687db52b"
+ },
+ {
+  "lang": "ar",
+  "text": "مَبروك يا هَنا!",
+  "key": "3546fa7f"
+ },
+ {
+  "lang": "en",
+  "text": ", long vowels, and the sun and moon letters — you now hold the five keys to smooth Arabic reading. Go beat the games!",
+  "key": "843f64d8"
+ },
+ {
+  "lang": "ar",
+  "text": "أَهلاً وَسَهلاً!",
+  "key": "9f81a7e3"
+ },
+ {
+  "lang": "en",
+  "text": "Today we build real Arabic sentences — pronouns, masculine and feminine words, colours and questions. This is where Arabic gets powerful!",
+  "key": "4f596383"
+ },
+ {
+  "lang": "en",
+  "text": "The pronouns — your sentence starters. I:",
+  "key": "50a003bc"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا",
+  "key": "5d027f8c"
+ },
+ {
+  "lang": "en",
+  "text": "You, for a boy:",
+  "key": "d4d845c5"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنتَ",
+  "key": "6ef14d3f"
+ },
+ {
+  "lang": "en",
+  "text": "You, for a girl:",
+  "key": "5f647bc3"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنتِ",
+  "key": "84f16fe1"
+ },
+ {
+  "lang": "en",
+  "text": "He:",
+  "key": "fdf15021"
+ },
+ {
+  "lang": "ar",
+  "text": "هُوَ",
+  "key": "1bed0402"
+ },
+ {
+  "lang": "en",
+  "text": "She:",
+  "key": "6f1a6a72"
+ },
+ {
+  "lang": "ar",
+  "text": "هِيَ",
+  "key": "4caeb2f1"
+ },
+ {
+  "lang": "en",
+  "text": "Which pronoun means SHE?",
+  "key": "1f1fc351"
+ },
+ {
+  "lang": "en",
+  "text": "He and she look similar — she is the one ending in",
+  "key": "5fb848df"
+ },
+ {
+  "lang": "en",
+  "text": "She!",
+  "key": "861a8ea7"
+ },
+ {
+  "lang": "en",
+  "text": "She is",
+  "key": "d54b7c5c"
+ },
+ {
+  "lang": "en",
+  "text": "and he is",
+  "key": "23c076da"
+ },
+ {
+  "lang": "en",
+  "text": "Here is a big secret: Arabic words are boys or girls! Words ending in the round",
+  "key": "7095403c"
+ },
+ {
+  "lang": "ar",
+  "text": "تاء",
+  "key": "ee7f5354"
+ },
+ {
+  "lang": "ar",
+  "text": "ة",
+  "key": "eece16c1"
+ },
+ {
+  "lang": "en",
+  "text": "are usually feminine. For the word THIS, masculine words get:",
+  "key": "9f9e8820"
+ },
+ {
+  "lang": "ar",
+  "text": "هٰذا. هٰذا كِتاب",
+  "key": "db831550"
+ },
+ {
+  "lang": "en",
+  "text": "and feminine words get:",
+  "key": "832d277b"
+ },
+ {
+  "lang": "ar",
+  "text": "هٰذِهِ. هٰذِهِ مَدرَسة",
+  "key": "e0f1e217"
+ },
+ {
+  "lang": "ar",
+  "text": "قلم",
+  "key": "c6c20d7b"
+ },
+ {
+  "lang": "en",
+  "text": "(pen) is masculine. How do you say 'This is a pen'?",
+  "key": "9f4bae0d"
+ },
+ {
+  "lang": "en",
+  "text": "No round",
+  "key": "79f92f29"
+ },
+ {
+  "lang": "en",
+  "text": "at the end of",
+  "key": "731217ae"
+ },
+ {
+  "lang": "en",
+  "text": "— so it's a boy word...",
+  "key": "4e1a9e88"
+ },
+ {
+  "lang": "en",
+  "text": "Masculine takes",
+  "key": "d4f1cf1f"
+ },
+ {
+  "lang": "ar",
+  "text": "هذا!",
+  "key": "ac56862d"
+ },
+ {
+  "lang": "en",
+  "text": "Masculine words take:",
+  "key": "2048383d"
+ },
+ {
+  "lang": "ar",
+  "text": "هٰذا قَلَم",
+  "key": "ab687fd1"
+ },
+ {
+  "lang": "en",
+  "text": "Colours change with gender too! Red:",
+  "key": "5ccca4b0"
+ },
+ {
+  "lang": "ar",
+  "text": "أَحمَر... حَمراء",
+  "key": "2b6add17"
+ },
+ {
+  "lang": "en",
+  "text": "Blue:",
+  "key": "38993dd8"
+ },
+ {
+  "lang": "ar",
+  "text": "أَزرَق... زَرقاء",
+  "key": "c34276e7"
+ },
+ {
+  "lang": "en",
+  "text": "Green:",
+  "key": "6f142b6d"
+ },
+ {
+  "lang": "ar",
+  "text": "أَخضَر... خَضراء",
+  "key": "3e9a92b1"
+ },
+ {
+  "lang": "en",
+  "text": "Yellow:",
+  "key": "129235d8"
+ },
+ {
+  "lang": "ar",
+  "text": "أَصفَر... صَفراء",
+  "key": "4d453567"
+ },
+ {
+  "lang": "en",
+  "text": "The first is for masculine words, the second for feminine!",
+  "key": "8703f662"
+ },
+ {
+  "lang": "ar",
+  "text": "السماء",
+  "key": "56c7bc01"
+ },
+ {
+  "lang": "en",
+  "text": "(the sky) is feminine. 'The sky is blue' — which word for blue?",
+  "key": "56cb2c79"
+ },
+ {
+  "lang": "en",
+  "text": "Feminine words take the colour form ending in the long -aa sound.",
+  "key": "10f18675"
+ },
+ {
+  "lang": "en",
+  "text": "The sky is feminine, so it takes the feminine blue!",
+  "key": "fc231e87"
+ },
+ {
+  "lang": "ar",
+  "text": "السَّماء زَرقاء",
+  "key": "265947a5"
+ },
+ {
+  "lang": "en",
+  "text": "Now the flip! In English we say a BIG house — but Arabic says a house BIG. Noun first, adjective after. Listen:",
+  "key": "173178cc"
+ },
+ {
+  "lang": "ar",
+  "text": "بَيت كَبير",
+  "key": "4b3cac86"
+ },
+ {
+  "lang": "en",
+  "text": "a big house. And with a feminine word:",
+  "key": "9a0a80c2"
+ },
+ {
+  "lang": "ar",
+  "text": "مَدرَسة كَبيرة",
+  "key": "2bb0f7ca"
+ },
+ {
+  "lang": "en",
+  "text": "The adjective matches the gender too!",
+  "key": "c4f43cf6"
+ },
+ {
+  "lang": "en",
+  "text": "'A small book' —",
+  "key": "349ea41b"
+ },
+ {
+  "lang": "ar",
+  "text": "كتاب",
+  "key": "305388a4"
+ },
+ {
+  "lang": "en",
+  "text": "is masculine, and small is",
+  "key": "af2c6e89"
+ },
+ {
+  "lang": "ar",
+  "text": "صغير.",
+  "key": "570b48d6"
+ },
+ {
+  "lang": "en",
+  "text": "What's the correct order?",
+  "key": "1e698e14"
+ },
+ {
+  "lang": "en",
+  "text": "Remember the flip: NOUN first, adjective after!",
+  "key": "46648d4d"
+ },
+ {
+  "lang": "en",
+  "text": "Noun first, adjective after!",
+  "key": "ccd64590"
+ },
+ {
+  "lang": "ar",
+  "text": "كِتاب صَغير",
+  "key": "5f228a60"
+ },
+ {
+  "lang": "en",
+  "text": "Two power verbs. I love:",
+  "key": "94be8e7a"
+ },
+ {
+  "lang": "ar",
+  "text": "أُحِبّ",
+  "key": "28ea240e"
+ },
+ {
+  "lang": "en",
+  "text": "and I want:",
+  "key": "63ee5da4"
+ },
+ {
+  "lang": "ar",
+  "text": "أُريد",
+  "key": "018fe390"
+ },
+ {
+  "lang": "en",
+  "text": "I love drawing:",
+  "key": "39efccc5"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا أُحِبُّ الرَّسم",
+  "key": "3f05e452"
+ },
+ {
+  "lang": "en",
+  "text": "I want water:",
+  "key": "73a7e924"
+ },
+ {
+  "lang": "ar",
+  "text": "أُريدُ ماء",
+  "key": "53be0fe6"
+ },
+ {
+  "lang": "en",
+  "text": "You're thirsty! How do you say I WANT WATER?",
+  "key": "68d0e48b"
+ },
+ {
+  "lang": "en",
+  "text": "I want = the verb starting with hamza and ending in a long 'eed' sound.",
+  "key": "80d4c1aa"
+ },
+ {
+  "lang": "en",
+  "text": "I want water!",
+  "key": "7ea7fa75"
+ },
+ {
+  "lang": "en",
+  "text": "Question words — your detective toolkit! What:",
+  "key": "931ec446"
+ },
+ {
+  "lang": "ar",
+  "text": "ما",
+  "key": "740b56b6"
+ },
+ {
+  "lang": "en",
+  "text": "Who:",
+  "key": "7cbec60c"
+ },
+ {
+  "lang": "ar",
+  "text": "مَن",
+  "key": "40354e05"
+ },
+ {
+  "lang": "en",
+  "text": "Where:",
+  "key": "4eed0869"
+ },
+ {
+  "lang": "ar",
+  "text": "أَين",
+  "key": "fe2c9713"
+ },
+ {
+  "lang": "en",
+  "text": "How many:",
+  "key": "c8f54433"
+ },
+ {
+  "lang": "ar",
+  "text": "كَم",
+  "key": "ddcdf816"
+ },
+ {
+  "lang": "en",
+  "text": "And this little word turns anything into a yes-or-no question:",
+  "key": "e396d915"
+ },
+ {
+  "lang": "ar",
+  "text": "هَل",
+  "key": "dadf4b95"
+ },
+ {
+  "lang": "en",
+  "text": "Where is the book?",
+  "key": "3967348a"
+ },
+ {
+  "lang": "ar",
+  "text": "أَينَ الكِتاب؟",
+  "key": "d5a7f35f"
+ },
+ {
+  "lang": "en",
+  "text": "You lost your pen! Which question do you ask?",
+  "key": "5b362175"
+ },
+ {
+  "lang": "en",
+  "text": "You need the WHERE word...",
+  "key": "77218f95"
+ },
+ {
+  "lang": "en",
+  "text": "Where is the pen?",
+  "key": "e3e192c8"
+ },
+ {
+  "lang": "ar",
+  "text": "أَينَ القَلَم؟",
+  "key": "f811bac8"
+ },
+ {
+  "lang": "ar",
+  "text": "مُمتاز يا هَنا!",
+  "key": "d03358e6"
+ },
+ {
+  "lang": "en",
+  "text": "Pronouns, masculine and feminine, colours, the adjective flip, power verbs and question words — you can build Arabic now! Go make sentences in the games!",
+  "key": "63585600"
+ },
+ {
+  "lang": "ar",
+  "text": "أَهلاً يا هَنا! كَيفَ حالِك؟",
+  "key": "bab22784"
+ },
+ {
+  "lang": "en",
+  "text": "That means: how are you? Today is all about real conversation — the Arabic you will actually speak with your family. Let's go!",
+  "key": "1dcf7887"
+ },
+ {
+  "lang": "en",
+  "text": "When someone asks how you are:",
+  "key": "74662133"
+ },
+ {
+  "lang": "ar",
+  "text": "كَيفَ حالُك؟",
+  "key": "a035fd67"
+ },
+ {
+  "lang": "en",
+  "text": "you reply:",
+  "key": "76870c81"
+ },
+ {
+  "lang": "ar",
+  "text": "بِخَير، الحَمدُ لله",
+  "key": "8886b6ad"
+ },
+ {
+  "lang": "en",
+  "text": "I am fine, thank God. In Egypt you will hear the short version:",
+  "key": "dc2989af"
+ },
+ {
+  "lang": "ar",
+  "text": "إزَّيِّك؟",
+  "key": "50173bdb"
+ },
+ {
+  "lang": "en",
+  "text": "and you can answer:",
+  "key": "a96a2d26"
+ },
+ {
+  "lang": "ar",
+  "text": "كوَيِّسة، الحَمدُ لله",
+  "key": "76cea556"
+ },
+ {
+  "lang": "en",
+  "text": "Someone asks:",
+  "key": "84c1c046"
+ },
+ {
+  "lang": "en",
+  "text": "What is the classic reply?",
+  "key": "58da57d0"
+ },
+ {
+  "lang": "en",
+  "text": "I'm FINE, thank God...",
+  "key": "f005dfcf"
+ },
+ {
+  "lang": "en",
+  "text": "Fine, thank God!",
+  "key": "16ea4ceb"
+ },
+ {
+  "lang": "en",
+  "text": "Morning and evening greetings! Good morning:",
+  "key": "558c94c7"
+ },
+ {
+  "lang": "ar",
+  "text": "صَباحُ الخَير",
+  "key": "3b0ebd0a"
+ },
+ {
+  "lang": "en",
+  "text": "and the beautiful reply — morning of light:",
+  "key": "56ad905a"
+ },
+ {
+  "lang": "ar",
+  "text": "صَباحُ النُّور",
+  "key": "4cfcbe3c"
+ },
+ {
+  "lang": "en",
+  "text": "In the evening:",
+  "key": "1b3d6c8c"
+ },
+ {
+  "lang": "ar",
+  "text": "مَساءُ الخَير",
+  "key": "42c58d67"
+ },
+ {
+  "lang": "en",
+  "text": "and the reply:",
+  "key": "219660f2"
+ },
+ {
+  "lang": "ar",
+  "text": "مَساءُ النُّور",
+  "key": "f0320183"
+ },
+ {
+  "lang": "en",
+  "text": "Baba says:",
+  "key": "327fce50"
+ },
+ {
+  "lang": "en",
+  "text": "at breakfast. What is your beautiful reply?",
+  "key": "d9b7cfbb"
+ },
+ {
+  "lang": "en",
+  "text": "Answer his 'morning of goodness' with 'morning of LIGHT'...",
+  "key": "d0c52ee4"
+ },
+ {
+  "lang": "en",
+  "text": "Morning of light!",
+  "key": "155909c2"
+ },
+ {
+  "lang": "en",
+  "text": "Now the doing words — and here is the trick: verbs for I start with",
+  "key": "58321120"
+ },
+ {
+  "lang": "en",
+  "text": "! I go:",
+  "key": "094b78de"
+ },
+ {
+  "lang": "ar",
+  "text": "أَذهَب",
+  "key": "f54cb5f0"
+ },
+ {
+  "lang": "en",
+  "text": "I read:",
+  "key": "160e5b97"
+ },
+ {
+  "lang": "ar",
+  "text": "أَقرَأ",
+  "key": "7ff0c1ad"
+ },
+ {
+  "lang": "en",
+  "text": "I write:",
+  "key": "a36e44e4"
+ },
+ {
+  "lang": "ar",
+  "text": "أَكتُب",
+  "key": "b065344d"
+ },
+ {
+  "lang": "en",
+  "text": "I play:",
+  "key": "dc443f59"
+ },
+ {
+  "lang": "ar",
+  "text": "أَلعَب",
+  "key": "98ae3616"
+ },
+ {
+  "lang": "en",
+  "text": "I eat:",
+  "key": "f8393927"
+ },
+ {
+  "lang": "ar",
+  "text": "آكُل",
+  "key": "e3983502"
+ },
+ {
+  "lang": "en",
+  "text": "I drink:",
+  "key": "bb9ef27f"
+ },
+ {
+  "lang": "ar",
+  "text": "أَشرَب",
+  "key": "95d7237e"
+ },
+ {
+  "lang": "en",
+  "text": "Listen:",
+  "key": "6116a465"
+ },
+ {
+  "lang": "en",
+  "text": "What does it mean?",
+  "key": "8e637494"
+ },
+ {
+  "lang": "en",
+  "text": "It's what you do at break time!",
+  "key": "0155b17b"
+ },
+ {
+  "lang": "en",
+  "text": "I play!",
+  "key": "f1446068"
+ },
+ {
+  "lang": "en",
+  "text": "Put it together — a full sentence. I go to school:",
+  "key": "820d5e01"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا أَذهَبُ إلى المَدرَسة",
+  "key": "4443c005"
+ },
+ {
+  "lang": "en",
+  "text": "And after school? I play at home:",
+  "key": "36e8bb2b"
+ },
+ {
+  "lang": "ar",
+  "text": "أَلعَبُ في البَيت",
+  "key": "81782097"
+ },
+ {
+  "lang": "ar",
+  "text": "أَذهَبُ إلى المَدرَسة",
+  "key": "54c5c8df"
+ },
+ {
+  "lang": "en",
+  "text": "Remember",
+  "key": "5a3d4fcd"
+ },
+ {
+  "lang": "ar",
+  "text": "أذهب",
+  "key": "db629e86"
+ },
+ {
+  "lang": "en",
+  "text": "— the going verb!",
+  "key": "3005e00f"
+ },
+ {
+  "lang": "en",
+  "text": "I go to school!",
+  "key": "a9f24325"
+ },
+ {
+  "lang": "en",
+  "text": "The days of the week! Sunday:",
+  "key": "cf5b9a0f"
+ },
+ {
+  "lang": "ar",
+  "text": "الأَحَد",
+  "key": "6adee004"
+ },
+ {
+  "lang": "en",
+  "text": "Monday:",
+  "key": "17db5f98"
+ },
+ {
+  "lang": "ar",
+  "text": "الاِثنَين",
+  "key": "8b4436c3"
+ },
+ {
+  "lang": "en",
+  "text": "Tuesday:",
+  "key": "136dd631"
+ },
+ {
+  "lang": "ar",
+  "text": "الثُّلاثاء",
+  "key": "ac0d3d94"
+ },
+ {
+  "lang": "en",
+  "text": "Wednesday:",
+  "key": "bcd67e6c"
+ },
+ {
+  "lang": "ar",
+  "text": "الأَربِعاء",
+  "key": "32eb6a16"
+ },
+ {
+  "lang": "en",
+  "text": "Thursday:",
+  "key": "720b0b42"
+ },
+ {
+  "lang": "ar",
+  "text": "الخَميس",
+  "key": "bbc5582b"
+ },
+ {
+  "lang": "en",
+  "text": "Friday:",
+  "key": "e00f1641"
+ },
+ {
+  "lang": "ar",
+  "text": "الجُمعة",
+  "key": "57fe4129"
+ },
+ {
+  "lang": "en",
+  "text": "Saturday:",
+  "key": "bb346f09"
+ },
+ {
+  "lang": "ar",
+  "text": "السَّبت",
+  "key": "728103a9"
+ },
+ {
+  "lang": "en",
+  "text": "And in Egypt, the weekend is Friday and Saturday!",
+  "key": "0738dadd"
+ },
+ {
+  "lang": "en",
+  "text": "Which day is FRIDAY — the start of the Egyptian weekend?",
+  "key": "35407608"
+ },
+ {
+  "lang": "en",
+  "text": "It's called 'the day of gathering'...",
+  "key": "a6496671"
+ },
+ {
+  "lang": "en",
+  "text": "Friday!",
+  "key": "c50eebc0"
+ },
+ {
+  "lang": "en",
+  "text": "And now, your full introduction. Listen carefully, then say it proudly:",
+  "key": "74a1f013"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا اسمي هَنا. عُمري عَشرُ سَنَوات. أُحِبُّ المَدرَسةَ وَالرَّسم",
+  "key": "ca1222fe"
+ },
+ {
+  "lang": "en",
+  "text": "My name is Hana. I am ten years old. I love school and drawing. Say that to your family tonight!",
+  "key": "2860a2f8"
+ },
+ {
+  "lang": "ar",
+  "text": "عُمري عَشرُ سَنَوات",
+  "key": "29103f75"
+ },
+ {
+  "lang": "ar",
+  "text": "عمري",
+  "key": "a28f9287"
+ },
+ {
+  "lang": "en",
+  "text": "means MY AGE...",
+  "key": "8ca645e9"
+ },
+ {
+  "lang": "en",
+  "text": "I am ten years old!",
+  "key": "13c12d3c"
+ },
+ {
+  "lang": "ar",
+  "text": "ما شاءَ الله يا هَنا!",
+  "key": "474068bc"
+ },
+ {
+  "lang": "en",
+  "text": "You can greet, reply, use real verbs, name the days, and introduce yourself — a proper conversation! Go play the games, and tonight, surprise the whole family!",
+  "key": "c7ca6706"
+ },
+ {
+  "lang": "en",
+  "text": "Today, Hana, you step into REAL conversations — breakfast with Baba, buying juice at the shop, and a phone call with Teta in Egypt. Listen to each line, read the bubbles, and say the lines out loud with the voices!",
+  "key": "80e65305"
+ },
+ {
+  "lang": "en",
+  "text": "Dialogue one — breakfast time! Baba says:",
+  "key": "34bc4239"
+ },
+ {
+  "lang": "arm",
+  "text": "صَباحُ الخَير يا هَنا",
+  "key": "5f8454f2"
+ },
+ {
+  "lang": "en",
+  "text": "and Hana replies:",
+  "key": "25e8fc43"
+ },
+ {
+  "lang": "ar",
+  "text": "صَباحُ النُّور يا بابا",
+  "key": "59c0949d"
+ },
+ {
+  "lang": "en",
+  "text": "Baba asks:",
+  "key": "955a437a"
+ },
+ {
+  "lang": "arm",
+  "text": "هَل أَنتِ جاهِزة لِلمَدرَسة؟",
+  "key": "778726e4"
+ },
+ {
+  "lang": "en",
+  "text": "Are you ready for school? And Hana answers:",
+  "key": "0f78da96"
+ },
+ {
+  "lang": "ar",
+  "text": "نَعَم، أَنا جاهِزة. أَينَ حَقيبَتي؟",
+  "key": "6c28ca76"
+ },
+ {
+  "lang": "en",
+  "text": "Yes, I am ready — where is my bag?",
+  "key": "f5ca524b"
+ },
+ {
+  "lang": "arm",
+  "text": "حَقيبَتُكِ عَلى الكُرسي",
+  "key": "9f915d6f"
+ },
+ {
+  "lang": "en",
+  "text": "your bag is on the chair. And Hana says:",
+  "key": "3db94011"
+ },
+ {
+  "lang": "ar",
+  "text": "شُكراً يا بابا!",
+  "key": "d8b77fef"
+ },
+ {
+  "lang": "arm",
+  "text": "هَل أَنتِ جاهِزة؟",
+  "key": "f6ac5ed5"
+ },
+ {
+  "lang": "en",
+  "text": "He is asking about SCHOOL — is she all set to go?",
+  "key": "06167688"
+ },
+ {
+  "lang": "en",
+  "text": "Ready!",
+  "key": "d6ff2678"
+ },
+ {
+  "lang": "ar",
+  "text": "جاهِزة",
+  "key": "4fd4a4fd"
+ },
+ {
+  "lang": "en",
+  "text": "Dialogue two — at the shop! The shopkeeper says:",
+  "key": "fc6c8eb0"
+ },
+ {
+  "lang": "arm",
+  "text": "أَهلاً! ماذا تُريدين؟",
+  "key": "1d603f2b"
+ },
+ {
+  "lang": "en",
+  "text": "Welcome, what would you like? And Hana says:",
+  "key": "b2a4c665"
+ },
+ {
+  "lang": "ar",
+  "text": "أُريدُ عَصير بُرتُقال مِن فَضلِك",
+  "key": "d5c06e4d"
+ },
+ {
+  "lang": "en",
+  "text": "He hands it over:",
+  "key": "033c9c3c"
+ },
+ {
+  "lang": "arm",
+  "text": "تَفَضَّلي",
+  "key": "2c20f695"
+ },
+ {
+  "lang": "en",
+  "text": "here you are! Now Hana asks the price:",
+  "key": "12be0bb8"
+ },
+ {
+  "lang": "ar",
+  "text": "بِكَم هٰذا؟",
+  "key": "618ef0b5"
+ },
+ {
+  "lang": "en",
+  "text": "He answers:",
+  "key": "ba39e518"
+ },
+ {
+  "lang": "arm",
+  "text": "خَمسة جُنَيهات",
+  "key": "4117d30d"
+ },
+ {
+  "lang": "en",
+  "text": "five pounds. And Hana says:",
+  "key": "6f951440"
+ },
+ {
+  "lang": "ar",
+  "text": "شُكراً جَزيلاً!",
+  "key": "7e857dd8"
+ },
+ {
+  "lang": "en",
+  "text": "You want to ask HOW MUCH something costs. You say...",
+  "key": "0373738c"
+ },
+ {
+  "lang": "en",
+  "text": "It starts with bikam — 'for how much'...",
+  "key": "45c0b2de"
+ },
+ {
+  "lang": "en",
+  "text": "How much is this?",
+  "key": "36a69c62"
+ },
+ {
+  "lang": "en",
+  "text": "Dialogue three — the phone rings. It is Teta, calling from Egypt! She says:",
+  "key": "1ca1f117"
+ },
+ {
+  "lang": "ar",
+  "text": "أَلو؟ مين مَعايا؟",
+  "key": "49a3cab6"
+ },
+ {
+  "lang": "en",
+  "text": "Hello, who is speaking? And Hana says:",
+  "key": "5c1f6bec"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا هَنا يا تيتة!",
+  "key": "7ecc94a5"
+ },
+ {
+  "lang": "en",
+  "text": "Teta is thrilled:",
+  "key": "fcbe3cc4"
+ },
+ {
+  "lang": "ar",
+  "text": "أَهلاً حَبيبتي! إزَّيِّك؟",
+  "key": "30af3201"
+ },
+ {
+  "lang": "en",
+  "text": "and Hana answers:",
+  "key": "2b47c74e"
+ },
+ {
+  "lang": "ar",
+  "text": "كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟",
+  "key": "428ec77e"
+ },
+ {
+  "lang": "en",
+  "text": "And now the sweetest Egyptian word of all. Teta says:",
+  "key": "d6b62d2f"
+ },
+ {
+  "lang": "ar",
+  "text": "وَحَشتيني!",
+  "key": "50d83c00"
+ },
+ {
+  "lang": "en",
+  "text": "I miss you! And Hana replies:",
+  "key": "28690fc6"
+ },
+ {
+  "lang": "ar",
+  "text": "وَإنتِ وَحَشتيني كَمان يا تيتة!",
+  "key": "be5959ea"
+ },
+ {
+  "lang": "en",
+  "text": "Teta says:",
+  "key": "6a159cf0"
+ },
+ {
+  "lang": "en",
+  "text": "What is she telling you?",
+  "key": "b9084379"
+ },
+ {
+  "lang": "en",
+  "text": "It is the warmest thing a Teta can say down the phone...",
+  "key": "8be2bb74"
+ },
+ {
+  "lang": "en",
+  "text": "I miss you!",
+  "key": "09691e97"
+ },
+ {
+  "lang": "ar",
+  "text": "وَحَشتيني",
+  "key": "f2dc5421"
+ },
+ {
+  "lang": "en",
+  "text": "Three real conversations — breakfast, the shop, and Teta's phone call. Practise them in the games, then try them on the family tonight!",
+  "key": "b5899649"
+ },
+ {
+  "lang": "en",
+  "text": "Story time, Hana! Today you read a whole story in Arabic — the story of Lulu the cat. Listen to each page, follow the words, and read along out loud.",
+  "key": "1f75d3f8"
+ },
+ {
+  "lang": "en",
+  "text": "Page one:",
+  "key": "15331959"
+ },
+ {
+  "lang": "ar",
+  "text": "هَنا عِندَها قِطّة صَغيرة. اِسمُها لولو.",
+  "key": "bc226a3e"
+ },
+ {
+  "lang": "en",
+  "text": "Hana has a little cat. Her name is Lulu.",
+  "key": "6f2bb009"
+ },
+ {
+  "lang": "en",
+  "text": "Page two:",
+  "key": "7f418d6b"
+ },
+ {
+  "lang": "ar",
+  "text": "لولو بَيضاء وَجَميلة. تُحِبُّ اللَّبَن.",
+  "key": "4745104a"
+ },
+ {
+  "lang": "en",
+  "text": "Lulu is white and beautiful. She loves milk.",
+  "key": "3661cf35"
+ },
+ {
+  "lang": "en",
+  "text": "Page three:",
+  "key": "07acb249"
+ },
+ {
+  "lang": "ar",
+  "text": "في الصَّباح، تَلعَبُ لولو في البَيت.",
+  "key": "83ae25e6"
+ },
+ {
+  "lang": "en",
+  "text": "In the morning, Lulu plays in the house.",
+  "key": "912c301b"
+ },
+ {
+  "lang": "en",
+  "text": "What is the little cat's name?",
+  "key": "e0a8a0f7"
+ },
+ {
+  "lang": "en",
+  "text": "Ismuha... her name is...",
+  "key": "e9cb66ed"
+ },
+ {
+  "lang": "en",
+  "text": "Lulu!",
+  "key": "027405c9"
+ },
+ {
+  "lang": "ar",
+  "text": "اِسمُها لولو",
+  "key": "af957264"
+ },
+ {
+  "lang": "en",
+  "text": "Page four — uh oh!",
+  "key": "1708e3ce"
+ },
+ {
+  "lang": "ar",
+  "text": "يَومَ السَّبت، خَرَجَت لولو مِنَ الباب!",
+  "key": "ad18e1e3"
+ },
+ {
+  "lang": "en",
+  "text": "On Saturday, Lulu went out of the door!",
+  "key": "6d8db135"
+ },
+ {
+  "lang": "en",
+  "text": "Page five:",
+  "key": "f6cb8a4b"
+ },
+ {
+  "lang": "ar",
+  "text": "هَنا حَزينة. أَينَ لولو؟",
+  "key": "9f15d374"
+ },
+ {
+  "lang": "en",
+  "text": "Hana is sad. Where is Lulu?",
+  "key": "b8379d7e"
+ },
+ {
+  "lang": "en",
+  "text": "Page six:",
+  "key": "e57406f1"
+ },
+ {
+  "lang": "ar",
+  "text": "تَبحَثُ هَنا في الحَديقة.",
+  "key": "59bf06ec"
+ },
+ {
+  "lang": "en",
+  "text": "Hana searches in the garden.",
+  "key": "e7f4c7a1"
+ },
+ {
+  "lang": "en",
+  "text": "Page seven — listen!",
+  "key": "4f9c2a86"
+ },
+ {
+  "lang": "ar",
+  "text": "تَسمَعُ صَوتاً: مِياو! مِياو!",
+  "key": "f30234ed"
+ },
+ {
+  "lang": "en",
+  "text": "She hears a sound: meow! meow!",
+  "key": "12a84201"
+ },
+ {
+  "lang": "en",
+  "text": "Hana is",
+  "key": "b25fabb0"
+ },
+ {
+  "lang": "ar",
+  "text": "حَزينة",
+  "key": "b34d0944"
+ },
+ {
+  "lang": "en",
+  "text": "because...",
+  "key": "693e5aa4"
+ },
+ {
+  "lang": "en",
+  "text": "Hazina means SAD — why would Hana be sad?",
+  "key": "b1a1c6c0"
+ },
+ {
+  "lang": "en",
+  "text": "Lulu went out of the door and is lost!",
+  "key": "3fcbb92c"
+ },
+ {
+  "lang": "ar",
+  "text": "أَينَ لولو؟",
+  "key": "1b16e59e"
+ },
+ {
+  "lang": "en",
+  "text": "Page eight — there she is!",
+  "key": "d12a69b9"
+ },
+ {
+  "lang": "ar",
+  "text": "لولو فَوقَ الشَّجَرة!",
+  "key": "31dc3c96"
+ },
+ {
+  "lang": "en",
+  "text": "Lulu is up the tree!",
+  "key": "17953263"
+ },
+ {
+  "lang": "en",
+  "text": "Page nine:",
+  "key": "a9c8f6ab"
+ },
+ {
+  "lang": "ar",
+  "text": "بابا يُساعِدُ هَنا. لولو تَنزِل.",
+  "key": "ff95b1e6"
+ },
+ {
+  "lang": "en",
+  "text": "Baba helps Hana, and Lulu comes down.",
+  "key": "ef94e0e0"
+ },
+ {
+  "lang": "en",
+  "text": "Page ten — the happy ending!",
+  "key": "5e412fd1"
+ },
+ {
+  "lang": "ar",
+  "text": "هَنا سَعيدة! تُحِبُّ لولو كَثيراً.",
+  "key": "d2bafa26"
+ },
+ {
+  "lang": "en",
+  "text": "Hana is happy! She loves Lulu very much. The end!",
+  "key": "d9c35b48"
+ },
+ {
+  "lang": "en",
+  "text": "Where was Lulu hiding?",
+  "key": "1b4f45f0"
+ },
+ {
+  "lang": "en",
+  "text": "Baba had to reach UP high to help...",
+  "key": "7b997b5e"
+ },
+ {
+  "lang": "en",
+  "text": "Up the tree!",
+  "key": "39e497e7"
+ },
+ {
+  "lang": "ar",
+  "text": "فَوقَ الشَّجَرة",
+  "key": "ff78bbf7"
+ },
+ {
+  "lang": "en",
+  "text": "You read a whole Arabic story, ten pages, beginning to end! Now play the games — retell the story, match the words, and say them back with your own voice!",
+  "key": "81aad51f"
+ },
+ {
+  "lang": "en",
+  "text": "What is the value of the 5 in 3,215,067?",
+  "key": "739119f9"
+ },
+ {
+  "lang": "en",
+  "text": "Round 34,568 to the nearest 1,000.",
+  "key": "51834e2f"
+ },
+ {
+  "lang": "en",
+  "text": "Which is smaller?",
+  "key": "7b0f56f2"
+ },
+ {
+  "lang": "en",
+  "text": "Write 92,150 partitioned: 90,000 + ? + 100 + 50",
+  "key": "f9a478d6"
+ },
+ {
+  "lang": "en",
+  "text": "What is XC in Roman numerals?",
+  "key": "6b23cc6d"
+ },
+ {
+  "lang": "en",
+  "text": "What is 60 in Roman numerals?",
+  "key": "b98e1b50"
+ },
+ {
+  "lang": "en",
+  "text": "Round 763,300 to the nearest 100 so the number stays 763,300 - true or false type: which number rounds to 763,300 at nearest 100?",
+  "key": "35ef0efa"
+ },
+ {
+  "lang": "en",
+  "text": "Counting in steps of 1,000 from 69: what comes 3 steps later?",
+  "key": "98f14632"
+ },
+ {
+  "lang": "en",
+  "text": "-13 is bigger than -1",
+  "key": "7d96ca8e"
+ },
+ {
+  "lang": "en",
+  "text": "5,000,000 has the digit 5 in the millions column",
+  "key": "db51e535"
+ },
+ {
+  "lang": "en",
+  "text": "When rounding, a tens digit of 5 rounds down",
+  "key": "b6a65eeb"
+ },
+ {
+  "lang": "en",
+  "text": "IV means 4 in Roman numerals",
+  "key": "c6213eb2"
+ },
+ {
+  "lang": "en",
+  "text": "856,207 is bigger than 3,215,067",
+  "key": "759f44ef"
+ },
+ {
+  "lang": "en",
+  "text": "M means 1,000 in Roman numerals",
+  "key": "8f71a489"
+ },
+ {
+  "lang": "en",
+  "text": "-8, -5, -2, 1 is counting up in steps of 3",
+  "key": "b51ce179"
+ },
+ {
+  "lang": "en",
+  "text": "You can use the symbol I four times in a row",
+  "key": "29e25518"
+ },
+ {
+  "lang": "en",
+  "text": "665,104 comes before 656,401 when ordered smallest to largest",
+  "key": "d4572d47"
+ },
+ {
+  "lang": "en",
+  "text": "51,320 = 50,000 + 1,000 + 320",
+  "key": "0f6265f9"
+ },
+ {
+  "lang": "en",
+  "text": "I buy presents costing £9.63, £5.27 and £3.72. How much change from £20?",
+  "key": "0eb9750d"
+ },
+ {
+  "lang": "en",
+  "text": "Find three consecutive numbers that total 171.",
+  "key": "e1ec71fb"
+ },
+ {
+  "lang": "en",
+  "text": "A blue whale weighs 136,000 kg, a white rhino 2,175 kg. What's the difference?",
+  "key": "ab1f6a4d"
+ },
+ {
+  "lang": "en",
+  "text": "3.42 + y = 10. What is y?",
+  "key": "00845061"
+ },
+ {
+  "lang": "en",
+  "text": "Add £4,506.35 and £205.68.",
+  "key": "850b8ce4"
+ },
+ {
+  "lang": "en",
+  "text": "I double a number then add 1.52. The answer is 1.88. What number did I start with?",
+  "key": "f95c6e5a"
+ },
+ {
+  "lang": "en",
+  "text": "Subtract two multi-digit numbers: 45,687 and 45,699 — what's the difference?",
+  "key": "a43d466e"
+ },
+ {
+  "lang": "en",
+  "text": "27,053 − 19,476 = 7,577",
+  "key": "7abac8f5"
+ },
+ {
+  "lang": "en",
+  "text": "To check a subtraction you can add the answer back",
+  "key": "f2dfb496"
+ },
+ {
+  "lang": "en",
+  "text": "5.632 − 5.432 = 0.2",
+  "key": "cbbef195"
+ },
+ {
+  "lang": "en",
+  "text": "9.7 − 3.9 = 5.8",
+  "key": "4a6bf70a"
+ },
+ {
+  "lang": "en",
+  "text": "When estimating, 56.46 + 33.67 is about 40",
+  "key": "597a47e5"
+ },
+ {
+  "lang": "en",
+  "text": "Columns must be lined up by place value before adding",
+  "key": "c37d293d"
+ },
+ {
+  "lang": "en",
+  "text": "0.28 + 0.46 = 0.64",
+  "key": "bab95f16"
+ },
+ {
+  "lang": "en",
+  "text": "You should always add two whole numbers before checking with estimation",
+  "key": "1c60b9e3"
+ },
+ {
+  "lang": "en",
+  "text": "What are the common factors of 16 and 12?",
+  "key": "04b40b9b"
+ },
+ {
+  "lang": "en",
+  "text": "Is 84's factor pair with 12 correct? 12 × ? = 84",
+  "key": "70dd116d"
+ },
+ {
+  "lang": "en",
+  "text": "What is 5² (5 squared)?",
+  "key": "2b4f0f57"
+ },
+ {
+  "lang": "en",
+  "text": "What is 3³ (3 cubed)?",
+  "key": "d4606bf8"
+ },
+ {
+  "lang": "en",
+  "text": "Milk cartons hold 1,454 ml each. How much in 25 cartons?",
+  "key": "212e7580"
+ },
+ {
+  "lang": "en",
+  "text": "A piece of cloth 29m long is cut into 5 equal pieces. How long is each piece?",
+  "key": "9dd61b94"
+ },
+ {
+  "lang": "en",
+  "text": "Which number is both a factor of 60 and a prime number?",
+  "key": "4af8426d"
+ },
+ {
+  "lang": "en",
+  "text": "7 × 8 = 56",
+  "key": "27f0df00"
+ },
+ {
+  "lang": "en",
+  "text": "9 × 12 = 106",
+  "key": "83ed5175"
+ },
+ {
+  "lang": "en",
+  "text": "11 × 11 = 121",
+  "key": "1d718dbc"
+ },
+ {
+  "lang": "en",
+  "text": "Any even number other than 2 is a composite number",
+  "key": "c29b06ad"
+ },
+ {
+  "lang": "en",
+  "text": "Division can be done in any order like multiplication",
+  "key": "fc68e76e"
+ },
+ {
+  "lang": "en",
+  "text": "6² = 36",
+  "key": "945d154a"
+ },
+ {
+  "lang": "en",
+  "text": "2³ = 8",
+  "key": "652ac02a"
+ },
+ {
+  "lang": "en",
+  "text": "0 is a prime number",
+  "key": "5a24e9ef"
+ },
+ {
+  "lang": "en",
+  "text": "12 × 6 = 72",
+  "key": "905bac16"
+ },
+ {
+  "lang": "en",
+  "text": "84 has a factor pair of 12 and 7",
+  "key": "163b3734"
+ },
+ {
+  "lang": "en",
+  "text": "Tap two cards that go together!",
+  "key": "9604ed42"
+ },
+ {
+  "lang": "en",
+  "text": "Find 10% of 16.3 m",
+  "key": "de398085"
+ },
+ {
+  "lang": "en",
+  "text": "Find 25% of 240.",
+  "key": "760393a6"
+ },
+ {
+  "lang": "en",
+  "text": "Which is smaller: 0.578 or 0.6?",
+  "key": "90007f6d"
+ },
+ {
+  "lang": "en",
+  "text": "35% of the children in a class are girls. What % are boys?",
+  "key": "d5d9e5d0"
+ },
+ {
+  "lang": "en",
+  "text": "James, Shane and Chelsea share a pizza and eat ¼, ⅝ and ⅛. How much is eaten in total?",
+  "key": "95b39e19"
+ },
+ {
+  "lang": "en",
+  "text": "25% of the apples in a basket are red — there are 21 red apples. There are also green apples — no other colours. How many apples in total?",
+  "key": "6d4f27b2"
+ },
+ {
+  "lang": "en",
+  "text": "What is 0.71 written as a fraction?",
+  "key": "26a49317"
+ },
+ {
+  "lang": "en",
+  "text": "Tap the fractions in order from SMALLEST to LARGEST",
+  "key": "5e4198a8"
+ },
+ {
+  "lang": "en",
+  "text": "How many centimetres in 3.5 metres?",
+  "key": "c0b2ce6c"
+ },
+ {
+  "lang": "en",
+  "text": "A rectangle has sides 5cm and 12cm. What is its perimeter?",
+  "key": "2c69013b"
+ },
+ {
+  "lang": "en",
+  "text": "What is the area of a rectangle 5m long and 10m wide?",
+  "key": "f5fe513a"
+ },
+ {
+  "lang": "en",
+  "text": "3.5 hours is the same as...",
+  "key": "01028938"
+ },
+ {
+  "lang": "en",
+  "text": "It's 13:00 in London. It's 4 hours ahead in Dubai — what time is it there?",
+  "key": "397fa3ac"
+ },
+ {
+  "lang": "en",
+  "text": "A tin of paint covers 10 m². How many tins to paint 35 m²?",
+  "key": "561d9bd9"
+ },
+ {
+  "lang": "en",
+  "text": "How many millilitres in 1.3 litres?",
+  "key": "867aa364"
+ },
+ {
+  "lang": "en",
+  "text": "1 kg = 1,000 g",
+  "key": "b0363cb8"
+ },
+ {
+  "lang": "en",
+  "text": "1 cm = 100 mm",
+  "key": "18d3f80b"
+ },
+ {
+  "lang": "en",
+  "text": "Volume of a cuboid = length × width × height",
+  "key": "eedcb800"
+ },
+ {
+  "lang": "en",
+  "text": "Area is measured in cm, not cm²",
+  "key": "c6eec57d"
+ },
+ {
+  "lang": "en",
+  "text": "1 litre = 1,000 ml",
+  "key": "2528dcda"
+ },
+ {
+  "lang": "en",
+  "text": "There are 60 minutes in an hour",
+  "key": "48173f4b"
+ },
+ {
+  "lang": "en",
+  "text": "A cube with 1cm sides has a volume of 1 cm³",
+  "key": "962a1a9f"
+ },
+ {
+  "lang": "en",
+  "text": "Perimeter and area mean the same thing",
+  "key": "8c47d5d1"
+ },
+ {
+  "lang": "en",
+  "text": "What type of angle is 45°?",
+  "key": "b622de84"
+ },
+ {
+  "lang": "en",
+  "text": "What type of angle is 200°?",
+  "key": "7908e4d9"
+ },
+ {
+  "lang": "en",
+  "text": "Two angles on a straight line: one is 120°. What is the other?",
+  "key": "d4854d29"
+ },
+ {
+  "lang": "en",
+  "text": "A triangle has angles 60° and 70°. What is the third angle?",
+  "key": "34aa4f95"
+ },
+ {
+  "lang": "en",
+  "text": "How many degrees are in a full turn?",
+  "key": "cd60a95d"
+ },
+ {
+  "lang": "en",
+  "text": "A regular polygon has...",
+  "key": "8561552f"
+ },
+ {
+  "lang": "en",
+  "text": "Translating a shape means...",
+  "key": "39ffe8df"
+ },
+ {
+  "lang": "en",
+  "text": "A graph shows 40 people at 10am and 70 people at noon. What is the increase?",
+  "key": "9f6fdea4"
+ },
+ {
+  "lang": "en",
+  "text": "4pm in 24-hour time is:",
+  "key": "87c80c0e"
+ },
+ {
+  "lang": "en",
+  "text": "19:00 in 12-hour time is:",
+  "key": "4ce5c960"
+ },
+ {
+  "lang": "en",
+  "text": "A timetable train leaves at 09:15 and arrives at 11:40. How long is the journey?",
+  "key": "e53eeb20"
+ },
+ {
+  "lang": "en",
+  "text": "On a bar-line chart for the 7 times table, what value would be at the 6th bar?",
+  "key": "47f6eb3a"
+ },
+ {
+  "lang": "en",
+  "text": "What is 1,234 × 6?",
+  "key": "b8c28fce"
+ },
+ {
+  "lang": "en",
+  "text": "24 × 16 — which split is correct?",
+  "key": "e908a626"
+ },
+ {
+  "lang": "en",
+  "text": "What is 738 ÷ 6?",
+  "key": "07478342"
+ },
+ {
+  "lang": "en",
+  "text": "85 ÷ 4 = 21 remainder...",
+  "key": "d8caf68f"
+ },
+ {
+  "lang": "en",
+  "text": "You need boxes of 6 for 160 eggs. How many boxes must you BUY?",
+  "key": "7fe964e6"
+ },
+ {
+  "lang": "en",
+  "text": "How many boxes of 6 can you FILL from 160 eggs?",
+  "key": "781d8fa9"
+ },
+ {
+  "lang": "en",
+  "text": "A 29 m cloth is cut into 5 equal pieces. Each piece is...",
+  "key": "5d79a8f8"
+ },
+ {
+  "lang": "en",
+  "text": "36 × 10 = 360",
+  "key": "088f247b"
+ },
+ {
+  "lang": "en",
+  "text": "4.2 × 100 = 42",
+  "key": "06b68a3b"
+ },
+ {
+  "lang": "en",
+  "text": "5,600 ÷ 100 = 56",
+  "key": "203f5d7d"
+ },
+ {
+  "lang": "en",
+  "text": "213 × 4 = 852",
+  "key": "7641f5b5"
+ },
+ {
+  "lang": "en",
+  "text": "96 ÷ 4 = 26",
+  "key": "cdbeabc5"
+ },
+ {
+  "lang": "en",
+  "text": "32 × 21 = 672",
+  "key": "672057e7"
+ },
+ {
+  "lang": "en",
+  "text": "91 ÷ 7 = 13",
+  "key": "4cbbb2f5"
+ },
+ {
+  "lang": "en",
+  "text": "Multiplying by 10 means just 'adding a zero' to 4.5 → 4.50",
+  "key": "48ef4e29"
+ },
+ {
+  "lang": "en",
+  "text": "45 × 99 = (45 × 100) − 45",
+  "key": "77041f30"
+ },
+ {
+  "lang": "en",
+  "text": "150 ÷ 6 = 150 ÷ 3 ÷ 2",
+  "key": "82cd16c1"
+ },
+ {
+  "lang": "en",
+  "text": "In 2.352, what is the 5 worth?",
+  "key": "5ce5674c"
+ },
+ {
+  "lang": "en",
+  "text": "Which is the SMALLEST: 0.61, 0.599, 0.6?",
+  "key": "24b43e2c"
+ },
+ {
+  "lang": "en",
+  "text": "Round 4.76 to one decimal place.",
+  "key": "5d091fb0"
+ },
+ {
+  "lang": "en",
+  "text": "Round 3.45 to one decimal place.",
+  "key": "3bfac405"
+ },
+ {
+  "lang": "en",
+  "text": "What is 0.06 × 100?",
+  "key": "1dec4797"
+ },
+ {
+  "lang": "en",
+  "text": "What is 23 ÷ 100?",
+  "key": "322b34b2"
+ },
+ {
+  "lang": "en",
+  "text": "Which pairs with 0.28 to make 1?",
+  "key": "2e926675"
+ },
+ {
+  "lang": "en",
+  "text": "Write 'one and four thousandths' as a decimal.",
+  "key": "84c6a45b"
+ },
+ {
+  "lang": "en",
+  "text": "0.5 = 0.50 = 0.500",
+  "key": "20e01ef5"
+ },
+ {
+  "lang": "en",
+  "text": "0.578 is bigger than 0.6",
+  "key": "69d2b78b"
+ },
+ {
+  "lang": "en",
+  "text": "In 1.234 the 4 is worth 4 thousandths",
+  "key": "32710981"
+ },
+ {
+  "lang": "en",
+  "text": "5.56 rounded to the nearest whole number is 6",
+  "key": "125e766f"
+ },
+ {
+  "lang": "en",
+  "text": "0.9 × 10 = 0.90",
+  "key": "8de64533"
+ },
+ {
+  "lang": "en",
+  "text": "0.35 + 0.65 = 1",
+  "key": "cfd03eac"
+ },
+ {
+  "lang": "en",
+  "text": "2.5 ÷ 10 = 0.25",
+  "key": "6eba3b85"
+ },
+ {
+  "lang": "en",
+  "text": "The most significant digit in 0.205 is the 5",
+  "key": "b1072fe6"
+ },
+ {
+  "lang": "en",
+  "text": "Tap the decimals in order from SMALLEST to LARGEST",
+  "key": "217d7627"
+ },
+ {
+  "lang": "en",
+  "text": "Which is bigger: 3/4 or 5/8?",
+  "key": "dd5c5adb"
+ },
+ {
+  "lang": "en",
+  "text": "1/4 + 3/8 = ?",
+  "key": "50cd2faf"
+ },
+ {
+  "lang": "en",
+  "text": "5/6 − 1/3 = ?",
+  "key": "3d7ec789"
+ },
+ {
+  "lang": "en",
+  "text": "4 × 2/5 = ?",
+  "key": "e6285ecf"
+ },
+ {
+  "lang": "en",
+  "text": "2⅓ = 7/3",
+  "key": "6e20f1c5"
+ },
+ {
+  "lang": "en",
+  "text": "11/4 = 2¾",
+  "key": "7c5a0974"
+ },
+ {
+  "lang": "en",
+  "text": "To add 1/4 + 3/8 you can just add the bottoms",
+  "key": "e85a6dcc"
+ },
+ {
+  "lang": "en",
+  "text": "1/2 = 5/10",
+  "key": "ba85c18c"
+ },
+ {
+  "lang": "en",
+  "text": "7/3 is called an improper fraction",
+  "key": "0d6340e5"
+ },
+ {
+  "lang": "en",
+  "text": "5 × 1/5 = 1",
+  "key": "4cba7257"
+ },
+ {
+  "lang": "en",
+  "text": "3/4 is smaller than 5/8",
+  "key": "1305eebf"
+ },
+ {
+  "lang": "en",
+  "text": "⁵⁄₈ + ⅜ = 1",
+  "key": "670eb820"
+ },
+ {
+  "lang": "en",
+  "text": "Which prefix means 'again'?",
+  "key": "af099474"
+ },
+ {
+  "lang": "en",
+  "text": "Add a suffix to turn 'advert' into a verb.",
+  "key": "f92c3c37"
+ },
+ {
+  "lang": "en",
+  "text": "Which word means the opposite of 'behave'?",
+  "key": "d5ed5282"
+ },
+ {
+  "lang": "en",
+  "text": "Which is spelled correctly?",
+  "key": "7ebf8a3c"
+ },
+ {
+  "lang": "en",
+  "text": "Which of these words has a silent letter?",
+  "key": "2ea2ccbf"
+ },
+ {
+  "lang": "en",
+  "text": "'pollen' + suffix to make a verb meaning 'to fertilise' is:",
+  "key": "f6677c00"
+ },
+ {
+  "lang": "en",
+  "text": "Which word starts a relative clause?",
+  "key": "e1978f95"
+ },
+ {
+  "lang": "en",
+  "text": "Which is a modal verb?",
+  "key": "43c229d5"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses a fronted adverbial correctly?",
+  "key": "3e863f27"
+ },
+ {
+  "lang": "en",
+  "text": "Which is the expanded noun phrase?",
+  "key": "46cd3577"
+ },
+ {
+  "lang": "en",
+  "text": "'Later, after that, secondly' are all examples of:",
+  "key": "fc09f469"
+ },
+ {
+  "lang": "en",
+  "text": "Complete: 'The wizard ___ cast a spell if he wanted to.'",
+  "key": "bc43ccf4"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: 'The dog, ___ was covered in mud, ran into the house.'",
+  "key": "ca9b2480"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: 'It ___ snow tomorrow, so bring a coat.'",
+  "key": "0d6f740e"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: '___ that morning, the sky turned grey.'",
+  "key": "dd9806a1"
+ },
+ {
+  "lang": "en",
+  "text": "Fill the gap: 'She is the girl ___ won the race.'",
+  "key": "00e441d6"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses a comma correctly after a fronted adverbial?",
+  "key": "a6dd2f79"
+ },
+ {
+  "lang": "en",
+  "text": "Which shows the shark that eats people?",
+  "key": "6e6e79ff"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses a colon correctly?",
+  "key": "1277f05a"
+ },
+ {
+  "lang": "en",
+  "text": "Which uses a semicolon correctly?",
+  "key": "c518f9c3"
+ },
+ {
+  "lang": "en",
+  "text": "Which uses brackets for parenthesis correctly?",
+  "key": "25d8d9e1"
+ },
+ {
+  "lang": "en",
+  "text": "Which sentence uses the most descriptive, 'show don't tell' writing?",
+  "key": "5080a9d7"
+ },
+ {
+  "lang": "en",
+  "text": "New speaker in dialogue should start:",
+  "key": "ef7f6e21"
+ },
+ {
+  "lang": "en",
+  "text": "Which is a strong, varied sentence opener (not starting with 'Then')?",
+  "key": "086e5f24"
+ },
+ {
+  "lang": "en",
+  "text": "'Précising' a passage means:",
+  "key": "c8bc2271"
+ },
+ {
+  "lang": "en",
+  "text": "Trace this letter. Listen:",
+  "key": "7b000d80"
+ },
+ {
+  "lang": "ar",
+  "text": "عَين",
+  "key": "0346f339"
+ },
+ {
+  "lang": "en",
+  "text": "Follow the grey letter with your finger or the mouse. You can do it!",
+  "key": "2399eeec"
+ },
+ {
+  "lang": "ar",
+  "text": "حاء",
+  "key": "62d2822d"
+ },
+ {
+  "lang": "ar",
+  "text": "صاد",
+  "key": "7541c64b"
+ },
+ {
+  "lang": "ar",
+  "text": "كاف",
+  "key": "ccc2b6f7"
+ },
+ {
+  "lang": "ar",
+  "text": "هاء",
+  "key": "022d9ffb"
+ },
+ {
+  "lang": "en",
+  "text": "Which mark DOUBLES a letter?",
+  "key": "ed0a7ef4"
+ },
+ {
+  "lang": "ar",
+  "text": "اُسكُنْ. بْ",
+  "key": "8f45131b"
+ },
+ {
+  "lang": "en",
+  "text": "do?",
+  "key": "69b0f5a8"
+ },
+ {
+  "lang": "en",
+  "text": "Listen to the ending:",
+  "key": "ffcdac3a"
+ },
+ {
+  "lang": "en",
+  "text": "How does the",
+  "key": "e6ef3266"
+ },
+ {
+  "lang": "en",
+  "text": "sound?",
+  "key": "ac7afe82"
+ },
+ {
+  "lang": "en",
+  "text": "Listen carefully:",
+  "key": "36cd2230"
+ },
+ {
+  "lang": "en",
+  "text": "Do you hear the L?",
+  "key": "bd9cbe1c"
+ },
+ {
+  "lang": "en",
+  "text": "Now this one:",
+  "key": "126392e8"
+ },
+ {
+  "lang": "en",
+  "text": "Which word means HOUSE?",
+  "key": "d0e012d8"
+ },
+ {
+  "lang": "ar",
+  "text": "شَمس",
+  "key": "03f6c3f0"
+ },
+ {
+  "lang": "ar",
+  "text": "قَمَر",
+  "key": "24eb7eb8"
+ },
+ {
+  "lang": "en",
+  "text": "'This is a pen' —",
+  "key": "dabde476"
+ },
+ {
+  "lang": "en",
+  "text": "is masculine. Which word for THIS?",
+  "key": "83d49474"
+ },
+ {
+  "lang": "ar",
+  "text": "مدرسة",
+  "key": "d16183a9"
+ },
+ {
+  "lang": "en",
+  "text": "ends with",
+  "key": "561fb554"
+ },
+ {
+  "lang": "ar",
+  "text": "ة.",
+  "key": "dd6e1a3d"
+ },
+ {
+  "lang": "en",
+  "text": "Which word for THIS?",
+  "key": "17627c63"
+ },
+ {
+  "lang": "en",
+  "text": "How do you say I WANT WATER?",
+  "key": "c823d95c"
+ },
+ {
+  "lang": "en",
+  "text": "'A BIG house' — which is correct? Remember: adjective AFTER the noun!",
+  "key": "dec9a055"
+ },
+ {
+  "lang": "en",
+  "text": "Build the Arabic for: I LOVE SCHOOL — tap the words in order (reading right to left!)",
+  "key": "7ebab8e5"
+ },
+ {
+  "lang": "ar",
+  "text": "هٰذا كِتاب",
+  "key": "a3ead1fc"
+ },
+ {
+  "lang": "ar",
+  "text": "أَحمَر",
+  "key": "85423454"
+ },
+ {
+  "lang": "en",
+  "text": "What is the best reply?",
+  "key": "d8ecb274"
+ },
+ {
+  "lang": "en",
+  "text": "Which day is FRIDAY?",
+  "key": "f3fe8533"
+ },
+ {
+  "lang": "en",
+  "text": "Someone says:",
+  "key": "91ca7d4c"
+ },
+ {
+  "lang": "en",
+  "text": "What is the beautiful reply?",
+  "key": "5dcd2b09"
+ },
+ {
+  "lang": "ar",
+  "text": "عُمري عَشر سَنَوات",
+  "key": "8c6b16e0"
+ },
+ {
+  "lang": "en",
+  "text": "How do you say I GO TO SCHOOL?",
+  "key": "9ec5932c"
+ },
+ {
+  "lang": "en",
+  "text": "Build the Arabic for: I GO TO SCHOOL — tap the words in order (right to left!)",
+  "key": "8fabad1e"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا اسمي هَنا",
+  "key": "b39cfb25"
+ },
+ {
+  "lang": "en",
+  "text": "The shopkeeper hands you the juice and says:",
+  "key": "0ab7e514"
+ },
+ {
+  "lang": "en",
+  "text": "You want to know the price. What do you ask?",
+  "key": "d8663563"
+ },
+ {
+  "lang": "en",
+  "text": "What does he want to know?",
+  "key": "eba84127"
+ },
+ {
+  "lang": "en",
+  "text": "Teta answers the phone:",
+  "key": "b1ad0fdc"
+ },
+ {
+  "lang": "en",
+  "text": "What is she asking?",
+  "key": "b960cda6"
+ },
+ {
+  "lang": "en",
+  "text": "What do you reply?",
+  "key": "f854343f"
+ },
+ {
+  "lang": "en",
+  "text": "How do you ask for orange juice politely?",
+  "key": "31b308c5"
+ },
+ {
+  "lang": "en",
+  "text": "Put the shop conversation in the right order (first line first!)",
+  "key": "015babf7"
+ },
+ {
+  "lang": "ar",
+  "text": "أَنا جاهِزة",
+  "key": "feca8f33"
+ },
+ {
+  "lang": "ar",
+  "text": "شُكراً جَزيلاً",
+  "key": "77e091e9"
+ },
+ {
+  "lang": "en",
+  "text": "What is the cat's name?",
+  "key": "056fa381"
+ },
+ {
+  "lang": "en",
+  "text": "What does Lulu love to drink?",
+  "key": "59fec139"
+ },
+ {
+  "lang": "en",
+  "text": "Who helped Hana get Lulu down?",
+  "key": "bb0e3b83"
+ },
+ {
+  "lang": "en",
+  "text": "At the end of the story, Hana is...?",
+  "key": "04b27fc9"
+ },
+ {
+  "lang": "en",
+  "text": "Retell the story — put the events in order!",
+  "key": "3bbbbb4f"
+ },
+ {
+  "lang": "ar",
+  "text": "قِطّة",
+  "key": "b73fd07f"
+ },
+ {
+  "lang": "ar",
+  "text": "شَجَرة",
+  "key": "0cddc7f0"
+ },
+ {
+  "lang": "ar",
+  "text": "حَديقة",
+  "key": "06455ca5"
+ },
+ {
+  "lang": "ar",
+  "text": "سَعيدة",
+  "key": "87f09e8c"
+ },
+ {
+  "lang": "ar",
+  "text": "مِياو مِياو",
+  "key": "7c884e8a"
+ },
+ {
+  "lang": "en",
+  "text": "A mysterious map falls out of an old library book. Where does it lead?",
+  "key": "371095d8"
+ },
+ {
+  "lang": "en",
+  "text": "You wake up and can suddenly talk to animals for one day only. What happens?",
+  "key": "e47be9e6"
+ },
+ {
+  "lang": "en",
+  "text": "A hidden door appears in your school that nobody else can see. What's behind it?",
+  "key": "776b4127"
+ },
+ {
+  "lang": "en",
+  "text": "Write about a dragon who is scared of... something very small.",
+  "key": "ba71b884"
+ },
+ {
+  "lang": "en",
+  "text": "A robot moves in next door and it's acting strange. What's really going on?",
+  "key": "922790b6"
+ },
+ {
+  "lang": "en",
+  "text": "You find a pair of shoes that let you walk on clouds. Where do you go first?",
+  "key": "2cd233c7"
+ },
+ {
+  "lang": "en",
+  "text": "The last biscuit in the tin is guarded by a tiny, grumpy wizard.",
+  "key": "ac255da6"
+ },
+ {
+  "lang": "en",
+  "text": "Your reflection in the mirror waves at you — but you didn't wave first.",
+  "key": "4e957480"
+ },
+ {
+  "lang": "en",
+  "text": "A letter arrives addressed to you from 100 years in the future.",
+  "key": "3053c4cc"
+ },
+ {
+  "lang": "en",
+  "text": "A garden gnome in your back garden starts leaving you notes at night.",
+  "key": "091bfe18"
+ },
+ {
+  "lang": "en",
+  "text": "Yes! Exactly right!",
+  "key": "8b737679"
+ },
+ {
+  "lang": "en",
+  "text": "Brilliant, Hana!",
+  "key": "c312114e"
+ },
+ {
+  "lang": "en",
+  "text": "That's it — high five!",
+  "key": "37bdf96d"
+ },
+ {
+  "lang": "en",
+  "text": "Superstar!",
+  "key": "8edb3d5c"
+ },
+ {
+  "lang": "en",
+  "text": "You got it!",
+  "key": "18e674ff"
+ },
+ {
+  "lang": "en",
+  "text": "Wonderful — that's the one!",
+  "key": "6c26743b"
+ },
+ {
+  "lang": "en",
+  "text": "Wow! Amazing work — three shiny stars!",
+  "key": "d23ee009"
+ },
+ {
+  "lang": "en",
+  "text": "Great job! Two stars — so close to perfect!",
+  "key": "a449f285"
+ },
+ {
+  "lang": "en",
+  "text": "Nice try! Let's keep practising and go again!",
+  "key": "52ec5da3"
+ },
+ {
+  "lang": "en",
+  "text": "Keep going — you'll get it next time!",
+  "key": "6c180451"
+ },
+ {
+  "lang": "en",
+  "text": "Lesson complete! Wonderful work, Hana. The games are unlocked — go and show off what you know!",
+  "key": "7b1332dc"
+ },
+ {
+  "lang": "en",
+  "text": "Beautiful writing! Three stars! Written like a real Arabic writer!",
+  "key": "08d80c4f"
+ },
+ {
+  "lang": "en",
+  "text": "Good tracing! Two stars — clear it and try once more for three, or move to the next letter!",
+  "key": "e9d129f0"
+ },
+ {
+  "lang": "en",
+  "text": "Nearly! Cover more of the grey letter — clear it and trace again, nice and slowly.",
+  "key": "ce186201"
+ },
+ {
+  "lang": "en",
+  "text": "Draw the letter first — trace right over the grey shape!",
+  "key": "525a7a5c"
+ },
+ {
+  "lang": "en",
+  "text": "Listen first, then press the microphone and say it back!",
+  "key": "663390b1"
+ },
+ {
+  "lang": "en",
+  "text": "Perfect Arabic! Beautiful!",
+  "key": "d9a03816"
+ },
+ {
+  "lang": "en",
+  "text": "Great pronunciation! Well done!",
+  "key": "fa9a1584"
+ },
+ {
+  "lang": "en",
+  "text": "Almost! Listen again and have another go!",
+  "key": "fc5cb7a5"
+ },
+ {
+  "lang": "en",
+  "text": "I did not hear you — press the microphone and speak up!",
+  "key": "0672a74b"
+ },
+ {
+  "lang": "en",
+  "text": "Please allow the microphone so I can hear you!",
+  "key": "77a073cf"
+ },
+ {
+  "lang": "en",
+  "text": "The microphone game needs the Google Chrome browser.",
+  "key": "adeac038"
+ }
+]

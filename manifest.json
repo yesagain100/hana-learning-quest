@@ -1,0 +1,15 @@
+{
+  "name": "Hana's Learning Quest",
+  "short_name": "Hana Quest",
+  "description": "Year 5 summer learning — maths, English and Arabic with a talking teacher",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EEF2FF",
+  "theme_color": "#7C3AED",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
