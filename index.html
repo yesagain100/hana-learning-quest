@@ -235,6 +235,29 @@ button{font-family:inherit;cursor:pointer;touch-action:manipulation;-webkit-tap-
 @keyframes micpulse{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(22,163,74,.5);}50%{transform:scale(1.06);box-shadow:0 0 0 14px rgba(22,163,74,0);}}
 .heard{font-size:14px;color:var(--muted);font-weight:700;text-align:center;margin-top:6px;}
 
+/* ===== HOW TO PRAY GUIDE ===== */
+.pray-stage{display:flex;flex-direction:column;align-items:center;gap:6px;background:linear-gradient(165deg,#F0FDF4,#DCFCE7);border-radius:22px;padding:18px 16px;}
+.pray-fig-wrap{min-height:210px;display:flex;align-items:flex-end;justify-content:center;}
+.pray-fig{animation:prayIn .5s ease;}
+@keyframes prayIn{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:none}}
+.pray-name{font-weight:900;color:#166534;font-size:17px;text-align:center;margin-top:6px;}
+.pray-name .arab{font-size:21px;color:#166534;}
+.pray-ar{font-size:30px;color:var(--purple-d);font-weight:800;direction:rtl;font-family:'Geeza Pro','GeezaPro','Al Nile',serif;text-align:center;line-height:1.85;max-width:600px;}
+.pray-ar.small{font-size:23px;line-height:2;}
+.pray-tr{font-size:13.5px;color:var(--muted);font-weight:700;font-style:italic;text-align:center;max-width:560px;}
+.pray-en{font-size:15px;color:var(--ink);font-weight:600;text-align:center;max-width:540px;margin-top:2px;}
+.pray-x3{display:inline-block;background:var(--yellow);color:#78350F;border-radius:10px;padding:1px 9px;font-size:12px;font-weight:900;margin-top:6px;}
+.pray-controls{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:14px;}
+.pray-dots{display:flex;gap:5px;flex-wrap:wrap;justify-content:center;margin-top:10px;max-width:420px;}
+.pray-dot{width:9px;height:9px;border-radius:50%;background:#BBF7D0;}
+.pray-dot.on{background:#16A34A;transform:scale(1.25);}
+.prayers-tbl{width:100%;max-width:460px;border-collapse:collapse;margin:4px auto;}
+.prayers-tbl td,.prayers-tbl th{padding:9px 12px;border-bottom:2px solid #E5E7EB;font-weight:700;}
+.prayers-tbl th{background:#166534;color:#fff;font-weight:900;}
+.prayers-tbl th:first-child{border-radius:10px 0 0 0;} .prayers-tbl th:last-child{border-radius:0 10px 0 0;}
+.prayers-tbl .rak{font-weight:900;color:#166534;font-size:18px;text-align:center;}
+.prayers-tbl .arb{font-family:'Geeza Pro',serif;font-size:18px;color:var(--purple-d);}
+
 /* confetti */
 .confetti{position:fixed;top:-10px;z-index:999;pointer-events:none;border-radius:2px;}
 
@@ -960,6 +983,8 @@ const WORLDS = [
     ]}
   ]
 },
+{ id:'howtopray', guide:true, icon:'🧎', color:'linear-gradient(135deg,#166534,#14532D)', title:'How to Pray', sub:'كيف نصلي — the prayer, step by step, with the words',
+  learn:{points:[],example:'',fact:''}, games:[{id:'pray_guide', title:'The Prayer, Step by Step', icon:'🧎', type:'pray'}] },
 { id:'duas', icon:'🤲', color:'linear-gradient(135deg,#B45309,#78350F)', title:'Everyday Duas', sub:'الأدعية — little prayers for every day',
   learn:{
     points:[
@@ -1973,6 +1998,24 @@ function openWorld(id){
   const lc = document.getElementById('learnCard');
   const lessonsDone = Object.keys(state.lessonDone||{}).length;
   const done = currentWorld.boss ? lessonsDone >= 10 : !!(state.lessonDone && state.lessonDone[currentWorld.id]);
+  if(currentWorld.guide){
+    const gh = document.getElementById('topicHead');
+    gh.style.background = currentWorld.color;
+    gh.innerHTML = `<div class="icon">${currentWorld.icon}</div><h2>${currentWorld.title}</h2><p>${currentWorld.sub}</p>`;
+    document.getElementById('learnCard').innerHTML = `
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+        <div style="font-size:42px;">🧎</div>
+        <div style="flex:1;min-width:200px;">
+          <div style="font-weight:900;font-size:17px;color:var(--purple-d);">Learn the prayer, step by step</div>
+          <div style="font-size:13.5px;color:var(--muted);font-weight:600;">Watch each position, hear the words in Arabic, and follow along. You can go at your own pace or press Play.</div>
+        </div>
+        <button class="play-btn" style="width:auto;padding:12px 22px;" onclick="startGame(currentWorld.games[0])">▶ Start the Guide</button>
+      </div>`;
+    document.getElementById('gamesHeading').textContent = '';
+    document.getElementById('gamesRow').innerHTML = '';
+    showView('view-topic');
+    return;
+  }
   if(currentWorld.library){
     const head2 = document.getElementById('topicHead');
     head2.style.background = currentWorld.color;
@@ -2396,6 +2439,7 @@ function startGame(g){
   else if(g.type==='story') startStory(g);
   else if(g.type==='trace') startTrace(g);
   else if(g.type==='sayback') startSayback(g);
+  else if(g.type==='pray') startPray(g);
 }
 
 /* ---------- MCQ ---------- */
@@ -2893,6 +2937,130 @@ function finishSayback(){
   document.getElementById('gameWrap').innerHTML = resultsHTML(stars, `You spoke ${gs.items.length} Arabic words out loud — real speaking practice!`, total*6);
 }
 
+/* ---------- HOW TO PRAY (animated guide) ---------- */
+const PRAY_MAT = "<ellipse cx='130' cy='185' rx='118' ry='8' fill='#000' opacity='.06'/><rect x='20' y='170' width='220' height='15' rx='7' fill='#C68B3C'/><rect x='20' y='170' width='220' height='4' rx='2' fill='#E4BC72'/>";
+const PC = "#2F4A63";
+function prayFig(inner){ return "<svg class='pray-fig' viewBox='0 0 260 200' style='width:230px;max-width:74vw;'>"+PRAY_MAT+"<g fill='"+PC+"'>"+inner+"</g></svg>"; }
+const FIG = {
+  stand: prayFig("<rect x='116' y='108' width='12' height='64' rx='6'/><rect x='132' y='108' width='12' height='64' rx='6'/><rect x='112' y='58' width='34' height='55' rx='15'/><circle cx='129' cy='44' r='15'/><path d='M126,74 Q152,80 152,93 Q152,101 141,100 L127,92 Z'/>"),
+  takbir: prayFig("<rect x='116' y='108' width='12' height='64' rx='6'/><rect x='132' y='108' width='12' height='64' rx='6'/><rect x='112' y='60' width='34' height='53' rx='15'/><circle cx='129' cy='46' r='15'/><rect x='106' y='40' width='9' height='34' rx='4'/><rect x='143' y='40' width='9' height='34' rx='4'/>"),
+  ruku: prayFig("<rect x='116' y='104' width='12' height='68' rx='6'/><rect x='132' y='104' width='12' height='68' rx='6'/><rect x='122' y='90' width='78' height='26' rx='13'/><circle cx='204' cy='103' r='14'/><rect x='150' y='114' width='9' height='44' rx='4' transform='rotate(10 154 136)'/>"),
+  itidal: prayFig("<rect x='116' y='108' width='12' height='64' rx='6'/><rect x='132' y='108' width='12' height='64' rx='6'/><rect x='112' y='58' width='34' height='55' rx='15'/><circle cx='129' cy='44' r='15'/><rect x='143' y='62' width='9' height='40' rx='4'/><rect x='108' y='62' width='9' height='40' rx='4'/>"),
+  sujood: prayFig("<rect x='92' y='150' width='52' height='20' rx='9'/><path d='M104,170 L120,132 Q140,120 168,150 L200,164 L200,170 Z'/><circle cx='202' cy='161' r='12'/><rect x='170' y='158' width='30' height='8' rx='4'/>"),
+  jalsa: prayFig("<rect x='104' y='150' width='64' height='20' rx='9'/><rect x='120' y='96' width='30' height='58' rx='14'/><circle cx='135' cy='82' r='14'/><rect x='140' y='122' width='28' height='9' rx='4'/>"),
+  tashahhud: prayFig("<rect x='104' y='150' width='64' height='20' rx='9'/><rect x='120' y='96' width='30' height='58' rx='14'/><circle cx='135' cy='82' r='14'/><rect x='140' y='122' width='24' height='9' rx='4'/><rect x='162' y='108' width='7' height='22' rx='3.5'/>"),
+  tasleem: prayFig("<rect x='104' y='150' width='64' height='20' rx='9'/><rect x='120' y='96' width='30' height='58' rx='14'/><circle cx='120' cy='82' r='14'/><circle cx='108' cy='82' r='2.5' fill='#F0FDF4'/><rect x='140' y='122' width='26' height='9' rx='4'/>"),
+};
+const FATIHA = "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحيم. الحَمْدُ لِلَّهِ رَبِّ العالَمين. الرَّحْمٰنِ الرَّحيم. مالِكِ يَوْمِ الدّين. إِيّاكَ نَعْبُدُ وَإِيّاكَ نَسْتَعين. اهْدِنا الصِّراطَ المُسْتَقيم. صِراطَ الَّذينَ أَنْعَمْتَ عَلَيْهِم غَيْرِ المَغْضوبِ عَلَيْهِم وَلا الضّالّين.";
+const TASHAHHUD = "التَّحِيّاتُ لِلَّهِ وَالصَّلَواتُ وَالطَّيِّبات، السَّلامُ عَلَيْكَ أَيُّها النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكاتُه، السَّلامُ عَلَيْنا وَعَلى عِبادِ اللَّهِ الصّالِحين، أَشْهَدُ أَنْ لا إِلهَ إِلّا اللَّه، وَأَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَرَسولُه.";
+const PRAYERS_TABLE = "<table class='prayers-tbl'><tr><th>Prayer</th><th>When</th><th>Rak'ahs</th></tr>"
+ + "<tr><td><b>Fajr</b> <span class='arb'>الفَجر</span></td><td>Dawn</td><td class='rak'>2</td></tr>"
+ + "<tr><td><b>Dhuhr</b> <span class='arb'>الظُّهر</span></td><td>Midday</td><td class='rak'>4</td></tr>"
+ + "<tr><td><b>Asr</b> <span class='arb'>العَصر</span></td><td>Afternoon</td><td class='rak'>4</td></tr>"
+ + "<tr><td><b>Maghrib</b> <span class='arb'>المَغرِب</span></td><td>Sunset</td><td class='rak'>3</td></tr>"
+ + "<tr><td><b>Isha</b> <span class='arb'>العِشاء</span></td><td>Night</td><td class='rak'>4</td></tr></table>";
+
+const PRAY_STEPS = [
+ {intro:true, table:true, nameEn:'The Five Daily Prayers', nameAr:'الصَّلَواتُ الخَمس',
+  en:"Muslims pray five times every day. Each prayer has a number of rounds, called rak'ahs. Let's learn how one round is prayed, step by step!",
+  voice:[["en","Muslims pray five times every day. Each prayer has a number of rounds, called rakahs. Let's learn how one round is prayed, step by step!"]]},
+ {fig:'takbir', nameEn:'Standing — begin', nameAr:'القِيام',
+  ar:'اللَّهُ أَكبَر', tr:'Allāhu Akbar', en:'We stand facing Makkah, raise our hands, and begin: Allah is the greatest.',
+  say:'اللَّهُ أَكبَر'},
+ {fig:'stand', nameEn:'Recite Al-Fatiha', nameAr:'قِراءَةُ الفاتِحة', small:true,
+  ar:FATIHA, tr:'Bismillāhir-Rahmānir-Rahīm…', en:'Standing with our hands folded, we recite the opening chapter of the Quran, Al-Fatiha.',
+  say:FATIHA},
+ {fig:'ruku', nameEn:'Bowing', nameAr:'الرُّكوع', x3:true,
+  ar:'سُبْحانَ رَبِّيَ العَظيم', tr:'Subhāna Rabbiyal-Azīm', en:'We bow with our hands on our knees: Glory to my Lord, the Most Great. (Say it three times.)',
+  say:'سُبْحانَ رَبِّيَ العَظيم'},
+ {fig:'itidal', nameEn:'Standing up straight', nameAr:'الاِعتِدال',
+  ar:'سَمِعَ اللَّهُ لِمَنْ حَمِدَه، رَبَّنا وَلَكَ الحَمد', tr:'Sami’Allāhu liman hamidah, Rabbanā wa lakal-hamd', en:'We stand up straight again: Allah hears the one who praises Him; our Lord, all praise is for You.',
+  say:'سَمِعَ اللَّهُ لِمَنْ حَمِدَه، رَبَّنا وَلَكَ الحَمد'},
+ {fig:'sujood', nameEn:'Prostration', nameAr:'السُّجود', x3:true,
+  ar:'سُبْحانَ رَبِّيَ الأَعْلى', tr:'Subhāna Rabbiyal-A’lā', en:'We place our forehead on the ground — the closest we come to Allah: Glory to my Lord, the Most High. (Say it three times.)',
+  say:'سُبْحانَ رَبِّيَ الأَعْلى'},
+ {fig:'jalsa', nameEn:'Sitting up', nameAr:'الجُلوس',
+  ar:'رَبِّ اغْفِرْ لي', tr:'Rabbighfir lī', en:'We sit up for a moment: My Lord, forgive me. Then we prostrate a second time, the same way.',
+  say:'رَبِّ اغْفِرْ لي'},
+ {fig:'tashahhud', nameEn:'Sitting — Tashahhud', nameAr:'التَّشَهُّد', small:true,
+  ar:TASHAHHUD, tr:'At-tahiyyātu lillāh…', en:'At the end of the prayer, we sit and say the Tashahhud, greeting Allah and sending peace upon the Prophet ﷺ.',
+  say:TASHAHHUD},
+ {fig:'tasleem', nameEn:'Ending the prayer', nameAr:'التَّسليم',
+  ar:'السَّلامُ عَلَيْكُمْ وَرَحْمَةُ الله', tr:'As-salāmu alaykum wa rahmatullāh', en:'We finish by turning our head to the right, then the left: Peace and the mercy of Allah be upon you.',
+  say:'السَّلامُ عَلَيْكُمْ وَرَحْمَةُ الله'},
+ {done:true, table:true, nameEn:"MashaAllah — you learned the prayer!", nameAr:'ما شاءَ الله',
+  en:"That is one rak'ah, plus the ending. In Fajr you pray two rak'ahs, in Maghrib three, and in the others four. Practise a little every day!",
+  voice:[["ar","ما شاءَ الله"],["en","That is one round of prayer, plus the ending. In Fajr you pray two rounds, in Maghrib three, and in the others four. Practise a little every day!"]]},
+];
+
+let prayTimer = null;
+function startPray(g){
+  gameState = {idx:0, playing:false};
+  renderPray();
+}
+function prayStepVoice(st){
+  if(st.voice) return st.voice;
+  const v = [];
+  if(st.say) v.push(["ar", st.say]);
+  if(st.en) v.push(["en", st.en]);
+  return v;
+}
+function renderPray(){
+  const gs = gameState, st = PRAY_STEPS[gs.idx];
+  const wrap = document.getElementById('gameWrap');
+  let body = '';
+  if(st.fig) body += `<div class="pray-fig-wrap">${FIG[st.fig]}</div>`;
+  body += `<div class="pray-name">${st.nameEn} · <span class="arab">${st.nameAr}</span></div>`;
+  if(st.table) body += PRAYERS_TABLE;
+  if(st.ar) body += `<div class="pray-ar ${st.small?'small':''}">${st.ar}</div>`;
+  if(st.tr) body += `<div class="pray-tr">${st.tr}</div>`;
+  if(st.x3) body += `<div class="pray-x3">say it 3 times ×3</div>`;
+  if(st.en) body += `<div class="pray-en">${st.en}</div>`;
+  const first = gs.idx===0, last = gs.idx===PRAY_STEPS.length-1;
+  wrap.innerHTML = `
+    <div class="game-header">
+      <div class="game-title">🧎 The Prayer, Step by Step</div>
+      <div class="stat-pill" style="border-color:#16A34A;color:#166534;">Step ${gs.idx+1}/${PRAY_STEPS.length}</div>
+    </div>
+    <div class="pray-stage">
+      ${body}
+      <div class="pray-controls">
+        <button class="small-btn" id="prayHear">🔊 Hear it</button>
+        <button class="small-btn" id="prayPrev" ${first?'disabled style="opacity:.4;"':''}>◀ Back</button>
+        <button class="mic-btn" style="background:linear-gradient(135deg,#16A34A,#166534);padding:12px 22px;" id="prayPlay">${gs.playing?'⏸ Pause':'▶ Play all'}</button>
+        <button class="next-btn" id="prayNext">${last?'Finish ✓':'Next ▶'}</button>
+      </div>
+      <div class="pray-dots">${PRAY_STEPS.map((_,i)=>`<div class="pray-dot ${i===gs.idx?'on':''}"></div>`).join('')}</div>
+    </div>`;
+  const speakStep = ()=>speakParts(prayStepVoice(st));
+  document.getElementById('prayHear').onclick = speakStep;
+  document.getElementById('prayPrev').onclick = ()=>{ if(gs.idx>0){ gs.idx--; renderPray(); } };
+  document.getElementById('prayNext').onclick = ()=>{
+    if(last){ prayFinish(); } else { gs.idx++; renderPray(); }
+  };
+  document.getElementById('prayPlay').onclick = ()=>{ gs.playing = !gs.playing; if(gs.playing) prayAutoStep(); else stopAllSpeech(); renderPray(); if(gs.playing) prayAutoStep(); };
+  speakStep();
+  if(gs.playing) prayScheduleNext(st);
+}
+function prayAutoStep(){ /* kicked by renderPray when playing */ }
+function prayScheduleNext(st){
+  if(prayTimer) clearTimeout(prayTimer);
+  const gs = gameState;
+  const dur = st.small ? 12000 : (st.ar? 6500 : 6000);
+  prayTimer = setTimeout(()=>{
+    if(!gs.playing) return;
+    if(gs.idx < PRAY_STEPS.length-1){ gs.idx++; renderPray(); }
+    else { gs.playing=false; prayFinish(); }
+  }, dur);
+}
+function prayFinish(){
+  if(prayTimer) clearTimeout(prayTimer);
+  recordStars('pray_guide', 'howtopray', 3);
+  addXP(30); save(); renderHeader();
+  confettiBurst(30);
+  document.getElementById('gameWrap').innerHTML = resultsHTML(3, "You walked through the whole prayer — mashaAllah!", 30).replace("goTopic()","openWorld('howtopray')");
+}
+
 /* ---------- MCQ end-of-round results ---------- */
 function renderResults(kind){
   const g=currentGame, gs=gameState;
@@ -2955,6 +3123,7 @@ function exportSpeechManifest(){
     if(st.voice) add(st.voice); else addEn(st.say);
     if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
   }));
+  PRAY_STEPS.forEach(st=>{ prayStepVoice(st).forEach(pr=> pr[0]==='ar' ? add([["ar",pr[1]]]) : addEn(pr[1])); });
   STORY_PROMPTS.forEach(addEn);
   PRAISE.forEach(addEn);
   addEn("Wow! Amazing work — three shiny stars!");
