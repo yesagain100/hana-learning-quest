@@ -42,6 +42,12 @@ sandbox.globalThis = sandbox;
 
 const vm = require('vm');
 vm.createContext(sandbox);
+const contentDir = path.join(__dirname, 'content');
+if (fs.existsSync(contentDir)) {
+  fs.readdirSync(contentDir).filter(f => f.endsWith('.js')).sort().forEach(f => {
+    vm.runInContext(fs.readFileSync(path.join(contentDir, f), 'utf8'), sandbox);
+  });
+}
 vm.runInContext(m[1], sandbox);
 
 const manifest = sandbox.exportSpeechManifest();

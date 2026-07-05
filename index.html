@@ -289,7 +289,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;font-
     <div class="backrow"><button class="back-btn" onclick="goMap()">← Back to Map</button></div>
     <div class="topic-head" id="topicHead"></div>
     <div class="learn-card" id="learnCard"></div>
-    <h3 style="color:var(--purple-d);margin:0 0 12px;">🎮 Step 2 — Play the Games</h3>
+    <h3 style="color:var(--purple-d);margin:0 0 12px;" id="gamesHeading">🎮 Step 2 — Play the Games</h3>
     <div class="games-row" id="gamesRow"></div>
   </div>
 
@@ -308,6 +308,9 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;font-
   <footer>Made with ❤️ for Hana · Year 5 Learning Quest · your progress is saved automatically on this computer</footer>
 </div>
 
+<script src="content/dialogues_b1.js"></script>
+<script src="content/stories_b1.js"></script>
+<script src="content/stories_b2.js"></script>
 <script>
 /* ============================= DATA ============================= */
 const LEVEL_TITLES = ["Number Novice","Puzzle Padawan","Quest Explorer","Bright Scholar","Clever Champion","Genius in Training","Master of Maths & Words","Grand Wizard of Learning"];
@@ -874,6 +877,8 @@ const WORLDS = [
     ]}
   ]
 },
+{ id:'dialogueCity', library:'dialogues', icon:'🗣️', color:'linear-gradient(135deg,#BE185D,#500724)', title:'Dialogue City', sub:'الحوارات — real conversations all over town', learn:{points:[],example:'',fact:''}, games:[] },
+{ id:'storyLibrary', library:'stories', icon:'📚', color:'linear-gradient(135deg,#B45309,#451A03)', title:'Story Library', sub:'مكتبة القصص — a growing shelf of Arabic stories', learn:{points:[],example:'',fact:''}, games:[] },
 { id:'boss', boss:true, icon:'🏆', color:'linear-gradient(135deg,#111827,#374151)', title:'The Grand Challenge', sub:'Mixed questions from EVERY world — prove you are ready for Year 5!',
   learn:{
     points:["Twelve questions, drawn from every world you have studied — different every time you play."],
@@ -1492,12 +1497,110 @@ arabic5: [
 ]
 };
 
+/* ============================= CONTENT LIBRARIES ============================= */
+const DIALOGUES = [].concat(window.DIALOGUES_B1||[], window.DIALOGUES_B2||[], window.DIALOGUES_B3||[]);
+const STORIES   = [].concat(window.STORIES_B1||[],  window.STORIES_B2||[],  window.STORIES_B3||[]);
+
+function chatHTML(d, upto){
+  let h = "<div class='chat'>";
+  d.lines.slice(0, upto).forEach(l=>{
+    const spk = d.speakers[l.s];
+    const side = l.s==='A' ? 'right' : 'left';
+    h += `<div class='msg ${side}'><div class='av'>${spk.av}</div><div class='bub'><span class='ar2'>${l.ar}</span><small>${l.en}</small></div></div>`;
+  });
+  return h + "</div>";
+}
+function buildDialogueSteps(d){
+  const steps = [];
+  steps.push({say:`${d.emoji} ${d.title} — ${d.cat}. Listen to the conversation, read the bubbles, and say the lines out loud!`,
+    voice:[["en",`${d.title}. ${d.cat}. Listen to the conversation, read along, and say the lines out loud!`]]});
+  for(let i=0; i<d.lines.length; i+=2){
+    const upto = Math.min(i+2, d.lines.length);
+    const v = [];
+    for(let j=i; j<upto; j++){
+      const l = d.lines[j];
+      v.push(["en", d.speakers[l.s].name + " says:"]);
+      v.push([d.speakers[l.s].voice, l.ar]);
+    }
+    steps.push({say:"Listen and read along…", show:chatHTML(d, upto), voice:v});
+  }
+  (d.quiz||[]).forEach(qz=>{
+    steps.push({try:{q:qz.q, choices:qz.choices, a:qz.a, hint:"Think back to the conversation — you can replay it after!", why:qz.ex}});
+  });
+  steps.push({say:"Wonderful listening! Try acting this conversation out loud with someone at home — you take one part, they take the other!",
+    voice:[["en","Wonderful listening! Try acting this conversation out loud with someone at home — you take one part, they take the other!"]]});
+  return steps;
+}
+function buildStorySteps(st){
+  const steps = [];
+  steps.push({say:`${st.emoji} ${st.title} — let's read! Listen to each page, follow the Arabic, and read along out loud.`,
+    voice:[["en",`${st.title}. Let's read! Listen to each page, follow the Arabic, and read along out loud.`]]});
+  st.pages.forEach((pg,i)=>{
+    steps.push({say:`Page ${i+1}.`,
+      show:`<div class='fstack'><div style='font-size:60px;'>${pg.e}</div><div class='bigar' style='font-size:38px;'>${pg.ar}</div><div class='flabel'>${pg.en}</div></div>`,
+      voice:[["en","Page "+(i+1)+":"],["ar",pg.ar],["en",pg.en]]});
+  });
+  (st.quiz||[]).forEach(qz=>{
+    steps.push({try:{q:qz.q, choices:qz.choices, a:qz.a, hint:"Think back to the story — what happened?", why:qz.ex}});
+  });
+  steps.push({say:"Story finished — mabrouk! Reading whole stories is how real Arabic readers are made. Pick another from the shelf!",
+    voice:[["en","Story finished!"],["ar","مَبروك!"],["en","Reading whole stories is how real Arabic readers are made. Pick another from the shelf!"]]});
+  return steps;
+}
+function libraryItems(kind){ return kind==='dialogues' ? DIALOGUES : STORIES; }
+function renderLibrary(w){
+  const items = libraryItems(w.library);
+  state.libDone = state.libDone || {};
+  const doneCount = items.filter(it=>state.libDone[it.id]).length;
+  const lc = document.getElementById('learnCard');
+  lc.innerHTML = `
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <div style="font-size:42px;">${w.icon}</div>
+      <div style="flex:1;min-width:200px;">
+        <div style="font-weight:900;font-size:17px;color:var(--purple-d);">${doneCount} of ${items.length} completed</div>
+        <div style="font-size:13.5px;color:var(--muted);font-weight:600;">${w.library==='dialogues'?'Pick a place, live the conversation — new ones are added in batches!':'Pick a story from the shelf — levels 1 to 3, new stories are added in batches!'}</div>
+      </div>
+    </div>`;
+  document.getElementById('gamesHeading').textContent = w.library==='dialogues' ? '🗣️ Choose a conversation' : '📚 Choose a story';
+  const gr = document.getElementById('gamesRow');
+  gr.innerHTML='';
+  if(!items.length){
+    gr.innerHTML = '<div class="game-card" style="grid-column:1/-1;text-align:center;">New content is on its way — check back soon!</div>';
+  }
+  let lastGroup = null;
+  items.forEach(it=>{
+    const group = w.library==='dialogues' ? it.cat : ('Level '+it.level);
+    if(group!==lastGroup){
+      lastGroup = group;
+      const h = document.createElement('div');
+      h.style.cssText='grid-column:1/-1;font-weight:900;color:var(--purple-d);font-size:14px;margin-top:6px;';
+      h.textContent = group + (w.library==='dialogues' && it.catAr ? ' · '+it.catAr : '');
+      gr.appendChild(h);
+    }
+    const done = !!state.libDone[it.id];
+    const div = document.createElement('div');
+    div.className='game-card';
+    div.innerHTML = `<div class="gicon">${it.emoji}</div><div class="gtitle">${it.title} ${done?'✅':''}</div>
+      <div class="gtype" style="text-transform:none;"><span class="arab" style="font-size:16px;">${it.titleAr||''}</span></div>
+      <button class="play-btn">${done?'🔁 Again':'▶ Start'}</button>`;
+    div.querySelector('.play-btn').onclick = ()=>startLibraryItem(w, it);
+    gr.appendChild(div);
+  });
+  showView('view-topic');
+}
+function startLibraryItem(w, it){
+  const steps = w.library==='dialogues' ? buildDialogueSteps(it) : buildStorySteps(it);
+  lessonState = {world:{id:w.id, title:it.title, boss:false}, steps, idx:0, firstTryCorrect:0, libItem:it, libWorld:w};
+  showView('view-lesson');
+  renderLessonStep();
+}
+
 /* ============================= STATE ============================= */
 const KEY='hanna_y5_quest_v2';
 let state = load();
 function load(){
-  try{ const s = JSON.parse(localStorage.getItem(KEY)); if(s && typeof s==='object') return Object.assign({xp:0,streak:0,worldBest:{},audioOn:true,lessonDone:{}},s); }catch(e){}
-  return {xp:0, streak:0, worldBest:{}, audioOn:true, lessonDone:{}};
+  try{ const s = JSON.parse(localStorage.getItem(KEY)); if(s && typeof s==='object') return Object.assign({xp:0,streak:0,worldBest:{},audioOn:true,lessonDone:{},libDone:{}},s); }catch(e){}
+  return {xp:0, streak:0, worldBest:{}, audioOn:true, lessonDone:{}, libDone:{}};
 }
 function save(){ localStorage.setItem(KEY, JSON.stringify(state)); }
 function resetProgress(){
@@ -1559,6 +1662,13 @@ function openWorld(id){
   const lc = document.getElementById('learnCard');
   const lessonsDone = Object.keys(state.lessonDone||{}).length;
   const done = currentWorld.boss ? lessonsDone >= 10 : !!(state.lessonDone && state.lessonDone[currentWorld.id]);
+  if(currentWorld.library){
+    const head2 = document.getElementById('topicHead');
+    head2.style.background = currentWorld.color;
+    head2.innerHTML = `<div class=\"icon\">${currentWorld.icon}</div><h2>${currentWorld.title}</h2><p>${currentWorld.sub}</p>`;
+    renderLibrary(currentWorld);
+    return;
+  }
   if(currentWorld.boss){
     lc.innerHTML = `
       <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
@@ -1598,6 +1708,7 @@ function openWorld(id){
       <div class="fact-box">${currentWorld.learn.fact}</div></div>`:''}
   `;
 
+  document.getElementById('gamesHeading').textContent = '🎮 Step 2 — Play the Games';
   const gr = document.getElementById('gamesRow');
   gr.innerHTML='';
   const locked = !done;
@@ -1918,6 +2029,27 @@ function speakStep(){
 }
 function finishLesson(){
   const ls = lessonState;
+  if(ls.libItem){
+    const first = !state.libDone[ls.libItem.id];
+    state.libDone[ls.libItem.id] = true;
+    const items = libraryItems(ls.libWorld.library);
+    const doneCount = items.filter(it=>state.libDone[it.id]).length;
+    state.worldBest[ls.libWorld.id] = Math.min(3, Math.round(3*doneCount/Math.max(1,items.length)));
+    addXP(first?30:8);
+    save(); renderHeader();
+    confettiBurst(30);
+    speak("Finished! Wonderful work. Pick another one!");
+    document.getElementById('lessonWrap').innerHTML = `
+      <div class="results-box">
+        <div style="font-size:52px;">${ls.libWorld.library==='dialogues'?'🗣️':'📚'}</div>
+        <div class="bigstars">${ls.libItem.title} — complete!</div>
+        <div class="score">+${first?30:8} XP · ${doneCount}/${items.length} finished in ${ls.libWorld.title}</div>
+        <div class="results-actions">
+          <button class="play-btn" style="width:auto;padding:12px 22px;" onclick="openWorld('${ls.libWorld.id}')">📖 Back to ${ls.libWorld.title}</button>
+        </div>
+      </div>`;
+    return;
+  }
   const first = !state.lessonDone[ls.world.id];
   state.lessonDone[ls.world.id] = true;
   addXP(first?40:10);
@@ -2499,6 +2631,14 @@ function exportSpeechManifest(){
     if(g.type==='order') addEn(g.prompt);
     if(g.type==='trace') (g.letters||[]).forEach(L=> add([["en","Trace this letter. Listen:"],["ar",L.ar],["en","Follow the grey letter with your finger or the mouse. You can do it!"]]));
     if(g.type==='sayback') (g.items||[]).forEach(it=> add([["ar",it.ar]]));
+  }));
+  DIALOGUES.forEach(d=> buildDialogueSteps(d).forEach(st=>{
+    if(st.voice) add(st.voice); else addEn(st.say);
+    if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
+  }));
+  STORIES.forEach(x=> buildStorySteps(x).forEach(st=>{
+    if(st.voice) add(st.voice); else addEn(st.say);
+    if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
   }));
   STORY_PROMPTS.forEach(addEn);
   PRAISE.forEach(addEn);
