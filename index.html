@@ -218,6 +218,10 @@ button{font-family:inherit;cursor:pointer;touch-action:manipulation;-webkit-tap-
 
 /* ===== VOICE TIP ===== */
 .voicetip{background:#FFF7ED;border:2px solid var(--yellow);border-radius:16px;padding:12px 16px;margin-top:12px;font-size:13.5px;line-height:1.55;color:#78350F;font-weight:600;}
+.voice-pick{display:flex;flex-direction:column;gap:10px;margin:10px 0;}
+.voice-pick label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:800;color:#78350F;}
+.voice-pick select{flex:1;min-width:180px;padding:8px 10px;border-radius:10px;border:2px solid var(--yellow);background:#fff;font-family:inherit;font-weight:700;font-size:13.5px;color:var(--ink);}
+.voice-sample{border:2px solid var(--orange);background:#fff;color:#92400E;border-radius:10px;padding:6px 12px;font-weight:800;font-size:12.5px;}
 
 /* ===== DIALOGUE CHAT ===== */
 .chat{display:flex;flex-direction:column;gap:10px;max-width:560px;width:100%;}
@@ -291,11 +295,18 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;font-
   </div>
 
   <div id="voiceTip" class="voicetip" style="display:none;">
-    <b>🎙️ Make the voices sound better (free):</b> On your Mac open <b>System Settings → Accessibility → Spoken Content → System Voice → Manage Voices…</b><br>
-    · <b>English:</b> download <b>“Ava (Premium)”</b> for a much warmer teacher voice.<br>
-    · <b>Arabic:</b> open the <b>Arabic</b> section — if a female voice such as <b>“Laila”</b> or <b>“Mariam”</b> is listed, download her and the app will switch to her automatically. If only “Majed” is offered, download <b>“Majed (Enhanced)”</b> for the best male quality.<br>
-    Then reopen this page — the app always picks the best voices installed.<br>
-    <span style="color:var(--muted);">Currently using — English: <b id="voiceEnName">…</b> · Arabic: <b id="voiceArName">…</b></span>
+    <b>🎙️ Choose your speakers</b> — pick the voices you like best. Your choice is saved.<br>
+    <div class="voice-pick">
+      <label>English teacher voice
+        <select id="voiceEnSel" onchange="setVoice('en', this.value)"></select>
+        <button class="voice-sample" onclick="sampleVoice('en')">🔊 sample</button>
+      </label>
+      <label>Arabic voice
+        <select id="voiceArSel" onchange="setVoice('ar', this.value)"></select>
+        <button class="voice-sample" onclick="sampleVoice('ar')">🔊 sample</button>
+      </label>
+    </div>
+    <span style="color:var(--muted);font-size:12px;">The man's voice in the conversations stays the same. More voices can be added on request.</span>
   </div>
 
   <!-- MAP VIEW -->
@@ -1935,8 +1946,8 @@ function startLibraryItem(w, it){
 const KEY='hanna_y5_quest_v2';
 let state = load();
 function load(){
-  try{ const s = JSON.parse(localStorage.getItem(KEY)); if(s && typeof s==='object') return Object.assign({xp:0,streak:0,worldBest:{},audioOn:true,lessonDone:{},libDone:{}},s); }catch(e){}
-  return {xp:0, streak:0, worldBest:{}, audioOn:true, lessonDone:{}, libDone:{}};
+  try{ const s = JSON.parse(localStorage.getItem(KEY)); if(s && typeof s==='object') return Object.assign({xp:0,streak:0,worldBest:{},audioOn:true,lessonDone:{},libDone:{},voiceEn:'default',voiceAr:'default'},s); }catch(e){}
+  return {xp:0, streak:0, worldBest:{}, audioOn:true, lessonDone:{}, libDone:{}, voiceEn:'default', voiceAr:'default'};
 }
 function save(){ localStorage.setItem(KEY, JSON.stringify(state)); }
 function resetProgress(){
@@ -2236,8 +2247,24 @@ function speakParts(parts){
   }
   next();
 }
+/* selectable pre-generated voices — 'default' = flat audio/ folder, others = audio/<id>/ */
+const VOICE_OPTIONS = {
+  en: [
+    {id:'default', label:'👩 Sonia — British lady (default)'},
+    {id:'ryan',    label:'👨 Ryan — British man'},
+  ],
+  ar: [
+    {id:'default', label:'👩 Zariyah — clear Standard Arabic lady (default)'},
+    {id:'hamed',   label:'👨 Hamed — Standard Arabic man'},
+  ],
+};
+function clipPath(lang, key){
+  if(lang==='en' && state.voiceEn && state.voiceEn!=='default') return 'audio/'+state.voiceEn+'/'+key+'.mp3';
+  if(lang==='ar' && state.voiceAr && state.voiceAr!=='default') return 'audio/'+state.voiceAr+'/'+key+'.mp3';
+  return 'audio/'+key+'.mp3';   // arm (dialogue men) always default
+}
 function playOne(lang, text, token, done){
-  const a = new Audio('audio/' + speechKey(lang,text) + '.mp3');
+  const a = new Audio(clipPath(lang, speechKey(lang,text)));
   let fellBack = false;
   const fallback = ()=>{ if(fellBack || token !== playToken) return; fellBack = true; synthSpeak(lang, text, token, done); };
   a.onended = ()=>{ setTimeout(()=>{ if(token === playToken) done(); }, 140); };
@@ -2273,11 +2300,20 @@ function toggleVoiceTip(){
   updateVoiceTip();
 }
 function updateVoiceTip(){
-  const en = getVoiceFor('en'), ar = getVoiceFor('ar');
-  const enEl = document.getElementById('voiceEnName'), arEl = document.getElementById('voiceArName');
-  if(enEl) enEl.textContent = en ? en.name : 'default';
-  if(arEl) arEl.textContent = ar ? ar.name : 'none found — download “Majed” for Arabic!';
+  ['en','ar'].forEach(lang=>{
+    const sel = document.getElementById(lang==='en'?'voiceEnSel':'voiceArSel');
+    if(!sel) return;
+    const cur = lang==='en'? state.voiceEn : state.voiceAr;
+    sel.innerHTML = VOICE_OPTIONS[lang].map(v=>`<option value="${v.id}" ${v.id===cur?'selected':''}>${v.label}</option>`).join('');
+  });
 }
+const VOICE_SAMPLES = { en:"Hello Hana! I'm your teacher. Let's learn something wonderful today!", ar:"السَّلامُ عَلَيكُم يا هَنا! هَيّا نَتَعَلَّمُ العَرَبِيَّة." };
+function setVoice(lang, id){
+  if(lang==='en') state.voiceEn = id; else state.voiceAr = id;
+  save();
+  sampleVoice(lang);
+}
+function sampleVoice(lang){ const on = state.audioOn; state.audioOn = true; speak(VOICE_SAMPLES[lang], lang); state.audioOn = on; }
 function announceResult(stars){
   const lines = {3:"Wow! Amazing work — three shiny stars!",2:"Great job! Two stars — so close to perfect!",1:"Nice try! Let's keep practising and go again!",0:"Keep going — you'll get it next time!"};
   speak(lines[stars] ?? lines[1]);
