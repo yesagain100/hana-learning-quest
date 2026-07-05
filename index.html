@@ -311,6 +311,8 @@ footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;font-
 <script src="content/dialogues_b1.js"></script>
 <script src="content/stories_b1.js"></script>
 <script src="content/stories_b2.js"></script>
+<script src="content/islamic_prophets.js"></script>
+<script src="content/islamic_values.js"></script>
 <script>
 /* ============================= DATA ============================= */
 const LEVEL_TITLES = ["Number Novice","Puzzle Padawan","Quest Explorer","Bright Scholar","Clever Champion","Genius in Training","Master of Maths & Words","Grand Wizard of Learning"];
@@ -817,15 +819,15 @@ const WORLDS = [
     ]}
   ]
 },
-{ id:'arabic4', icon:'🎭', color:'linear-gradient(135deg,#4F46E5,#312E81)', title:'Arabic — Real Dialogues', sub:'الحوارات — breakfast, the shop & a call with Teta',
+{ id:'arabic4', icon:'🎭', color:'linear-gradient(135deg,#4F46E5,#312E81)', title:'Arabic — Real Dialogues', sub:'الحوارات — breakfast, the shop & a call with Nena',
   learn:{
     points:[
       "Shop talk: <span class='arab'>بِكَم هٰذا؟</span> how much is this? · <span class='arab'>تَفَضَّلي</span> here you are · <span class='arab'>مِن فَضلِك</span> please.",
       "At home: <span class='arab'>هَل أَنتِ جاهِزة؟</span> are you ready? · <span class='arab'>حَقيبَتي</span> my bag.",
       "Egyptian phone talk: <span class='arab'>أَلو؟ مين مَعايا؟</span> hello, who's speaking? · <span class='arab'>وَحَشتيني</span> I miss you!"
     ],
-    example:"<span class='arab'>وَإنتِ وَحَشتيني كَمان يا تيتة!</span> — and I miss YOU too, Teta!",
-    fact:"Fun fact: وَحَشتيني (I miss you) is pure Egyptian — say it to Teta and watch her melt!"
+    example:"<span class='arab'>وَإنتِ وَحَشتيني كَمان يا نينة!</span> — and I miss YOU too, Nena!",
+    fact:"Fun fact: وَحَشتيني (I miss you) is pure Egyptian — say it to Nena and watch her melt!"
   },
   games:[
     {id:'ar4_match', title:'Dialogue Match', icon:'🧠', type:'match', pairs:[
@@ -835,8 +837,8 @@ const WORLDS = [
       {q:"The shopkeeper hands you the juice and says...", choices:["تفضلي","بكم هذا؟","وحشتيني","ألو؟"], a:0, ex:"تفضلي — here you are!", voice:[["en","The shopkeeper hands you the juice and says:"],["arm","تَفَضَّلي"],["en","What does it mean?"]]},
       {q:"You want to know the PRICE. You ask...", choices:["بكم هذا؟","أين هذا؟","من هذا؟","هل هذا؟"], a:0, ex:"بكم هذا؟ — how much is this?", voice:[["en","You want to know the price. What do you ask?"]]},
       {q:"Baba asks: هل أنتِ جاهزة للمدرسة؟ He wants to know if you are...", choices:["Ready","Hungry","Sleepy","Late"], a:0, ex:"جاهزة = ready!", voice:[["en","Baba asks:"],["arm","هَل أَنتِ جاهِزة لِلمَدرَسة؟"],["en","What does he want to know?"]]},
-      {q:"Teta answers the phone: أَلو؟ مين مَعايا؟ She is asking...", choices:["Who is speaking?","What time is it?","Where are you?","Are you hungry?"], a:0, ex:"مين معايا؟ — who is with me (on the line)? Pure Egyptian!", voice:[["en","Teta answers the phone:"],["ar","أَلو؟ مين مَعايا؟"],["en","What is she asking?"]]},
-      {q:"Teta says وَحَشتيني. What do you reply?", choices:["وَإنتِ وَحَشتيني كَمان","بكم هذا؟","تفضلي","لا شكراً"], a:0, ex:"And I miss you too!", voice:[["en","Teta says:"],["ar","وَحَشتيني"],["en","What do you reply?"]]},
+      {q:"Nena answers the phone: أَلو؟ مين مَعايا؟ She is asking...", choices:["Who is speaking?","What time is it?","Where are you?","Are you hungry?"], a:0, ex:"مين معايا؟ — who is with me (on the line)? Pure Egyptian!", voice:[["en","Nena answers the phone:"],["ar","أَلو؟ مين مَعايا؟"],["en","What is she asking?"]]},
+      {q:"Nena says وَحَشتيني. What do you reply?", choices:["وَإنتِ وَحَشتيني كَمان","بكم هذا؟","تفضلي","لا شكراً"], a:0, ex:"And I miss you too!", voice:[["en","Nena says:"],["ar","وَحَشتيني"],["en","What do you reply?"]]},
       {q:"How do you ask for orange juice politely?", choices:["أريد عصير برتقال من فضلك","عصير! الآن!","أين العصير","هذا عصير"], a:0, ex:"أريد عصير برتقال من فضلك — I want orange juice, please."}
     ]},
     {id:'ar4_order', title:'Order the Shop Dialogue', icon:'🔧', type:'order', rtl:true, prompt:'Put the shop conversation in the right order (first line first!)', items:[
@@ -859,11 +861,11 @@ const WORLDS = [
   },
   games:[
     {id:'ar5_mcq', title:'Story Quiz', icon:'🐱', type:'mcq', questions:[
-      {q:"What is the cat's name?", choices:["لولو","هنا","تيتة","سلمى"], a:0, ex:"Lulu — لولو!"},
+      {q:"What is the cat's name?", choices:["لولو","هنا","نينة","سلمى"], a:0, ex:"Lulu — لولو!"},
       {q:"What does Lulu love to drink?", choices:["اللبن","العصير","الماء","الشاي"], a:0, ex:"اللبن — milk!"},
       {q:"Where was Lulu hiding?", choices:["فوق الشجرة","في البيت","في المدرسة","تحت الكرسي"], a:0, ex:"Up the tree — فوق الشجرة!", voice:[["en","Where was Lulu hiding?"]]},
       {q:"حَزينة means...", choices:["Sad","Happy","Small","White"], a:0, ex:"Sad — Hana was sad when Lulu disappeared.", voice:[["en","Listen:"],["ar","حَزينة"],["en","What does it mean?"]]},
-      {q:"Who helped Hana get Lulu down?", choices:["بابا","ماما","تيتة","جدو"], a:0, ex:"Baba helped — بابا يساعد هنا."},
+      {q:"Who helped Hana get Lulu down?", choices:["بابا","ماما","نينة","جدو"], a:0, ex:"Baba helped — بابا يساعد هنا."},
       {q:"At the end, Hana is...", choices:["سَعيدة","حَزينة","جاهِزة","صَغيرة"], a:0, ex:"Happy — سعيدة!", voice:[["en","At the end of the story, Hana is...?"]]}
     ]},
     {id:'ar5_match', title:'Story Word Match', icon:'🧠', type:'match', pairs:[
@@ -877,6 +879,142 @@ const WORLDS = [
     ]}
   ]
 },
+{ id:'pillars', icon:'🕌', color:'linear-gradient(135deg,#166534,#14532D)', title:'The Five Pillars', sub:'أركان الإسلام — the five pillars of Islam',
+  learn:{
+    points:[
+      "Islam stands on FIVE pillars: <span class='arab'>الشَّهادة</span> (faith), <span class='arab'>الصَّلاة</span> (prayer), <span class='arab'>الزَّكاة</span> (charity), <span class='arab'>الصَّوم</span> (fasting), <span class='arab'>الحَجّ</span> (pilgrimage).",
+      "The Shahada is our promise: <span class='arab'>لا إِلهَ إِلّا اللَّه، مُحَمَّدٌ رَسولُ اللَّه</span> — there is no god but Allah, and Muhammad ﷺ is His Messenger.",
+      "We pray five times a day, give to the poor, fast in Ramadan, and visit the Kaaba in Makkah if we are able."
+    ],
+    example:"Five prayers a day: Fajr, Dhuhr, Asr, Maghrib and Isha.",
+    fact:"Fun fact: Muslims all around the world face the same place when they pray — the Kaaba in Makkah!"
+  },
+  games:[
+    {id:'pil_mcq', title:'Five Pillars Quiz', icon:'🕌', type:'mcq', questions:[
+      {q:"How many pillars does Islam stand on?", choices:["Five","Three","Seven","Ten"], a:0, ex:"Five pillars — faith, prayer, charity, fasting and pilgrimage."},
+      {q:"Which pillar means PRAYER?", choices:["الصَّلاة","الزَّكاة","الصَّوم","الحَجّ"], a:0, ex:"As-salah — the five daily prayers.", voice:[["en","Which pillar means prayer?"]]},
+      {q:"Which pillar is giving CHARITY to the poor?", choices:["الزَّكاة","الصَّلاة","الحَجّ","الشَّهادة"], a:0, ex:"Az-zakat — sharing our wealth with those in need.", voice:[["en","Which pillar is giving charity to the poor?"]]},
+      {q:"In which month do Muslims FAST?", choices:["Ramadan","Shawwal","Rajab","Safar"], a:0, ex:"We fast from dawn to sunset in Ramadan."},
+      {q:"The Hajj pilgrimage is to which city?", choices:["Makkah","Cairo","Dubai","Madinah"], a:0, ex:"Muslims travel to the Kaaba in Makkah."},
+      {q:"How many prayers do Muslims pray each day?", choices:["Five","Three","Seven","Two"], a:0, ex:"Fajr, Dhuhr, Asr, Maghrib and Isha — five!"}
+    ]},
+    {id:'pil_match', title:'Pillar Match', icon:'🧠', type:'match', pairs:[
+      ["الشَّهادة","Faith"],["الصَّلاة","Prayer"],["الزَّكاة","Charity"],["الصَّوم","Fasting"],["الحَجّ","Pilgrimage"],["الكَعبة","The Kaaba"]
+    ]},
+    {id:'pil_say', title:'Say It Back!', icon:'🎤', type:'sayback', items:[
+      {ar:'الشَّهادة', en:'the testimony of faith'},{ar:'الصَّلاة', en:'prayer'},{ar:'الزَّكاة', en:'charity'},{ar:'الصَّوم', en:'fasting'},{ar:'الحَجّ', en:'pilgrimage'},{ar:'لا إِلهَ إِلّا الله', en:'there is no god but Allah'}
+    ]}
+  ]
+},
+{ id:'iman', icon:'⭐', color:'linear-gradient(135deg,#0F766E,#134E4A)', title:'The Six Beliefs', sub:'أركان الإيمان — the six articles of faith',
+  learn:{
+    points:[
+      "A Muslim believes in SIX things: <span class='arab'>الله</span> (Allah), <span class='arab'>المَلائِكة</span> (the angels), <span class='arab'>الكُتُب</span> (His books), <span class='arab'>الرُّسُل</span> (His messengers), <span class='arab'>اليَومِ الآخِر</span> (the Last Day) and <span class='arab'>القَدَر</span> (destiny).",
+      "Allah sent holy books — the greatest is the <span class='arab'>القُرآن</span> (Quran), given to Prophet Muhammad ﷺ.",
+      "Allah sent many messengers to guide people — like Nuh, Ibrahim, Musa, Isa and Muhammad ﷺ, peace be upon them all."
+    ],
+    example:"The angels are made of light — Jibril brought Allah's words to the Prophet ﷺ.",
+    fact:"Fun fact: the Quran has been kept word-for-word, exactly the same, for over 1,400 years!"
+  },
+  games:[
+    {id:'im_mcq', title:'Six Beliefs Quiz', icon:'⭐', type:'mcq', questions:[
+      {q:"How many articles of faith does a Muslim believe in?", choices:["Six","Five","Three","Ten"], a:0, ex:"Six: Allah, angels, books, messengers, the Last Day, and destiny."},
+      {q:"What is the holy book given to Prophet Muhammad ﷺ?", choices:["The Quran","The Story Book","The Atlas","The Diary"], a:0, ex:"The Quran — Allah's final book.", voice:[["en","What is the holy book given to Prophet Muhammad, peace be upon him?"]]},
+      {q:"The angels are made of...", choices:["Light","Sand","Water","Metal"], a:0, ex:"Angels are made of light and always obey Allah."},
+      {q:"Which angel brought Allah's message to the prophets?", choices:["Jibril","A friend","A king","A bird"], a:0, ex:"Angel Jibril, peace be upon him."},
+      {q:"Which of these is a messenger of Allah?", choices:["Musa","A pharaoh","A merchant","A poet"], a:0, ex:"Musa, peace be upon him — one of Allah's great messengers."},
+      {q:"'القَدَر' means believing that...", choices:["Everything happens by Allah's plan","Nothing matters","We control everything","The future is random"], a:0, ex:"Qadar — trusting Allah's wise plan.", voice:[["en","Believing in destiny means believing that...?"]]}
+    ]},
+    {id:'im_match', title:'Beliefs Match', icon:'🧠', type:'match', pairs:[
+      ["الله","Allah"],["المَلائِكة","The Angels"],["القُرآن","The Quran"],["الرُّسُل","The Messengers"],["اليَومِ الآخِر","The Last Day"],["جِبريل","Angel Jibril"]
+    ]},
+    {id:'im_say', title:'Say It Back!', icon:'🎤', type:'sayback', items:[
+      {ar:'الله', en:'Allah'},{ar:'المَلائِكة', en:'the angels'},{ar:'القُرآن', en:'the Quran'},{ar:'الرُّسُل', en:'the messengers'},{ar:'آمَنتُ بِالله', en:'I believe in Allah'},{ar:'الحَمدُ لله', en:'praise be to Allah'}
+    ]}
+  ]
+},
+{ id:'wudu', icon:'💧', color:'linear-gradient(135deg,#0369A1,#0C4A6E)', title:'Wudu & Prayer', sub:'الوضوء والصلاة — washing & how we pray',
+  learn:{
+    points:[
+      "Before we pray, we make <span class='arab'>الوُضوء</span> (wudu) — washing to be clean, starting with <span class='arab'>بِسْمِ اللَّه</span>.",
+      "Wudu order: wash hands, rinse mouth and nose, wash face, wash arms to the elbows, wipe the head and ears, wash feet to the ankles.",
+      "In prayer we stand facing Makkah, then bow (<span class='arab'>رُكوع</span>), then place our forehead on the ground (<span class='arab'>سُجود</span>) — the closest we come to Allah."
+    ],
+    example:"We wash most parts three times, and wipe the head just once.",
+    fact:"Fun fact: putting your forehead on the ground in sujood is a sign of loving and thanking Allah!"
+  },
+  games:[
+    {id:'wu_order', title:'Wudu in Order', icon:'💧', type:'order', prompt:'Put the steps of wudu in the correct order (first step first!)', items:[
+      {label:"Wash the hands",val:1},{label:"Rinse the mouth",val:2},{label:"Wash the face",val:3},{label:"Wash the arms",val:4},{label:"Wipe the head",val:5},{label:"Wash the feet",val:6}
+    ]},
+    {id:'wu_mcq', title:'Wudu & Prayer Quiz', icon:'🕋', type:'mcq', questions:[
+      {q:"What do we say before starting wudu?", choices:["بِسْمِ اللَّه","الحَمدُ لله","سُبحانَ الله","الله أَكبَر"], a:0, ex:"Bismillah — in the name of Allah.", voice:[["en","What do we say before starting wudu?"]]},
+      {q:"Which part of the body do we wash LAST in wudu?", choices:["The feet","The hands","The face","The mouth"], a:0, ex:"The feet, up to the ankles — the last step."},
+      {q:"How many times do we usually wash the face?", choices:["Three","One","Five","Seven"], a:0, ex:"Three times — like most parts of wudu."},
+      {q:"When we pray, which city do we face?", choices:["Makkah","Cairo","Madinah","Alexandria"], a:0, ex:"We face the Kaaba in Makkah."},
+      {q:"What is 'sujood'?", choices:["Placing the forehead on the ground","Jumping up","Clapping hands","Sitting on a chair"], a:0, ex:"Sujood — prostration, forehead to the ground.", voice:[["en","What is sujood?"]]},
+      {q:"Which prayer is at dawn, before sunrise?", choices:["Fajr","Maghrib","Isha","Asr"], a:0, ex:"Fajr — the dawn prayer."}
+    ]},
+    {id:'wu_say', title:'Say It Back!', icon:'🎤', type:'sayback', items:[
+      {ar:'الوُضوء', en:'the washing (wudu)'},{ar:'بِسْمِ اللَّه', en:'in the name of Allah'},{ar:'الصَّلاة', en:'prayer'},{ar:'رُكوع', en:'bowing'},{ar:'سُجود', en:'prostration'},{ar:'الله أَكبَر', en:'Allah is the greatest'}
+    ]}
+  ]
+},
+{ id:'duas', icon:'🤲', color:'linear-gradient(135deg,#B45309,#78350F)', title:'Everyday Duas', sub:'الأدعية — little prayers for every day',
+  learn:{
+    points:[
+      "A <span class='arab'>دُعاء</span> (dua) is a little prayer — talking to Allah any time, in your own heart.",
+      "Before eating we say <span class='arab'>بِسْمِ اللَّه</span>, and after eating <span class='arab'>الحَمدُ لله</span> (thank you, Allah).",
+      "A beautiful dua for learning: <span class='arab'>رَبِّ زِدْني عِلْماً</span> — my Lord, increase me in knowledge."
+    ],
+    example:"When we hope for something we say Insha'Allah — 'if Allah wills'.",
+    fact:"Fun fact: Allah loves when we ask Him — you can make dua anywhere, even walking to school!"
+  },
+  games:[
+    {id:'du_match', title:'When Do We Say It?', icon:'🧠', type:'match', pairs:[
+      ["بِسْمِ اللَّه","Before eating"],["الحَمدُ لله","After eating"],["رَبِّ زِدْني عِلْماً","When learning"],["الله أَكبَر","Starting prayer"],["أَستَغفِرُ الله","Asking forgiveness"],["إِن شاءَ الله","Hoping for something"]
+    ]},
+    {id:'du_mcq', title:'Dua Quiz', icon:'🤲', type:'mcq', questions:[
+      {q:"What do we say BEFORE we eat?", choices:["بِسْمِ اللَّه","الحَمدُ لله","سُبحانَ الله","آمين"], a:0, ex:"Bismillah — in the name of Allah.", voice:[["en","What do we say before we eat?"]]},
+      {q:"What do we say to THANK Allah after eating?", choices:["الحَمدُ لله","بِسْمِ اللَّه","الله أَكبَر","لا إِلهَ إِلّا الله"], a:0, ex:"Alhamdulillah — all praise is for Allah.", voice:[["en","What do we say to thank Allah after eating?"]]},
+      {q:"'رَبِّ زِدْني عِلْماً' is a dua for...", choices:["More knowledge","More food","More toys","More sleep"], a:0, ex:"My Lord, increase me in knowledge — perfect before study!", voice:[["en","This dua asks Allah for more of what?"]]},
+      {q:"What does 'Insha'Allah' mean?", choices:["If Allah wills","Goodbye","Thank you","Sorry"], a:0, ex:"We say it when we hope to do something."},
+      {q:"When someone sneezes and says Alhamdulillah, you reply...", choices:["يَرحَمُكَ الله","بِسْمِ اللَّه","إِن شاءَ الله","آمين"], a:0, ex:"Yarhamuk-Allah — may Allah have mercy on you.", voice:[["en","When someone sneezes and praises Allah, what do you reply?"]]},
+      {q:"A dua is...", choices:["Talking to Allah","A type of food","A game","A song"], a:0, ex:"A dua is a little prayer — asking and thanking Allah."}
+    ]},
+    {id:'du_say', title:'Say It Back!', icon:'🎤', type:'sayback', items:[
+      {ar:'بِسْمِ اللَّه', en:'in the name of Allah'},{ar:'الحَمدُ لله', en:'praise be to Allah'},{ar:'رَبِّ زِدْني عِلْماً', en:'my Lord, increase me in knowledge'},{ar:'سُبحانَ الله', en:'glory be to Allah'},{ar:'إِن شاءَ الله', en:'if Allah wills'},{ar:'آمين', en:'ameen'}
+    ]}
+  ]
+},
+{ id:'names_akhlaq', icon:'🌟', color:'linear-gradient(135deg,#15803D,#052E16)', title:"Allah's Names & Manners", sub:'أسماء الله والأخلاق — beautiful names & good manners',
+  learn:{
+    points:[
+      "Allah has beautiful names: <span class='arab'>الرَّحمن</span> (the Most Merciful), <span class='arab'>الخالِق</span> (the Creator), <span class='arab'>السَّميع</span> (the All-Hearing), <span class='arab'>الغَفور</span> (the Forgiving).",
+      "Good manners (<span class='arab'>الأَخلاق</span>) are a big part of Islam: telling the truth, being kind, and respecting our parents.",
+      "We greet each other with peace: <span class='arab'>السَّلامُ عَلَيكُم</span> — and Islam teaches us that even a smile is a charity."
+    ],
+    example:"Allah is Ar-Rahman — He is more kind to us than a mother is to her baby.",
+    fact:"Fun fact: being kind to animals is so loved in Islam that a man was forgiven just for giving water to a thirsty dog!"
+  },
+  games:[
+    {id:'na_match', title:'Names of Allah Match', icon:'🧠', type:'match', pairs:[
+      ["الرَّحمن","The Most Merciful"],["الخالِق","The Creator"],["السَّميع","The All-Hearing"],["البَصير","The All-Seeing"],["الغَفور","The Forgiving"],["الكَريم","The Generous"]
+    ]},
+    {id:'na_mcq', title:'Manners Quiz', icon:'🌟', type:'mcq', questions:[
+      {q:"'الرَّحمن' means Allah is...", choices:["The Most Merciful","The Strongest","The Oldest","The Tallest"], a:0, ex:"Ar-Rahman — the Most Merciful, kinder than anyone.", voice:[["en","What does this name of Allah mean?"]]},
+      {q:"How do Muslims greet each other?", choices:["السَّلامُ عَلَيكُم","Goodbye","Hurry up","Be quiet"], a:0, ex:"As-salamu alaykum — peace be upon you.", voice:[["en","How do Muslims greet each other?"]]},
+      {q:"Islam teaches us to always...", choices:["Tell the truth","Tell little lies","Keep secrets from parents","Be unkind"], a:0, ex:"Honesty is a beautiful Muslim manner."},
+      {q:"How should we treat our parents?", choices:["With love and respect","Ignore them","Argue with them","Shout at them"], a:0, ex:"Respecting parents is greatly loved by Allah."},
+      {q:"According to Islam, even a ___ is a charity.", choices:["Smile","Coin only","Big gift only","Long speech"], a:0, ex:"Even a smile counts as charity — how lovely!"},
+      {q:"'الغَفور' means Allah is...", choices:["The Forgiving","The Forgetful","The Far Away","The Silent"], a:0, ex:"Al-Ghafoor — He forgives us when we say sorry.", voice:[["en","What does this name of Allah mean?"]]}
+    ]},
+    {id:'na_say', title:'Say It Back!', icon:'🎤', type:'sayback', items:[
+      {ar:'الرَّحمن', en:'the Most Merciful'},{ar:'الخالِق', en:'the Creator'},{ar:'الغَفور', en:'the Forgiving'},{ar:'السَّلامُ عَلَيكُم', en:'peace be upon you'},{ar:'سُبحانَ الله', en:'glory be to Allah'},{ar:'ما شاءَ الله', en:'what Allah has willed'}
+    ]}
+  ]
+},
+{ id:'islamicLibrary', library:'islamic', icon:'🕌', color:'linear-gradient(135deg,#166534,#052E16)', title:'Prophet & Values Stories', sub:'قصص الأنبياء والأخلاق — stories of the Prophets & beautiful manners', learn:{points:[],example:'',fact:''}, games:[] },
 { id:'dialogueCity', library:'dialogues', icon:'🗣️', color:'linear-gradient(135deg,#BE185D,#500724)', title:'Dialogue City', sub:'الحوارات — real conversations all over town', learn:{points:[],example:'',fact:''}, games:[] },
 { id:'storyLibrary', library:'stories', icon:'📚', color:'linear-gradient(135deg,#B45309,#451A03)', title:'Story Library', sub:'مكتبة القصص — a growing shelf of Arabic stories', learn:{points:[],example:'',fact:''}, games:[] },
 { id:'boss', boss:true, icon:'🏆', color:'linear-gradient(135deg,#111827,#374151)', title:'The Grand Challenge', sub:'Mixed questions from EVERY world — prove you are ready for Year 5!',
@@ -1282,6 +1420,178 @@ fractions2: [
  {say:"You have sailed Fraction Falls! Mixed and improper, matching bottoms, adding, subtracting and multiplying. That is the complete Year 5 fraction toolkit. Games ahead!"}
 ],
 
+pillars: [
+ {say:"Assalamu alaykum, Hana! Today we learn the FIVE PILLARS of Islam — the five things Islam is built upon. Just like a house needs strong pillars to stand, our faith stands on these five. Bismillah, let's begin!",
+  voice:[["ar","السَّلامُ عَلَيكُم يا هَنا!"],["en","Today we learn the five pillars of Islam — the five things Islam is built upon. Just like a house needs strong pillars to stand, our faith stands on these five. Let's begin!"]]},
+ {say:"Here are all five together: the Shahada — our faith; the Salah — prayer; the Zakat — charity; the Sawm — fasting; and the Hajj — the pilgrimage to Makkah.",
+  show:"<div class='chips'><div class='c'><span class='arab'>الشَّهادة</span><small>faith</small></div><div class='c'><span class='arab'>الصَّلاة</span><small>prayer</small></div><div class='c'><span class='arab'>الزَّكاة</span><small>charity</small></div><div class='c'><span class='arab'>الصَّوم</span><small>fasting</small></div><div class='c'><span class='arab'>الحَجّ</span><small>pilgrimage</small></div></div>",
+  voice:[["en","Here are all five together. Faith:"],["ar","الشَّهادة"],["en","Prayer:"],["ar","الصَّلاة"],["en","Charity:"],["ar","الزَّكاة"],["en","Fasting:"],["ar","الصَّوم"],["en","And pilgrimage:"],["ar","الحَجّ"]]},
+ {say:"Pillar one is the Shahada — our promise. We say: there is no god but Allah, and Muhammad is the Messenger of Allah. Saying this with a true heart makes a person a Muslim.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:40px;'>لا إِلهَ إِلّا اللَّه<br>مُحَمَّدٌ رَسولُ اللَّه</div><div class='flabel'>There is no god but Allah, Muhammad ﷺ is His Messenger</div></div>",
+  voice:[["en","Pillar one is the Shahada — our promise. Listen:"],["ar","لا إِلهَ إِلّا اللَّه، مُحَمَّدٌ رَسولُ اللَّه"],["en","There is no god but Allah, and Muhammad, peace be upon him, is the Messenger of Allah."]]},
+ {try:{q:"What is the FIRST pillar — our promise of faith?", choices:["The Shahada","The Hajj","The Zakat","The Sawm"], a:0,
+  hint:"It is the promise that there is no god but Allah…",
+  why:"The Shahada — our declaration of faith!", whyVoice:[["ar","الشَّهادة"]]}},
+ {say:"Pillar two is Salah — prayer. Five times every day we stand before Allah: at dawn, at midday, in the afternoon, at sunset, and at night. Their names are Fajr, Dhuhr, Asr, Maghrib and Isha.",
+  show:"<div class='chips'><div class='c'>Fajr<small>dawn</small></div><div class='c'>Dhuhr<small>midday</small></div><div class='c'>Asr<small>afternoon</small></div><div class='c'>Maghrib<small>sunset</small></div><div class='c'>Isha<small>night</small></div></div>",
+  voice:[["en","Pillar two is Salah — prayer. Five times every day we stand before Allah: at dawn, at midday, in the afternoon, at sunset, and at night."]]},
+ {try:{q:"How many times a day do Muslims pray?", choices:["Five","Three","Ten","Once"], a:0,
+  hint:"Fajr, Dhuhr, Asr, Maghrib… and one more!",
+  why:"Five prayers, from dawn to night!"}},
+ {say:"Pillar three is Zakat — charity. Those who have money give a small part of it every year to the poor and hungry. It cleans our hearts from greed and spreads happiness.",
+  show:"<div class='fstack'><div style='font-size:56px;'>🤲</div><div class='bigar' style='font-size:40px;'>الزَّكاة</div><div class='flabel'>giving to those in need</div></div>",
+  voice:[["en","Pillar three is Zakat — charity. Those who have money give a small part of it every year to the poor and hungry. It cleans our hearts and spreads happiness."]]},
+ {say:"Pillar four is Sawm — fasting in the month of Ramadan. From dawn until sunset we do not eat or drink. It teaches us patience, and to feel for those who are hungry. Then we celebrate with Eid!",
+  show:"<div class='fstack'><div style='font-size:56px;'>🌙</div><div class='bigar' style='font-size:40px;'>الصَّوم</div><div class='flabel'>fasting in Ramadan</div></div>",
+  voice:[["en","Pillar four is Sawm — fasting in the month of Ramadan. From dawn until sunset we do not eat or drink. It teaches us patience, and to feel for those who are hungry. Then we celebrate with Eid!"]]},
+ {try:{q:"In which special month do Muslims fast?", choices:["Ramadan","Shaban","Rajab","Muharram"], a:0,
+  hint:"It ends with the happy celebration of Eid…",
+  why:"Ramadan — the month of fasting!"}},
+ {say:"Pillar five is Hajj — the great journey to the Kaaba in Makkah. Once in their life, every Muslim who is able travels there, wearing simple white clothes, rich and poor standing side by side as equals before Allah.",
+  show:"<div class='fstack'><div style='font-size:56px;'>🕋</div><div class='bigar' style='font-size:40px;'>الحَجّ</div><div class='flabel'>the pilgrimage to Makkah</div></div>",
+  voice:[["en","Pillar five is Hajj — the great journey to the Kaaba in Makkah. Once in their life, every Muslim who is able travels there, wearing simple white clothes, rich and poor standing side by side as equals before Allah."]]},
+ {try:{q:"The Hajj pilgrimage is a journey to which city?", choices:["Makkah","Cairo","Madinah","London"], a:0,
+  hint:"It is where the Kaaba stands…",
+  why:"Makkah — home of the holy Kaaba!"}},
+ {say:"MashaAllah, Hana! You now know all five pillars: the Shahada, Salah, Zakat, Sawm and Hajj. These are the foundation of a Muslim's life. Now try the games!",
+  voice:[["ar","ما شاءَ الله يا هَنا!"],["en","You now know all five pillars: the Shahada, prayer, charity, fasting and pilgrimage. These are the foundation of a Muslim's life. Now try the games!"]]}
+],
+
+iman: [
+ {say:"Assalamu alaykum! Today we learn the SIX BELIEFS — the six things that live in a Muslim's heart. These are called the articles of faith, or Arkan al-Iman.",
+  voice:[["ar","السَّلامُ عَلَيكُم!"],["en","Today we learn the six beliefs — the six things that live in a Muslim's heart. These are called the articles of faith."]]},
+ {say:"We believe in: Allah; His angels; His holy books; His messengers; the Last Day; and destiny — that everything happens by Allah's wise plan.",
+  show:"<div class='chips'><div class='c'><span class='arab'>الله</span><small>Allah</small></div><div class='c'><span class='arab'>المَلائِكة</span><small>angels</small></div><div class='c'><span class='arab'>الكُتُب</span><small>books</small></div><div class='c'><span class='arab'>الرُّسُل</span><small>messengers</small></div><div class='c'><span class='arab'>اليَومِ الآخِر</span><small>the Last Day</small></div><div class='c'><span class='arab'>القَدَر</span><small>destiny</small></div></div>",
+  voice:[["en","We believe in six things. Allah:"],["ar","الله"],["en","His angels:"],["ar","المَلائِكة"],["en","His books:"],["ar","الكُتُب"],["en","His messengers:"],["ar","الرُّسُل"],["en","the Last Day:"],["ar","اليَومِ الآخِر"],["en","and destiny:"],["ar","القَدَر"]]},
+ {say:"First and greatest: we believe in Allah — the One who created everything, who has no partner, and who is more merciful than we can imagine. He always hears us and always sees us.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:56px;'>الله</div><div class='flabel'>the One Creator of everything</div></div>",
+  voice:[["en","First and greatest: we believe in Allah — the One who created everything, who has no partner, and who is more merciful than we can imagine. He always hears us and always sees us."]]},
+ {try:{q:"Who created everything in the whole universe?", choices:["Allah","The sun","A king","Nobody"], a:0,
+  hint:"The One we worship, with no partner…",
+  why:"Allah created everything!", whyVoice:[["ar","الله"]]}},
+ {say:"We believe in the angels — Allah's helpers, made of light, who never disobey Him. The angel Jibril, peace be upon him, carried Allah's words to the prophets.",
+  show:"<div class='chips'><div class='c'><span class='arab'>جِبريل</span><small>brought revelation</small></div><div class='c'><span class='arab'>مَلائِكة</span><small>made of light</small></div></div>",
+  voice:[["en","We believe in the angels — Allah's helpers, made of light, who never disobey Him. The angel Jibril, peace be upon him, carried Allah's words to the prophets."]]},
+ {try:{q:"What are the angels made of?", choices:["Light","Stone","Water","Wood"], a:0,
+  hint:"Something bright that shines…",
+  why:"Angels are made of light and always obey Allah!"}},
+ {say:"We believe in Allah's holy books. He sent the Tawrah to Musa, the Injil to Isa, and the greatest and final book — the Quran — to Prophet Muhammad ﷺ. The Quran is Allah's own words, kept perfectly for over 1,400 years.",
+  show:"<div class='fstack'><div style='font-size:52px;'>📖</div><div class='bigar' style='font-size:44px;'>القُرآن</div><div class='flabel'>Allah's final holy book</div></div>",
+  voice:[["en","We believe in Allah's holy books. He sent books to Musa and to Isa, peace be upon them, and the greatest and final book — the Quran — to Prophet Muhammad, peace be upon him. It is Allah's own words, kept perfectly for over 1,400 years."]]},
+ {try:{q:"What is the final holy book, given to Prophet Muhammad ﷺ?", choices:["The Quran","A storybook","A map","A poem"], a:0,
+  hint:"Allah's own words, that Muslims recite every day…",
+  why:"The Quran — Allah's final book!", whyVoice:[["ar","القُرآن"]]}},
+ {say:"We believe in Allah's messengers — special people He chose to guide us, like Nuh, Ibrahim, Musa, Isa and the last of them all, Muhammad ﷺ, peace be upon them. And we believe in the Last Day, when Allah will reward every good deed.",
+  voice:[["en","We believe in Allah's messengers — special people He chose to guide us, like Nuh, Ibrahim, Musa, Isa and the last of them all, Muhammad, peace be upon them all. And we believe in the Last Day, when Allah will reward every good deed."]]},
+ {say:"And the sixth: we believe in Qadar — destiny. Whatever happens, big or small, happens by Allah's wise plan. So when something is hard, we stay patient and trust that Allah knows best.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:48px;'>القَدَر</div><div class='flabel'>trusting Allah's wise plan</div></div>",
+  voice:[["en","And the sixth: we believe in destiny. Whatever happens, big or small, happens by Allah's wise plan. So when something is hard, we stay patient and trust that Allah knows best."]]},
+ {try:{q:"Believing in 'Qadar' means trusting that...", choices:["Everything happens by Allah's plan","Things happen by luck","We control the future","Nothing has a reason"], a:0,
+  hint:"Who has the wise plan behind everything?",
+  why:"Everything is by Allah's wise plan — so we stay patient!"}},
+ {say:"Barakallahu feek, Hana! Six beliefs now live in your heart: Allah, His angels, His books, His messengers, the Last Day, and destiny. Beautiful work — go and play the games!",
+  voice:[["en","Well done, Hana! Six beliefs now live in your heart: Allah, His angels, His books, His messengers, the Last Day, and destiny. Beautiful work — go and play the games!"]]}
+],
+
+wudu: [
+ {say:"Assalamu alaykum, Hana! Before we stand to pray, we make ourselves clean and fresh with wudu. Today you'll learn every step, and how we pray. Bismillah!",
+  voice:[["ar","السَّلامُ عَلَيكُم يا هَنا!"],["en","Before we stand to pray, we make ourselves clean and fresh with wudu. Today you'll learn every step, and how we pray."]]},
+ {say:"Wudu begins in the heart — we make our intention to become clean for Allah — and we say Bismillah. Then we wash, in a special order.",
+  show:"<div class='fstack'><div style='font-size:52px;'>💧</div><div class='bigar' style='font-size:44px;'>بِسْمِ اللَّه</div><div class='flabel'>we begin wudu saying: in the name of Allah</div></div>",
+  voice:[["en","Wudu begins in the heart — we make our intention to become clean for Allah — and we say:"],["ar","بِسْمِ اللَّه"],["en","in the name of Allah. Then we wash, in a special order."]]},
+ {say:"Here is the order. First we wash our hands. Then we rinse our mouth, and rinse our nose. Then we wash our face. Then our arms, up to the elbows. We wipe our head and ears once. And last, we wash our feet, up to the ankles.",
+  show:"<div class='chips'><div class='c'>1<small>hands</small></div><div class='c'>2<small>mouth</small></div><div class='c'>3<small>nose</small></div><div class='c'>4<small>face</small></div><div class='c'>5<small>arms</small></div><div class='c'>6<small>head</small></div><div class='c'>7<small>feet</small></div></div>",
+  voice:[["en","Here is the order. First we wash our hands. Then we rinse our mouth, and rinse our nose. Then we wash our face. Then our arms, up to the elbows. We wipe our head and ears once. And last, we wash our feet, up to the ankles."]]},
+ {try:{q:"Which part of the body do we wash LAST in wudu?", choices:["The feet","The hands","The face","The mouth"], a:0,
+  hint:"Right at the bottom, up to the ankles…",
+  why:"The feet — the very last step of wudu!"}},
+ {say:"Most parts we wash three times — but the head we wipe just once, gently, with wet hands. Now we are clean and ready to meet Allah in prayer.",
+  voice:[["en","Most parts we wash three times — but the head we wipe just once, gently, with wet hands. Now we are clean and ready to meet Allah in prayer."]]},
+ {try:{q:"How many times do we usually wash the face in wudu?", choices:["Three times","One time","Ten times","We don't"], a:0,
+  hint:"The same number as the hands and arms…",
+  why:"Three times — like most parts of wudu!"}},
+ {say:"Now, the prayer. We stand facing the Kaaba in Makkah, raise our hands and say Allahu Akbar — Allah is the greatest — and everything else in the world melts away. It is just us and Allah.",
+  show:"<div class='fstack'><div style='font-size:52px;'>🕋</div><div class='bigar' style='font-size:44px;'>الله أَكبَر</div><div class='flabel'>Allah is the greatest — facing Makkah</div></div>",
+  voice:[["en","Now, the prayer. We stand facing the Kaaba in Makkah, raise our hands and say:"],["ar","الله أَكبَر"],["en","Allah is the greatest — and everything else in the world melts away. It is just us and Allah."]]},
+ {say:"In prayer we move gently: we stand and read Quran, we bow down — that is called ruku — and then we place our forehead on the ground — that is sujood, the closest we ever come to Allah, thanking and loving Him.",
+  show:"<div class='chips'><div class='c'><span class='arab'>قِيام</span><small>standing</small></div><div class='c'><span class='arab'>رُكوع</span><small>bowing</small></div><div class='c'><span class='arab'>سُجود</span><small>forehead down</small></div></div>",
+  voice:[["en","In prayer we move gently: we stand and read Quran; we bow down — that is called ruku; and then we place our forehead on the ground — that is sujood, the closest we ever come to Allah, thanking and loving Him."]]},
+ {try:{q:"What do we call placing the forehead on the ground in prayer?", choices:["Sujood","Ruku","Qiyam","Salam"], a:0,
+  hint:"The closest we come to Allah, forehead on the floor…",
+  why:"Sujood — the beautiful prostration!", whyVoice:[["ar","سُجود"]]}},
+ {say:"We pray five times a day, and each ends with turning our head right and left, saying Assalamu alaykum wa rahmatullah — peace and Allah's mercy — to the angels beside us and to everyone.",
+  voice:[["en","We pray five times a day, and each ends with turning our head right and left, saying:"],["ar","السَّلامُ عَلَيكُم وَرَحمَةُ الله"],["en","peace and the mercy of Allah — to the angels beside us and to everyone."]]},
+ {say:"MashaAllah, Hana! You know how to make wudu, step by step, and the beautiful movements of prayer. Now practise in the games!",
+  voice:[["ar","ما شاءَ الله يا هَنا!"],["en","You know how to make wudu, step by step, and the beautiful movements of prayer. Now practise in the games!"]]}
+],
+
+duas: [
+ {say:"Assalamu alaykum, Hana! A dua is a little prayer — talking to Allah, any time, in any language, straight from your heart. Today we learn beautiful duas for every day.",
+  voice:[["ar","السَّلامُ عَلَيكُم يا هَنا!"],["en","A dua is a little prayer — talking to Allah, any time, in any language, straight from your heart. Today we learn beautiful duas for every day."]]},
+ {say:"Before we eat, we say Bismillah — in the name of Allah. And when we finish, we thank Him: Alhamdulillah — all praise is for Allah.",
+  show:"<div class='chips'><div class='c'><span class='arab'>بِسْمِ اللَّه</span><small>before eating</small></div><div class='c'><span class='arab'>الحَمدُ لله</span><small>after eating</small></div></div>",
+  voice:[["en","Before we eat, we say:"],["ar","بِسْمِ اللَّه"],["en","in the name of Allah. And when we finish, we thank Him:"],["ar","الحَمدُ لله"],["en","all praise is for Allah."]]},
+ {try:{q:"What do we say just BEFORE we start eating?", choices:["Bismillah","Alhamdulillah","Ameen","Subhanallah"], a:0,
+  hint:"In the name of Allah…",
+  why:"Bismillah — we begin everything in Allah's name!", whyVoice:[["ar","بِسْمِ اللَّه"]]}},
+ {say:"Here is a special dua just for you, a clever student. Before you learn, ask Allah to help you: Rabbi zidni ilma — my Lord, increase me in knowledge. Say it before homework and watch how it helps!",
+  show:"<div class='fstack'><div style='font-size:48px;'>📚</div><div class='bigar' style='font-size:40px;'>رَبِّ زِدْني عِلْماً</div><div class='flabel'>My Lord, increase me in knowledge</div></div>",
+  voice:[["en","Here is a special dua just for you, a clever student. Before you learn, ask Allah to help you:"],["ar","رَبِّ زِدْني عِلْماً"],["en","my Lord, increase me in knowledge. Say it before homework and watch how it helps!"]]},
+ {try:{q:"'Rabbi zidni ilma' is a dua asking Allah for more...", choices:["Knowledge","Sweets","Toys","Money"], a:0,
+  hint:"Perfect to say before school or homework…",
+  why:"More knowledge — the best thing to ask for!", whyVoice:[["ar","رَبِّ زِدْني عِلْماً"]]}},
+ {say:"When we are amazed by something beautiful, we say MashaAllah. When we hope to do something, we say Insha'Allah — if Allah wills. And to praise Allah we say Subhanallah — glory be to Allah.",
+  show:"<div class='chips'><div class='c'><span class='arab'>ما شاءَ الله</span><small>how beautiful!</small></div><div class='c'><span class='arab'>إِن شاءَ الله</span><small>if Allah wills</small></div><div class='c'><span class='arab'>سُبحانَ الله</span><small>glory to Allah</small></div></div>",
+  voice:[["en","When we are amazed by something beautiful, we say:"],["ar","ما شاءَ الله"],["en","When we hope to do something, we say:"],["ar","إِن شاءَ الله"],["en","if Allah wills. And to praise Allah we say:"],["ar","سُبحانَ الله"],["en","glory be to Allah."]]},
+ {try:{q:"Your friend says 'I hope to visit Makkah one day.' A Muslim adds...", choices:["Insha'Allah","Goodbye","Alhamdulillah","Sorry"], a:0,
+  hint:"If Allah wills it to happen…",
+  why:"Insha'Allah — if Allah wills!", whyVoice:[["ar","إِن شاءَ الله"]]}},
+ {say:"At night before sleep, we say Bismika Allahumma amutu wa ahya — in Your name O Allah I die and I live. And when we wake, we thank Allah who gave us a new day.",
+  show:"<div class='fstack'><div style='font-size:48px;'>🌙</div><div class='bigar' style='font-size:34px;'>بِاسْمِكَ اللَّهُمَّ أَموتُ وَأَحيا</div><div class='flabel'>In Your name O Allah, I die and I live (before sleep)</div></div>",
+  voice:[["en","At night before sleep, we say:"],["ar","بِاسْمِكَ اللَّهُمَّ أَموتُ وَأَحيا"],["en","in Your name O Allah I die and I live. And when we wake, we thank Allah who gave us a new day."]]},
+ {say:"And a lovely one to remember: when someone sneezes and says Alhamdulillah, you reply Yarhamuk-Allah — may Allah have mercy on you. Little kindnesses, all day long!",
+  voice:[["en","And a lovely one to remember: when someone sneezes and says Alhamdulillah, you reply:"],["ar","يَرحَمُكَ الله"],["en","may Allah have mercy on you. Little kindnesses, all day long!"]]},
+ {try:{q:"When someone sneezes and praises Allah, what do you kindly reply?", choices:["Yarhamuk-Allah","Bismillah","Ameen","Goodnight"], a:0,
+  hint:"May Allah have mercy on you…",
+  why:"Yarhamuk-Allah — may Allah have mercy on you!", whyVoice:[["ar","يَرحَمُكَ الله"]]}},
+ {say:"Barakallahu feek, Hana! Your day is now full of duas — before eating, before learning, when hoping, before sleeping. Allah loves to hear from you. Now play the games!",
+  voice:[["en","Well done, Hana! Your day is now full of duas — before eating, before learning, when hoping, before sleeping. Allah loves to hear from you. Now play the games!"]]}
+],
+
+names_akhlaq: [
+ {say:"Assalamu alaykum, Hana! Allah has the most beautiful names, and Islam gives us the most beautiful manners. Today we learn some of each — and they go together, because knowing Allah makes us kinder.",
+  voice:[["ar","السَّلامُ عَلَيكُم يا هَنا!"],["en","Allah has the most beautiful names, and Islam gives us the most beautiful manners. Today we learn some of each — and they go together, because knowing Allah makes us kinder."]]},
+ {say:"Allah is Ar-Rahman — the Most Merciful. His mercy is bigger than the whole sky. He is kinder to us than a mother is to her own baby.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:52px;'>الرَّحمن</div><div class='flabel'>Ar-Rahman — the Most Merciful</div></div>",
+  voice:[["en","Allah is Ar-Rahman — the Most Merciful. Listen:"],["ar","الرَّحمن"],["en","His mercy is bigger than the whole sky. He is kinder to us than a mother is to her own baby."]]},
+ {say:"Allah is Al-Khaliq — the Creator, who made you, the stars, and every tiny ant. He is As-Samee', the All-Hearing, and Al-Baseer, the All-Seeing — He hears you and sees you always, even in the dark.",
+  show:"<div class='chips'><div class='c'><span class='arab'>الخالِق</span><small>the Creator</small></div><div class='c'><span class='arab'>السَّميع</span><small>the All-Hearing</small></div><div class='c'><span class='arab'>البَصير</span><small>the All-Seeing</small></div></div>",
+  voice:[["en","Allah is Al-Khaliq — the Creator, who made you, the stars, and every tiny ant. He is the All-Hearing:"],["ar","السَّميع"],["en","and the All-Seeing:"],["ar","البَصير"],["en","He hears you and sees you always, even in the dark."]]},
+ {try:{q:"'Ar-Rahman' tells us that Allah is...", choices:["The Most Merciful","The Tallest","The Fastest","The Loudest"], a:0,
+  hint:"Full of mercy and kindness…",
+  why:"The Most Merciful — kinder than anyone!", whyVoice:[["ar","الرَّحمن"]]}},
+ {say:"And Allah is Al-Ghafoor — the Forgiving. When we make a mistake and say sorry, Allah forgives us. Isn't that wonderful? So we never give up hope.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:52px;'>الغَفور</div><div class='flabel'>Al-Ghafoor — the Forgiving</div></div>",
+  voice:[["en","And Allah is Al-Ghafoor — the Forgiving. When we make a mistake and say sorry, Allah forgives us. Isn't that wonderful? So we never give up hope."]]},
+ {try:{q:"When we do something wrong and say sorry, Allah (Al-Ghafoor) will...", choices:["Forgive us","Forget us","Ignore us","Be too busy"], a:0,
+  hint:"Al-Ghafoor means the Forgiving…",
+  why:"Allah forgives us — so we always turn back to Him!"}},
+ {say:"Now, our manners. Because Allah is so kind to us, we are kind to others. We greet everyone with peace: Assalamu alaykum — peace be upon you. And a Muslim always tells the truth, even when it is hard.",
+  show:"<div class='fstack'><div class='bigar' style='font-size:44px;'>السَّلامُ عَلَيكُم</div><div class='flabel'>peace be upon you</div></div>",
+  voice:[["en","Now, our manners. Because Allah is so kind to us, we are kind to others. We greet everyone with peace:"],["ar","السَّلامُ عَلَيكُم"],["en","peace be upon you. And a Muslim always tells the truth, even when it is hard."]]},
+ {try:{q:"How do Muslims greet each other?", choices:["Assalamu alaykum","Hurry up","Be quiet","Go away"], a:0,
+  hint:"A greeting of peace…",
+  why:"Assalamu alaykum — peace be upon you!", whyVoice:[["ar","السَّلامُ عَلَيكُم"]]}},
+ {say:"Islam loves gentle hearts. We respect and obey our parents. We are kind to animals — a person was once forgiven by Allah just for giving water to a thirsty dog! And we share our food with neighbours. Even a smile, Islam teaches, is a charity.",
+  show:"<div class='chips'><div class='c'>👪<small>respect parents</small></div><div class='c'>🐾<small>kind to animals</small></div><div class='c'>🍎<small>share food</small></div><div class='c'>😊<small>a smile is charity</small></div></div>",
+  voice:[["en","Islam loves gentle hearts. We respect and obey our parents. We are kind to animals — a person was once forgiven by Allah just for giving water to a thirsty dog! And we share our food with neighbours. Even a smile, Islam teaches, is a charity."]]},
+ {try:{q:"Islam teaches that even a ___ counts as a charity.", choices:["Smile","Gold coin only","Long letter","Big feast only"], a:0,
+  hint:"Something warm you can give with your face, for free…",
+  why:"A smile is a charity — so smile often!"}},
+ {say:"MashaAllah, Hana! You know some of Allah's beautiful names, and the beautiful manners that make a beautiful Muslim: peace, honesty, kindness and a smile. Now go and play — and carry these with you every day!",
+  voice:[["ar","ما شاءَ الله يا هَنا!"],["en","You know some of Allah's beautiful names, and the beautiful manners that make a beautiful Muslim: peace, honesty, kindness and a smile. Now go and play — and carry these with you every day!"]]}
+],
+
 arabic1: [
  {say:"Ahlan ya Hana! Since you've already studied Arabic at school, today we go DEEPER — the reading secrets that make you sound like a native: sukoon, shadda, tanween, long vowels, and the famous sun and moon letters. Yalla!",
   voice:[["ar","أَهلاً يا هَنا!"],["en","Since you have already studied Arabic at school, today we go deeper — the reading secrets that make you sound like a native speaker. Ready?"],["ar","يَلّا!"]]},
@@ -1417,7 +1727,7 @@ arabic3: [
 ],
 
 arabic4: [
- {say:"Today, Hana, you step into REAL conversations — breakfast with Baba, buying juice at the shop, and a phone call with Teta in Egypt. Listen to each line, read the bubbles, and say the lines out loud with the voices!"},
+ {say:"Today, Hana, you step into REAL conversations — breakfast with Baba, buying juice at the shop, and a phone call with Nena in Egypt. Listen to each line, read the bubbles, and say the lines out loud with the voices!"},
  {say:"Dialogue one — breakfast time. Listen to Baba and Hana.",
   show:"<div class='chat'><div class='msg left'><div class='av'>👨</div><div class='bub'><span class='ar2'>صَباحُ الخَير يا هَنا</span><small>Good morning, Hana</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>صَباحُ النُّور يا بابا</span><small>Morning of light, Baba!</small></div></div></div>",
   voice:[["en","Dialogue one — breakfast time! Baba says:"],["arm","صَباحُ الخَير يا هَنا"],["en","and Hana replies:"],["ar","صَباحُ النُّور يا بابا"]]},
@@ -1443,21 +1753,21 @@ arabic4: [
  {try:{q:"You want to ask HOW MUCH something costs. You say...", choices:["بِكَم هٰذا؟","أَينَ هٰذا؟","مَن هٰذا؟","ما هٰذا؟"], a:0,
   hint:"It starts with bikam — 'for how much'...",
   why:"How much is this?", whyVoice:[["ar","بِكَم هٰذا؟"]]}},
- {say:"Dialogue three — the phone rings. It's Teta calling from Egypt! This one is real Egyptian talk.",
-  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا تيتة!</span><small>It's Hana, Teta!</small></div></div></div>",
-  voice:[["en","Dialogue three — the phone rings. It is Teta, calling from Egypt! She says:"],["ar","أَلو؟ مين مَعايا؟"],["en","Hello, who is speaking? And Hana says:"],["ar","أَنا هَنا يا تيتة!"]]},
- {say:"Teta is thrilled — ahlan habibti! And they swap the Egyptian 'how are you' — izzayyik!",
-  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا تيتة!</span><small>It's Hana, Teta!</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَهلاً حَبيبتي! إزَّيِّك؟</span><small>Ahlan my darling! How are you?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟</span><small>I'm good, thank God. And you?</small></div></div></div>",
-  voice:[["en","Teta is thrilled:"],["ar","أَهلاً حَبيبتي! إزَّيِّك؟"],["en","and Hana answers:"],["ar","كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟"]]},
+ {say:"Dialogue three — the phone rings. It's Nena calling from Egypt! This one is real Egyptian talk.",
+  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا نينة!</span><small>It's Hana, Nena!</small></div></div></div>",
+  voice:[["en","Dialogue three — the phone rings. It is Nena, calling from Egypt! She says:"],["ar","أَلو؟ مين مَعايا؟"],["en","Hello, who is speaking? And Hana says:"],["ar","أَنا هَنا يا نينة!"]]},
+ {say:"Nena is thrilled — ahlan habibti! And they swap the Egyptian 'how are you' — izzayyik!",
+  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا نينة!</span><small>It's Hana, Nena!</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَهلاً حَبيبتي! إزَّيِّك؟</span><small>Ahlan my darling! How are you?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟</span><small>I'm good, thank God. And you?</small></div></div></div>",
+  voice:[["en","Nena is thrilled:"],["ar","أَهلاً حَبيبتي! إزَّيِّك؟"],["en","and Hana answers:"],["ar","كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟"]]},
  {say:"And the sweetest Egyptian word of all: wahashteeni — I MISS you!",
-  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا تيتة!</span><small>It's Hana, Teta!</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَهلاً حَبيبتي! إزَّيِّك؟</span><small>Ahlan my darling! How are you?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟</span><small>I'm good, thank God. And you?</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>الحَمدُ لله. وَحَشتيني!</span><small>Thank God. I miss you!</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>وَإنتِ وَحَشتيني كَمان يا تيتة!</span><small>And I miss YOU too, Teta!</small></div></div></div>",
-  voice:[["en","And now the sweetest Egyptian word of all. Teta says:"],["ar","وَحَشتيني!"],["en","I miss you! And Hana replies:"],["ar","وَإنتِ وَحَشتيني كَمان يا تيتة!"]]},
- {try:{q:"Teta says وَحَشتيني! What is she telling you?", choices:["I miss you!","I am hungry!","Call me back!","I am busy!"], a:0,
-  hint:"It is the warmest thing a Teta can say down the phone...",
+  show:"<div class='chat'><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَلو؟ مين مَعايا؟</span><small>Hello? Who's speaking?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>أَنا هَنا يا نينة!</span><small>It's Hana, Nena!</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>أَهلاً حَبيبتي! إزَّيِّك؟</span><small>Ahlan my darling! How are you?</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>كوَيِّسة، الحَمدُ لله. وَإنتِ إزَّيِّك؟</span><small>I'm good, thank God. And you?</small></div></div><div class='msg left'><div class='av'>👵</div><div class='bub'><span class='ar2'>الحَمدُ لله. وَحَشتيني!</span><small>Thank God. I miss you!</small></div></div><div class='msg right'><div class='av'>👧</div><div class='bub'><span class='ar2'>وَإنتِ وَحَشتيني كَمان يا نينة!</span><small>And I miss YOU too, Nena!</small></div></div></div>",
+  voice:[["en","And now the sweetest Egyptian word of all. Nena says:"],["ar","وَحَشتيني!"],["en","I miss you! And Hana replies:"],["ar","وَإنتِ وَحَشتيني كَمان يا نينة!"]]},
+ {try:{q:"Nena says وَحَشتيني! What is she telling you?", choices:["I miss you!","I am hungry!","Call me back!","I am busy!"], a:0,
+  hint:"It is the warmest thing a Nena can say down the phone...",
   why:"I miss you!", whyVoice:[["ar","وَحَشتيني"]],
-  }, voice:[["en","Teta says:"],["ar","وَحَشتيني!"],["en","What is she telling you?"]]},
- {say:"Three real conversations — breakfast, the shop, and Teta's phone call. Practise them in the games, then try them on the family. Wahashteeni will earn you a big hug!",
-  voice:[["en","Three real conversations — breakfast, the shop, and Teta's phone call. Practise them in the games, then try them on the family tonight!"]]}
+  }, voice:[["en","Nena says:"],["ar","وَحَشتيني!"],["en","What is she telling you?"]]},
+ {say:"Three real conversations — breakfast, the shop, and Nena's phone call. Practise them in the games, then try them on the family. Wahashteeni will earn you a big hug!",
+  voice:[["en","Three real conversations — breakfast, the shop, and Nena's phone call. Practise them in the games, then try them on the family tonight!"]]}
 ],
 
 arabic5: [
@@ -1469,7 +1779,7 @@ arabic5: [
   voice:[["en","Page two:"],["ar","لولو بَيضاء وَجَميلة. تُحِبُّ اللَّبَن."],["en","Lulu is white and beautiful. She loves milk."]]},
  {say:"Page three.", show:"<div class='fstack'><div style='font-size:64px;'>🏠</div><div class='bigar' style='font-size:40px;'>في الصَّباح، تَلعَبُ لولو في البَيت.</div><div class='flabel'>In the morning, Lulu plays in the house.</div></div>",
   voice:[["en","Page three:"],["ar","في الصَّباح، تَلعَبُ لولو في البَيت."],["en","In the morning, Lulu plays in the house."]]},
- {try:{q:"What is the little cat's name?", choices:["لولو","هَنا","تيتة","بابا"], a:0,
+ {try:{q:"What is the little cat's name?", choices:["لولو","هَنا","نينة","بابا"], a:0,
   hint:"Ismuha... her name is...",
   why:"Lulu!", whyVoice:[["ar","اِسمُها لولو"]]}},
  {say:"Page four — uh oh!", show:"<div class='fstack'><div style='font-size:64px;'>🚪</div><div class='bigar' style='font-size:40px;'>يَومَ السَّبت، خَرَجَت لولو مِنَ الباب!</div><div class='flabel'>On Saturday, Lulu went out of the door!</div></div>",
@@ -1500,6 +1810,7 @@ arabic5: [
 /* ============================= CONTENT LIBRARIES ============================= */
 const DIALOGUES = [].concat(window.DIALOGUES_B1||[], window.DIALOGUES_B2||[], window.DIALOGUES_B3||[]);
 const STORIES   = [].concat(window.STORIES_B1||[],  window.STORIES_B2||[],  window.STORIES_B3||[]);
+const ISLAMIC = [].concat(window.ISLAMIC_PROPHETS||[], window.ISLAMIC_VALUES||[]);
 
 function chatHTML(d, upto){
   let h = "<div class='chat'>";
@@ -1535,10 +1846,10 @@ function buildStorySteps(st){
   const steps = [];
   steps.push({say:`${st.emoji} ${st.title} — let's read! Listen to each page, follow the Arabic, and read along out loud.`,
     voice:[["en",`${st.title}. Let's read! Listen to each page, follow the Arabic, and read along out loud.`]]});
-  st.pages.forEach((pg,i)=>{
-    steps.push({say:`Page ${i+1}.`,
-      show:`<div class='fstack'><div style='font-size:60px;'>${pg.e}</div><div class='bigar' style='font-size:38px;'>${pg.ar}</div><div class='flabel'>${pg.en}</div></div>`,
-      voice:[["en","Page "+(i+1)+":"],["ar",pg.ar],["en",pg.en]]});
+  st.pages.forEach((pg)=>{
+    steps.push({say:pg.en,
+      show:`<div class='fstack'><div style='font-size:66px;'>${pg.e}</div><div class='bigar' style='font-size:42px;'>${pg.ar}</div></div>`,
+      voice:[["ar",pg.ar],["en",pg.en]]});
   });
   (st.quiz||[]).forEach(qz=>{
     steps.push({try:{q:qz.q, choices:qz.choices, a:qz.a, hint:"Think back to the story — what happened?", why:qz.ex}});
@@ -1547,7 +1858,7 @@ function buildStorySteps(st){
     voice:[["en","Story finished!"],["ar","مَبروك!"],["en","Reading whole stories is how real Arabic readers are made. Pick another from the shelf!"]]});
   return steps;
 }
-function libraryItems(kind){ return kind==='dialogues' ? DIALOGUES : STORIES; }
+function libraryItems(kind){ return kind==='dialogues' ? DIALOGUES : kind==='islamic' ? ISLAMIC : STORIES; }
 function renderLibrary(w){
   const items = libraryItems(w.library);
   state.libDone = state.libDone || {};
@@ -1558,10 +1869,10 @@ function renderLibrary(w){
       <div style="font-size:42px;">${w.icon}</div>
       <div style="flex:1;min-width:200px;">
         <div style="font-weight:900;font-size:17px;color:var(--purple-d);">${doneCount} of ${items.length} completed</div>
-        <div style="font-size:13.5px;color:var(--muted);font-weight:600;">${w.library==='dialogues'?'Pick a place, live the conversation — new ones are added in batches!':'Pick a story from the shelf — levels 1 to 3, new stories are added in batches!'}</div>
+        <div style="font-size:13.5px;color:var(--muted);font-weight:600;">${w.library==='dialogues'?'Pick a place, live the conversation — new ones are added in batches!':w.library==='islamic'?'Pick a story of the Prophets or a story of beautiful manners — read it in Arabic and English.':'Pick a story from the shelf — levels 1 to 3, new stories are added in batches!'}</div>
       </div>
     </div>`;
-  document.getElementById('gamesHeading').textContent = w.library==='dialogues' ? '🗣️ Choose a conversation' : '📚 Choose a story';
+  document.getElementById('gamesHeading').textContent = w.library==='dialogues' ? '🗣️ Choose a conversation' : w.library==='islamic' ? '🕌 Choose a story' : '📚 Choose a story';
   const gr = document.getElementById('gamesRow');
   gr.innerHTML='';
   if(!items.length){
@@ -1569,12 +1880,12 @@ function renderLibrary(w){
   }
   let lastGroup = null;
   items.forEach(it=>{
-    const group = w.library==='dialogues' ? it.cat : ('Level '+it.level);
+    const group = (w.library==='dialogues' || w.library==='islamic') ? it.cat : ('Level '+it.level);
     if(group!==lastGroup){
       lastGroup = group;
       const h = document.createElement('div');
       h.style.cssText='grid-column:1/-1;font-weight:900;color:var(--purple-d);font-size:14px;margin-top:6px;';
-      h.textContent = group + (w.library==='dialogues' && it.catAr ? ' · '+it.catAr : '');
+      h.textContent = group + ((w.library==='dialogues'||w.library==='islamic') && it.catAr ? ' · '+it.catAr : '');
       gr.appendChild(h);
     }
     const done = !!state.libDone[it.id];
@@ -2041,7 +2352,7 @@ function finishLesson(){
     speak("Finished! Wonderful work. Pick another one!");
     document.getElementById('lessonWrap').innerHTML = `
       <div class="results-box">
-        <div style="font-size:52px;">${ls.libWorld.library==='dialogues'?'🗣️':'📚'}</div>
+        <div style="font-size:52px;">${ls.libWorld.library==='dialogues'?'🗣️':ls.libWorld.library==='islamic'?'🕌':'📚'}</div>
         <div class="bigstars">${ls.libItem.title} — complete!</div>
         <div class="score">+${first?30:8} XP · ${doneCount}/${items.length} finished in ${ls.libWorld.title}</div>
         <div class="results-actions">
@@ -2637,6 +2948,10 @@ function exportSpeechManifest(){
     if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
   }));
   STORIES.forEach(x=> buildStorySteps(x).forEach(st=>{
+    if(st.voice) add(st.voice); else addEn(st.say);
+    if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
+  }));
+  ISLAMIC.forEach(x=> buildStorySteps(x).forEach(st=>{
     if(st.voice) add(st.voice); else addEn(st.say);
     if(st.try){ addEn(st.try.q); addEn('Hmm, not quite.'); addEn(st.try.hint); addEn(st.try.why); }
   }));

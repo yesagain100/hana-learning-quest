@@ -295,43 +295,43 @@ window.DIALOGUES_B1 = [
 },
 {
  id:"dlg_teta_visit",
- cat:"At Teta's House", catAr:"عند تيتة", emoji:"👵",
- title:"Visiting Teta", titleAr:"زِيارَةُ تيتة",
- speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Teta",av:"👵",voice:"ar"}},
+ cat:"At Nena's House", catAr:"عند نينة", emoji:"👵",
+ title:"Visiting Nena", titleAr:"زِيارَةُ نينة",
+ speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Nena",av:"👵",voice:"ar"}},
  lines:[
   {s:"B", ar:"هَنا حَبيبتي! وَحَشتيني كَثيراً", en:"Hana, my darling! I missed you so much"},
-  {s:"A", ar:"وَأَنتِ وَحَشتيني يا تيتة!", en:"I missed you too, Grandma!"},
+  {s:"A", ar:"وَأَنتِ وَحَشتيني يا نينة!", en:"I missed you too, Grandma!"},
   {s:"B", ar:"إزَّيِّك يا قَلبي؟ كَيفَ المَدرَسَةُ؟", en:"How are you, my sweetheart? How is school?"},
   {s:"A", ar:"كوَيِّسَة! أَنا الأولى في الصَّفِّ", en:"Good! I am top of my class"},
   {s:"B", ar:"شاطِرَة! تَعالَي، عِندي حَلوى لَكِ", en:"Clever girl! Come, I have sweets for you"},
-  {s:"A", ar:"واو! أُحِبُّ حَلوى تيتة", en:"Wow! I love Grandma's sweets"},
+  {s:"A", ar:"واو! أُحِبُّ حَلوى نينة", en:"Wow! I love Grandma's sweets"},
   {s:"B", ar:"كُلي يا حَبيبتي وَاشرَبي العَصيرَ", en:"Eat, my darling, and drink the juice"},
-  {s:"A", ar:"شُكراً يا تيتة، أُحِبُّكِ كَثيراً", en:"Thank you Grandma, I love you very much"}
+  {s:"A", ar:"شُكراً يا نينة، أُحِبُّكِ كَثيراً", en:"Thank you Grandma, I love you very much"}
  ],
  quiz:[
-  {q:"Who missed Hana very much?", choices:["Her grandma","Her teacher","Her friend","The shopkeeper"], a:0, ex:"Teta said she missed Hana so much."},
-  {q:"What did Teta have for Hana?", choices:["Sweets","A new dress","A book","Toys"], a:0, ex:"Teta said come, I have sweets for you."},
+  {q:"Who missed Hana very much?", choices:["Her grandma","Her teacher","Her friend","The shopkeeper"], a:0, ex:"Nena said she missed Hana so much."},
+  {q:"What did Nena have for Hana?", choices:["Sweets","A new dress","A book","Toys"], a:0, ex:"Nena said come, I have sweets for you."},
   {q:"How is Hana doing at school?", choices:["She is top of her class","She is often late","She lost her books","She changed schools"], a:0, ex:"Hana said she is top of her class."}
  ]
 },
 {
  id:"dlg_teta_cooking",
- cat:"At Teta's House", catAr:"عند تيتة", emoji:"🥘",
- title:"Cooking with Teta", titleAr:"الطَّبخُ مَعَ تيتة",
- speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Teta",av:"👵",voice:"ar"}},
+ cat:"At Nena's House", catAr:"عند نينة", emoji:"🥘",
+ title:"Cooking with Nena", titleAr:"الطَّبخُ مَعَ نينة",
+ speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Nena",av:"👵",voice:"ar"}},
  lines:[
-  {s:"A", ar:"يا تيتة، ماذا تَطبُخينَ اليَومَ؟", en:"Grandma, what are you cooking today?"},
+  {s:"A", ar:"يا نينة، ماذا تَطبُخينَ اليَومَ؟", en:"Grandma, what are you cooking today?"},
   {s:"B", ar:"أَطبُخُ مَحشي وَشوربَة", en:"I am cooking stuffed vegetables and soup"},
   {s:"A", ar:"مَحشي! هَذا أَكلي المُفَضَّلُ", en:"Stuffed vegetables! That is my favourite food"},
   {s:"B", ar:"هَل تُساعِدينَني يا شاطِرَة؟", en:"Will you help me, clever girl?"},
   {s:"A", ar:"أَيوَة! ماذا أَفعَلُ؟", en:"Yes! What should I do?"},
   {s:"B", ar:"ضَعي الطَّماطِمَ في الصَّحنِ", en:"Put the tomatoes on the plate"},
-  {s:"A", ar:"حاضِر... اِنتَهَيتُ يا تيتة!", en:"Okay... I finished, Grandma!"},
+  {s:"A", ar:"حاضِر... اِنتَهَيتُ يا نينة!", en:"Okay... I finished, Grandma!"},
   {s:"B", ar:"بِنتٌ شاطِرَة! يَلّا نَأكُلُ", en:"Clever girl! Let's eat"}
  ],
  quiz:[
-  {q:"What is Teta cooking?", choices:["Stuffed vegetables and soup","Pizza and chips","Fish and rice","Pancakes"], a:0, ex:"Teta said she is cooking stuffed vegetables and soup."},
-  {q:"What did Hana put on the plate?", choices:["The tomatoes","The bread","The spoons","The rice"], a:0, ex:"Teta asked her to put the tomatoes on the plate."},
+  {q:"What is Nena cooking?", choices:["Stuffed vegetables and soup","Pizza and chips","Fish and rice","Pancakes"], a:0, ex:"Nena said she is cooking stuffed vegetables and soup."},
+  {q:"What did Hana put on the plate?", choices:["The tomatoes","The bread","The spoons","The rice"], a:0, ex:"Nena asked her to put the tomatoes on the plate."},
   {q:"What is Hana's favourite food?", choices:["Stuffed vegetables","Soup","Chicken","Salad"], a:0, ex:"Hana said stuffed vegetables are her favourite food."}
  ]
 },
@@ -351,7 +351,7 @@ window.DIALOGUES_B1 = [
   {s:"A", ar:"وَصَلنا! شُكراً جَزيلاً!", en:"We arrived! Thank you very much!"}
  ],
  quiz:[
-  {q:"Where is Hana going?", choices:["To school","To the beach","To the mall","To Teta's house"], a:0, ex:"She told the driver to school, please."},
+  {q:"Where is Hana going?", choices:["To school","To the beach","To the mall","To Nena's house"], a:0, ex:"She told the driver to school, please."},
   {q:"Why is Hana in a hurry?", choices:["She has an exam","She is hungry","The taxi is expensive","It is raining"], a:0, ex:"She said quickly please, I have an exam."},
   {q:"Where is Hana's school?", choices:["Next to the park","Next to the beach","Inside the mall","Behind the cinema"], a:0, ex:"She said Al Nour School, next to the park."}
  ]
@@ -435,7 +435,7 @@ window.DIALOGUES_B1 = [
   {s:"A", ar:"أَنتِ أَحسَنُ صَديقَةٍ! يَلّا نَلعَبُ", en:"You are the best friend! Let's go play"}
  ],
  quiz:[
-  {q:"Whose birthday is it?", choices:["Hana's","Layla's","Mama's","Teta's"], a:0, ex:"Layla said happy birthday, Hana!"},
+  {q:"Whose birthday is it?", choices:["Hana's","Layla's","Mama's","Nena's"], a:0, ex:"Layla said happy birthday, Hana!"},
   {q:"What was the gift?", choices:["A book about cats","A doll","A football","A dress"], a:0, ex:"Hana opened it and found a book about cats."},
   {q:"Who gave Hana the gift?", choices:["Layla","Salma","Omar","Baba"], a:0, ex:"Her friend Layla brought the little gift."}
  ]
@@ -590,22 +590,22 @@ window.DIALOGUES_B1 = [
 {
  id:"dlg_phone_teta",
  cat:"On the Phone", catAr:"على التليفون", emoji:"📞",
- title:"Calling Teta", titleAr:"مُكالَمَةُ تيتة",
- speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Teta",av:"👵",voice:"ar"}},
+ title:"Calling Nena", titleAr:"مُكالَمَةُ نينة",
+ speakers:{A:{name:"Hana",av:"👧",voice:"ar"},B:{name:"Nena",av:"👵",voice:"ar"}},
  lines:[
   {s:"B", ar:"أَلو؟ مين مَعايَ؟", en:"Hello? Who is speaking?"},
-  {s:"A", ar:"أَنا هَنا يا تيتة! إزَّيِّك؟", en:"It's me, Hana, Grandma! How are you?"},
+  {s:"A", ar:"أَنا هَنا يا نينة! إزَّيِّك؟", en:"It's me, Hana, Grandma! How are you?"},
   {s:"B", ar:"هَنا حَبيبتي! أَنا كوَيِّسَة، الحَمدُ لِلهِ", en:"Hana, my darling! I am well, thank goodness"},
-  {s:"A", ar:"وَحَشتيني كَثيراً يا تيتة", en:"I missed you so much, Grandma"},
+  {s:"A", ar:"وَحَشتيني كَثيراً يا نينة", en:"I missed you so much, Grandma"},
   {s:"B", ar:"وَأَنتِ وَحَشتيني يا قَلبي", en:"And I missed you, my sweetheart"},
   {s:"A", ar:"سَنَزورُكِ يَومَ الجُمعَةِ!", en:"We will visit you on Friday!"},
   {s:"B", ar:"يا فَرحَتي! سَأَطبُخُ لَكُم مَحشي", en:"How wonderful! I will cook stuffed vegetables for you"},
-  {s:"A", ar:"يا سَلام! إلى اللِّقاءِ يا تيتة", en:"Yay! See you soon, Grandma"}
+  {s:"A", ar:"يا سَلام! إلى اللِّقاءِ يا نينة", en:"Yay! See you soon, Grandma"}
  ],
  quiz:[
-  {q:"Who is Hana calling?", choices:["Her grandma","Her friend","Her teacher","Her dad"], a:0, ex:"She is talking to Teta, her grandma."},
-  {q:"When will Hana visit Teta?", choices:["On Friday","On Monday","Tomorrow","Next month"], a:0, ex:"Hana said we will visit you on Friday."},
-  {q:"What will Teta cook for them?", choices:["Stuffed vegetables","Cake","Fish","Soup"], a:0, ex:"Teta said she will cook stuffed vegetables for them."}
+  {q:"Who is Hana calling?", choices:["Her grandma","Her friend","Her teacher","Her dad"], a:0, ex:"She is talking to Nena, her grandma."},
+  {q:"When will Hana visit Nena?", choices:["On Friday","On Monday","Tomorrow","Next month"], a:0, ex:"Hana said we will visit you on Friday."},
+  {q:"What will Nena cook for them?", choices:["Stuffed vegetables","Cake","Fish","Soup"], a:0, ex:"Nena said she will cook stuffed vegetables for them."}
  ]
 },
 {

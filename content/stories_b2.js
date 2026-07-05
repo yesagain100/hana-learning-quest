@@ -31,14 +31,14 @@ window.STORIES_B2 = [
   {e:"🌙", ar:"اللَّيْلُ جَميلٌ. هَنا تَنْظُرُ إِلى السَّماءِ.", en:"The night is beautiful. Hana looks at the sky."},
   {e:"🌕", ar:"القَمَرُ كَبيرٌ وَجَميلٌ اللَّيْلَةَ.", en:"The moon is big and beautiful tonight."},
   {e:"☁️", ar:"سَحابَةٌ كَبيرَةٌ تُغَطّي القَمَرَ. هَنا حَزينَةٌ.", en:"A big cloud covers the moon. Hana is sad."},
-  {e:"⏳", ar:"هَنا تَنْتَظِرُ مَعَ تيتة في الشُّرْفَةِ.", en:"Hana waits with Teta on the balcony."},
+  {e:"⏳", ar:"هَنا تَنْتَظِرُ مَعَ نينة في الشُّرْفَةِ.", en:"Hana waits with Nena on the balcony."},
   {e:"🌕", ar:"السَّحابَةُ تَذْهَبُ! القَمَرُ يَعودُ.", en:"The cloud goes away! The moon comes back."},
   {e:"😴", ar:"هَنا تَنامُ وَالقَمَرُ يَنْظُرُ إِلَيْها.", en:"Hana sleeps, and the moon watches over her."}
  ],
  quiz:[
   {q:"What does Hana look at?", choices:["The sky","The television","A book","The sea"], a:0, ex:"Hana looks at the beautiful night sky to see the moon."},
   {q:"What covers the moon?", choices:["A big cloud","A bird","A plane","A kite"], a:0, ex:"A big cloud covers the moon, and Hana feels sad."},
-  {q:"Who waits with Hana on the balcony?", choices:["Teta","Layla","The teacher","A cat"], a:0, ex:"Teta waits with Hana on the balcony until the cloud goes away."}
+  {q:"Who waits with Hana on the balcony?", choices:["Nena","Layla","The teacher","A cat"], a:0, ex:"Nena waits with Hana on the balcony until the cloud goes away."}
  ]
 },
 {
@@ -133,7 +133,7 @@ window.STORIES_B2 = [
   {e:"😮", ar:"البابُ مَفْتوحٌ! الخَروفُ لَيْسَ هُنا!", en:"The door is open! The lamb is not here!"},
   {e:"🔍", ar:"هَنا وَجَدّو يَبْحَثانِ في الحَديقَةِ.", en:"Hana and Geddo search in the garden."},
   {e:"🥬", ar:"الخَروفُ في المَطْبَخِ يَأْكُلُ الخَسَّ!", en:"The lamb is in the kitchen, eating the lettuce!"},
-  {e:"😂", ar:"تيتة تَضْحَكُ: «هذا خَروفٌ جَوْعانُ!».", en:"Teta laughs and says that is one hungry lamb!"}
+  {e:"😂", ar:"نينة تَضْحَكُ: «هذا خَروفٌ جَوْعانُ!».", en:"Nena laughs and says that is one hungry lamb!"}
  ],
  quiz:[
   {q:"What colour is the little lamb?", choices:["White","Black","Brown","Grey"], a:0, ex:"Geddo's little lamb is small and white."},
@@ -260,10 +260,10 @@ window.STORIES_B2 = [
  title:"The Talking Parrot",
  titleAr:"البَبَّغاءُ المُتَكَلِّم",
  pages:[
-  {e:"🦜", ar:"في بَيْتِ تيتة بَبَّغاءٌ أَخْضَرُ.", en:"At Teta's house there is a green parrot."},
+  {e:"🦜", ar:"في بَيْتِ نينة بَبَّغاءٌ أَخْضَرُ.", en:"At Nena's house there is a green parrot."},
   {e:"🗣️", ar:"البَبَّغاءُ يَتَكَلَّمُ! يَقولُ: «صَباحُ الخَيْرِ!».", en:"The parrot talks! It says good morning!"},
   {e:"😄", ar:"هَنا تُعَلِّمُ البَبَّغاءَ كَلِماتٍ جَديدَةً.", en:"Hana teaches the parrot new words."},
-  {e:"🍪", ar:"تيتة تَبْحَثُ عَنِ البَسْكَويتِ: «أَيْنَ البَسْكَويتُ؟».", en:"Teta is looking for the biscuits and asks where they are."},
+  {e:"🍪", ar:"نينة تَبْحَثُ عَنِ البَسْكَويتِ: «أَيْنَ البَسْكَويتُ؟».", en:"Nena is looking for the biscuits and asks where they are."},
   {e:"🦜", ar:"البَبَّغاءُ يَصيحُ: «القِطُّ أَخَذَها! القِطُّ أَخَذَها!».", en:"The parrot shouts that the cat took them!"},
   {e:"🐱", ar:"لكِنَّ القِطَّ نائِمٌ عَلى الكُرْسِيِّ.", en:"But the cat is fast asleep on the chair."},
   {e:"🤔", ar:"هَنا تَنْظُرُ إِلى قَفَصِ البَبَّغاءِ.", en:"Hana looks at the parrot's cage."},
@@ -271,7 +271,7 @@ window.STORIES_B2 = [
   {e:"🦜", ar:"البَبَّغاءُ يَقولُ: «أَنا آسِفٌ! أَنا آسِفٌ!».", en:"The parrot says it is sorry, it is sorry!"}
  ],
  quiz:[
-  {q:"What colour is the parrot?", choices:["Green","Red","Blue","Yellow"], a:0, ex:"Teta has a green parrot that can talk."},
+  {q:"What colour is the parrot?", choices:["Green","Red","Blue","Yellow"], a:0, ex:"Nena has a green parrot that can talk."},
   {q:"Who does the parrot say took the biscuits?", choices:["The cat","The dog","Hana","Geddo"], a:0, ex:"The parrot blames the cat, but the cat is asleep on the chair."},
   {q:"Who really took the biscuits?", choices:["The parrot","The cat","Baba","A mouse"], a:0, ex:"Hana finds the biscuits inside the cage, so the parrot is the real thief!"}
  ]

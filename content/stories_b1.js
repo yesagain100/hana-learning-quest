@@ -123,23 +123,23 @@ window.STORIES_B1 = [
  id:"sty_baking_with_teta",
  level:2,
  emoji:"🍪",
- title:"Baking with Teta",
+ title:"Baking with Nena",
  titleAr:"الخَبْزُ مَعَ تِيتَة",
  pages:[
-  {e:"🏠", ar:"اليَوْمَ تَذْهَبُ هَنا إِلَى بَيْتِ تِيتَة.", en:"Today, Hana goes to Teta's house."},
-  {e:"👵", ar:"تَقُولُ تِيتَة: هَيّا نَصْنَعُ كَعْكاً لَذِيذاً!", en:"Teta says: let's make delicious cookies!"},
+  {e:"🏠", ar:"اليَوْمَ تَذْهَبُ هَنا إِلَى بَيْتِ تِيتَة.", en:"Today, Hana goes to Nena's house."},
+  {e:"👵", ar:"تَقُولُ تِيتَة: هَيّا نَصْنَعُ كَعْكاً لَذِيذاً!", en:"Nena says: let's make delicious cookies!"},
   {e:"🥣", ar:"تَضَعُ هَنا الدَّقِيقَ وَالسُّكَّرَ في الوِعاءِ.", en:"Hana puts the flour and the sugar in the bowl."},
   {e:"🥚", ar:"تَكْسِرُ هَنا البَيْضَ. واحِدَةٌ، اثْنَتانِ، ثَلاثٌ!", en:"Hana cracks the eggs. One, two, three!"},
   {e:"😮", ar:"يَقَعُ الدَّقِيقُ عَلَى الأَرْضِ! يا إِلَهِي!", en:"The flour falls on the floor! Oh no!"},
-  {e:"😂", ar:"تَضْحَكُ تِيتَة. وَجْهُ هَنا أَبْيَضُ مِثْلُ الثَّلْجِ!", en:"Teta laughs. Hana's face is white like snow!"},
+  {e:"😂", ar:"تَضْحَكُ تِيتَة. وَجْهُ هَنا أَبْيَضُ مِثْلُ الثَّلْجِ!", en:"Nena laughs. Hana's face is white like snow!"},
   {e:"🧹", ar:"تُنَظِّفُ هَنا الأَرْضَ، ثُمَّ تُكْمِلانِ العَمَلَ.", en:"Hana cleans the floor, then they finish the work."},
   {e:"🔥", ar:"يَدْخُلُ الكَعْكُ إِلَى الفُرْنِ. الرّائِحَةُ جَمِيلَةٌ!", en:"The cookies go into the oven. The smell is wonderful!"},
-  {e:"🍪", ar:"تَأْكُلُ هَنا الكَعْكَ مَعَ تِيتَة. لَذِيذٌ جِدّاً!", en:"Hana eats the cookies with Teta. So delicious!"}
+  {e:"🍪", ar:"تَأْكُلُ هَنا الكَعْكَ مَعَ تِيتَة. لَذِيذٌ جِدّاً!", en:"Hana eats the cookies with Nena. So delicious!"}
  ],
  quiz:[
-  {q:"What did Hana and Teta make together?", choices:["Cookies","Soup","Bread","Pizza"], a:0, ex:"They made delicious cookies together."},
+  {q:"What did Hana and Nena make together?", choices:["Cookies","Soup","Bread","Pizza"], a:0, ex:"They made delicious cookies together."},
   {q:"What fell on the floor?", choices:["The flour","The eggs","The sugar","The bowl"], a:0, ex:"The flour fell and made a big white mess."},
-  {q:"Why did Teta laugh?", choices:["Hana's face was white like snow","The cat ate a cookie","Baba fell down","The oven made a funny noise"], a:0, ex:"The flour made Hana's face white like snow."}
+  {q:"Why did Nena laugh?", choices:["Hana's face was white like snow","The cat ate a cookie","Baba fell down","The oven made a funny noise"], a:0, ex:"The flour made Hana's face white like snow."}
  ]
 },
 {
@@ -265,9 +265,9 @@ window.STORIES_B1 = [
  titleAr:"زِيارَةٌ إِلَى مِصْرَ",
  pages:[
   {e:"✈️", ar:"في الصَّيْفِ، سافَرَتْ هَنا إِلَى مِصْرَ.", en:"In the summer, Hana traveled to Egypt."},
-  {e:"🤗", ar:"اسْتَقْبَلَها جِدُّو وَتِيتَة في المَطارِ.", en:"Geddo and Teta welcomed her at the airport."},
+  {e:"🤗", ar:"اسْتَقْبَلَها جِدُّو وَتِيتَة في المَطارِ.", en:"Geddo and Nena welcomed her at the airport."},
   {e:"🏠", ar:"ذَهَبَتِ العائِلَةُ إِلَى بَيْتِ جِدُّو في القاهِرَةِ.", en:"The family went to Geddo's house in Cairo."},
-  {e:"🍲", ar:"طَبَخَتْ تِيتَة طَعاماً مِصْرِيّاً لَذِيذاً.", en:"Teta cooked delicious Egyptian food."},
+  {e:"🍲", ar:"طَبَخَتْ تِيتَة طَعاماً مِصْرِيّاً لَذِيذاً.", en:"Nena cooked delicious Egyptian food."},
   {e:"🐪", ar:"في اليَوْمِ الثّانِي، رَكِبَتْ هَنا جَمَلاً كَبِيراً.", en:"On the second day, Hana rode a big camel."},
   {e:"🔺", ar:"رَأَتْ هَنا الأَهْراماتِ. ما أَكْبَرَها!", en:"Hana saw the pyramids. How big they are!"},
   {e:"😟", ar:"فَجْأَةً، لَمْ تَجِدْ هَنا قُبَّعَتَها الحَمْراءَ!", en:"Suddenly, Hana could not find her red hat!"},
@@ -278,7 +278,7 @@ window.STORIES_B1 = [
   {e:"❤️", ar:"قالَتْ هَنا: أُحِبُّ مِصْرَ! سَأَعُودُ كُلَّ صَيْفٍ.", en:"Hana said: I love Egypt! I will come back every summer."}
  ],
  quiz:[
-  {q:"Who welcomed Hana at the airport?", choices:["Geddo and Teta","Layla","Her teacher","Nobody"], a:0, ex:"Geddo and Teta were waiting for her at the airport."},
+  {q:"Who welcomed Hana at the airport?", choices:["Geddo and Nena","Layla","Her teacher","Nobody"], a:0, ex:"Geddo and Nena were waiting for her at the airport."},
   {q:"What took Hana's red hat away?", choices:["The wind","A monkey","A wave","A bird"], a:0, ex:"The wind blew her red hat far away in the sand."},
   {q:"Who caught the hat?", choices:["The camel","Geddo","A boy","The bus driver"], a:0, ex:"The clever camel ran and caught the hat with its mouth."}
  ]
@@ -330,9 +330,9 @@ window.STORIES_B1 = [
   {e:"😂", ar:"قالَتْ ماما: أَجْمَلُ كَعْكَةٍ في العالَمِ! وَضَحِكَ الجَمِيعُ.", en:"Mama said: the most beautiful cake in the world! And everyone laughed."}
  ],
  quiz:[
-  {q:"Whose birthday was it?", choices:["Mama's","Hana's","Baba's","Teta's"], a:0, ex:"Hana and Baba made a secret cake for Mama's birthday."},
+  {q:"Whose birthday was it?", choices:["Mama's","Hana's","Baba's","Nena's"], a:0, ex:"Hana and Baba made a secret cake for Mama's birthday."},
   {q:"What went wrong with the first cake?", choices:["It burnt in the oven","The cat ate it","It fell on the floor","They had no eggs"], a:0, ex:"They forgot the cake in the oven and it burnt with black smoke."},
-  {q:"How did they fix the problem?", choices:["They made a no-oven cake with biscuits, cream, and strawberries","They bought a cake from a shop","Teta baked a new one","They ate cookies instead"], a:0, ex:"Baba had the idea to make a cake without an oven, using biscuits, cream, and strawberries."}
+  {q:"How did they fix the problem?", choices:["They made a no-oven cake with biscuits, cream, and strawberries","They bought a cake from a shop","Nena baked a new one","They ate cookies instead"], a:0, ex:"Baba had the idea to make a cake without an oven, using biscuits, cream, and strawberries."}
  ]
 }
 ];

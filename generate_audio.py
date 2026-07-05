@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "audio")
 os.makedirs(OUT, exist_ok=True)
 
-VOICES = {"en": ("en-GB-SoniaNeural", "-4%"), "ar": ("ar-EG-SalmaNeural", "-12%"), "arm": ("ar-EG-ShakirNeural", "-12%")}
+VOICES = {"en": ("en-GB-SoniaNeural", "-4%"), "ar": ("ar-SA-ZariyahNeural", "-10%"), "arm": ("ar-EG-ShakirNeural", "-12%")}
 
 # light cleanup of symbols TTS reads badly (filenames still hash the ORIGINAL text)
 SPOKEN_FIXES = [
